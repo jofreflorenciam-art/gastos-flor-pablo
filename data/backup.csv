@@ -1,3 +1,4 @@
 "Mes","Fecha","Hora","Quien pago","Monto","Categoria","Medio de pago","Banco","Descripcion","Comprobante","% Flor","Monto Flor","Monto Pablo"
 "2026-09","2026-09-06","Sat Dec 30 1899 12:05:00 GMT-0416 (Argentina Standard Time)","Pablo","1","Comida","Efectivo","","PRUEBA_DIAGNOSTICO_BORRAR","","50","0.5","0.5"
 "2026-09","2026-09-06","Sat Dec 30 1899 11:42:00 GMT-0416 (Argentina Standard Time)","Pablo","63997.7","Comida","Mercado Pago","","ALMA SRL","","50","31998.85","31998.85"
+"2026-09","2026-09-06","Sat Dec 30 1899 12:10:00 GMT-0416 (Argentina Standard Time)","Pablo","1","Comida","Efectivo","","PRUEBA_DIAGNOSTICO_BORRAR","","50","0.5","0.5"
