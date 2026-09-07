@@ -5,100 +5,111 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Gastos compartidos — Flor y Pablo</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Piazzolla:ital,wght@0,400;0,500;0,600;1,500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Piazzolla:ital,wght@0,400;0,500;0,600;0,700;1,500&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <style>
   :root{
-    --paper: #EFEDE7;
-    --paper-raised: #F7F5F0;
+    --paper: #F8F5EF;
+    --paper-raised: #FFFFFF;
     --ink: #1C2321;
     --ink-soft: #6B6560;
-    --line: #D9D4CB;
-    --credito: #2F6F5E;
-    --debe: #A6462B;
-    --credito-tint: #E4EEE9;
-    --debe-tint: #F4E5DF;
+    --line: #E7E1D3;
+
+    --flor: #2F6F5E;
+    --flor-tint: #E1EFE9;
+    --pablo: #C1622B;
+    --pablo-tint: #F7E7DA;
+
+    --gold: #B9922A;
+    --shadow-sm: 0 1px 3px rgba(28,35,33,.06);
+    --shadow-md: 0 8px 28px rgba(28,35,33,.10);
   }
 
   * { box-sizing: border-box; }
-
-  @media (prefers-reduced-motion: reduce) {
-    * { animation: none !important; transition: none !important; }
-  }
+  @media (prefers-reduced-motion: reduce) { *{ animation: none !important; transition: none !important; } }
 
   body{
     margin:0;
-    background:var(--paper);
+    background:
+      radial-gradient(1200px 500px at 15% -10%, var(--flor-tint) 0%, transparent 60%),
+      radial-gradient(1000px 500px at 100% 0%, var(--pablo-tint) 0%, transparent 55%),
+      var(--paper);
     color:var(--ink);
     font-family:'IBM Plex Sans', sans-serif;
     line-height:1.5;
     -webkit-font-smoothing:antialiased;
   }
 
-  .page{ max-width:1040px; margin:0 auto; padding:32px 24px 80px; }
+  .page{ max-width:1080px; margin:0 auto; padding:32px 20px 120px; }
 
-  .topbar{
-    display:flex; justify-content:space-between; align-items:baseline;
-    flex-wrap:wrap; gap:12px;
-    padding-bottom:20px; border-bottom:1px solid var(--line);
-  }
-  .topbar-title{
-    font-family:'Piazzolla', serif; font-weight:500; font-size:20px;
-  }
-  .topbar-sub{ color:var(--ink-soft); font-size:14px; }
+  .topbar{ display:flex; justify-content:space-between; align-items:baseline; flex-wrap:wrap; gap:10px; padding-bottom:20px; }
+  .topbar-title{ font-family:'Piazzolla', serif; font-weight:600; font-size:22px; }
+  .topbar-sub{ color:var(--ink-soft); font-size:13px; }
 
-  .hero{ padding:48px 0 32px; border-bottom:1px solid var(--line); }
+  .hero{
+    background:var(--paper-raised);
+    border:1px solid var(--line);
+    border-radius:20px;
+    box-shadow:var(--shadow-md);
+    padding:36px 32px;
+    margin-bottom:24px;
+  }
   .hero-figure{
-    font-family:'Piazzolla', serif; font-weight:500;
-    font-size:clamp(28px, 5vw, 44px);
+    font-family:'Piazzolla', serif; font-weight:600;
+    font-size:clamp(24px, 4.6vw, 38px);
     letter-spacing:-0.01em;
   }
   .hero-figure .quien{ font-style:italic; }
-  .hero-figure.credito{ color:var(--credito); }
-  .hero-figure.debe{ color:var(--debe); }
-  .hero-sub{ margin-top:8px; color:var(--ink-soft); font-size:15px; }
+  .hero-figure.credito{ color:var(--flor); }
+  .hero-figure.debe{ color:var(--pablo); }
+  .hero-sub{ margin-top:6px; color:var(--ink-soft); font-size:14px; }
+
+  .hero-chips{ display:flex; gap:12px; margin-top:20px; flex-wrap:wrap; }
+  .chip{
+    display:flex; align-items:center; gap:8px;
+    padding:8px 14px; border-radius:999px; font-size:13px; font-weight:500;
+  }
+  .chip.flor{ background:var(--flor-tint); color:var(--flor); }
+  .chip.pablo{ background:var(--pablo-tint); color:var(--pablo); }
+  .avatar{
+    width:22px; height:22px; border-radius:50%;
+    display:flex; align-items:center; justify-content:center;
+    font-family:'Piazzolla', serif; font-weight:600; font-size:12px; color:#fff;
+    flex:none;
+  }
+  .avatar.flor{ background:var(--flor); }
+  .avatar.pablo{ background:var(--pablo); }
 
   .filters{
-    display:flex; flex-wrap:wrap; gap:20px 28px;
-    padding:20px 0 28px; border-bottom:1px solid var(--line);
+    display:flex; flex-wrap:wrap; gap:16px 24px;
+    background:var(--paper-raised); border:1px solid var(--line); border-radius:16px;
+    padding:16px 20px; margin-bottom:24px; box-shadow:var(--shadow-sm);
   }
   .filter{ display:flex; flex-direction:column; gap:4px; }
-  .filter label{ font-size:12px; color:var(--ink-soft); }
+  .filter label{ font-size:11px; color:var(--ink-soft); text-transform:none; }
   .filter select{
     font-family:inherit; font-size:14px; color:var(--ink);
-    background:transparent; border:none; border-bottom:1px solid var(--ink-soft);
-    padding:4px 22px 4px 2px; min-width:140px;
-    cursor:pointer;
-    appearance:none;
+    background:transparent; border:none; border-bottom:2px solid var(--line);
+    padding:4px 22px 4px 2px; min-width:130px; cursor:pointer; appearance:none;
     background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M0 0l5 6 5-6z' fill='%236B6560'/%3E%3C/svg%3E");
     background-repeat:no-repeat; background-position:right 2px center;
   }
-  .filter select:focus-visible{ outline:2px solid var(--credito); outline-offset:2px; }
+  .filter select:focus-visible{ outline:2px solid var(--flor); outline-offset:2px; }
 
-  .grid{
-    display:grid; grid-template-columns:1.4fr 1fr; gap:24px;
-    padding-top:32px;
-  }
+  .grid{ display:grid; grid-template-columns:1.4fr 1fr; gap:20px; }
   @media (max-width:760px){ .grid{ grid-template-columns:1fr; } }
 
   .card{
-    background:var(--paper-raised);
-    border:1px solid var(--line);
-    padding:24px; margin-bottom:24px;
+    background:var(--paper-raised); border:1px solid var(--line); border-radius:16px;
+    box-shadow:var(--shadow-sm); padding:22px; margin-bottom:20px;
   }
-  .card h2{
-    font-family:'IBM Plex Sans', sans-serif; font-weight:600; font-size:15px;
-    margin:0 0 16px;
-  }
-  .col-main .card canvas{ max-height:260px; }
+  .card h2{ font-family:'IBM Plex Sans', sans-serif; font-weight:600; font-size:15px; margin:0 0 16px; }
+  .col-main .card canvas{ max-height:250px; }
 
-  .stat-row{
-    display:flex; justify-content:space-between; align-items:baseline;
-    padding:10px 0; border-bottom:1px solid var(--line);
-  }
+  .stat-row{ display:flex; justify-content:space-between; align-items:center; padding:10px 0; border-bottom:1px solid var(--line); }
   .stat-row:last-child{ border-bottom:none; }
-  .stat-row .label{ font-size:14px; color:var(--ink-soft); }
-  .stat-row .value{ font-family:'Piazzolla', serif; font-size:18px; }
+  .stat-row .who{ display:flex; align-items:center; gap:10px; font-size:14px; color:var(--ink-soft); }
+  .stat-row .value{ font-family:'Piazzolla', serif; font-size:17px; }
 
   .destacado{ padding:10px 0; border-bottom:1px solid var(--line); }
   .destacado:last-child{ border-bottom:none; }
@@ -106,16 +117,70 @@
   .destacado .value{ font-family:'Piazzolla', serif; font-size:17px; margin-top:2px; }
 
   .ledger-list{ list-style:none; margin:0; padding:0; }
-  .ledger-list li{
-    display:flex; justify-content:space-between; gap:12px;
-    padding:10px 0; border-bottom:1px solid var(--line); font-size:14px;
-  }
+  .ledger-list li{ display:flex; align-items:center; gap:12px; padding:10px 0; border-bottom:1px solid var(--line); font-size:14px; }
   .ledger-list li:last-child{ border-bottom:none; }
-  .mov-desc{ display:flex; flex-direction:column; }
+  .mov-icon{ font-size:18px; flex:none; }
+  .mov-desc{ display:flex; flex-direction:column; flex:1; min-width:0; }
   .mov-desc .cat{ color:var(--ink-soft); font-size:12px; }
   .mov-amount{ font-family:'Piazzolla', serif; white-space:nowrap; }
 
-  .estado{ color:var(--ink-soft); font-size:14px; padding:40px 0; }
+  .estado{ color:var(--ink-soft); font-size:14px; padding:20px 0; }
+
+  /* Botón flotante + modal de carga */
+  .fab{
+    position:fixed; right:24px; bottom:24px; z-index:40;
+    width:60px; height:60px; border-radius:50%; border:none;
+    background:linear-gradient(135deg, var(--flor), var(--pablo));
+    color:#fff; font-size:28px; cursor:pointer;
+    box-shadow:0 10px 26px rgba(28,35,33,.28);
+  }
+  .fab:hover{ filter:brightness(1.05); }
+
+  .modal-overlay{
+    display:none; position:fixed; inset:0; background:rgba(28,35,33,.45);
+    z-index:50; align-items:flex-end; justify-content:center;
+  }
+  .modal-overlay.abierto{ display:flex; }
+  @media (min-width:640px){ .modal-overlay{ align-items:center; } }
+
+  .modal{
+    background:var(--paper-raised); width:100%; max-width:460px;
+    border-radius:20px 20px 0 0; padding:24px 24px 28px; max-height:92vh; overflow-y:auto;
+  }
+  @media (min-width:640px){ .modal{ border-radius:20px; } }
+
+  .modal h3{ font-family:'Piazzolla', serif; font-weight:600; font-size:20px; margin:0 0 18px; }
+
+  .campo{ margin-bottom:14px; display:flex; flex-direction:column; gap:6px; }
+  .campo label{ font-size:12px; color:var(--ink-soft); }
+  .campo input[type="date"], .campo input[type="time"], .campo input[type="number"],
+  .campo input[type="text"], .campo select{
+    font-family:inherit; font-size:15px; padding:10px 12px; border-radius:10px;
+    border:1px solid var(--line); background:var(--paper); color:var(--ink);
+  }
+  .campo input:focus-visible, .campo select:focus-visible{ outline:2px solid var(--flor); outline-offset:1px; }
+
+  .toggle-row{ display:flex; gap:10px; }
+  .toggle-btn{
+    flex:1; padding:12px; border-radius:12px; border:2px solid var(--line);
+    background:var(--paper); font-family:inherit; font-size:14px; font-weight:500;
+    color:var(--ink-soft); cursor:pointer; display:flex; align-items:center; justify-content:center; gap:8px;
+  }
+  .toggle-btn.activo.flor{ border-color:var(--flor); background:var(--flor-tint); color:var(--flor); }
+  .toggle-btn.activo.pablo{ border-color:var(--pablo); background:var(--pablo-tint); color:var(--pablo); }
+
+  .modal-actions{ display:flex; gap:10px; margin-top:18px; }
+  .btn{ font-family:inherit; font-size:15px; font-weight:600; padding:13px 18px; border-radius:12px; border:none; cursor:pointer; }
+  .btn-primary{ flex:1; background:var(--ink); color:#fff; }
+  .btn-secondary{ background:transparent; color:var(--ink-soft); }
+
+  .toast{
+    position:fixed; left:50%; bottom:100px; transform:translateX(-50%) translateY(20px);
+    background:var(--ink); color:#fff; padding:12px 20px; border-radius:999px;
+    font-size:14px; opacity:0; pointer-events:none; transition:opacity .25s, transform .25s;
+    z-index:60;
+  }
+  .toast.visible{ opacity:1; transform:translateX(-50%) translateY(0); }
 </style>
 </head>
 <body>
@@ -123,92 +188,151 @@
 <div class="page">
 
   <header class="topbar">
-    <div class="topbar-title">Gastos compartidos</div>
+    <div class="topbar-title">💚 Gastos compartidos 🧡</div>
     <div class="topbar-sub" id="rangoTexto">—</div>
   </header>
 
   <section class="hero">
     <div class="hero-figure" id="saldoTexto">Cargando datos…</div>
     <div class="hero-sub" id="totalTexto"></div>
+    <div class="hero-chips" id="heroChips"></div>
   </section>
 
   <section class="filters">
-    <div class="filter">
-      <label for="fMes">Mes</label>
-      <select id="fMes"><option value="">Todos</option></select>
+    <div class="filter"><label for="fMes">Mes</label><select id="fMes"><option value="">Todos</option></select></div>
+    <div class="filter"><label for="fCategoria">Categoría</label><select id="fCategoria"><option value="">Todas</option></select></div>
+    <div class="filter"><label for="fQuien">Quién pagó</label>
+      <select id="fQuien"><option value="">Ambos</option><option value="Flor">Flor</option><option value="Pablo">Pablo</option></select>
     </div>
-    <div class="filter">
-      <label for="fCategoria">Categoría</label>
-      <select id="fCategoria"><option value="">Todas</option></select>
-    </div>
-    <div class="filter">
-      <label for="fQuien">Quién pagó</label>
-      <select id="fQuien">
-        <option value="">Ambos</option>
-        <option value="Flor">Flor</option>
-        <option value="Pablo">Pablo</option>
-      </select>
-    </div>
-    <div class="filter">
-      <label for="fMedio">Medio de pago</label>
-      <select id="fMedio"><option value="">Todos</option></select>
-    </div>
+    <div class="filter"><label for="fMedio">Medio de pago</label><select id="fMedio"><option value="">Todos</option></select></div>
   </section>
 
   <section class="grid">
     <div class="col-main">
-      <div class="card">
-        <h2>Gasto por categoría</h2>
-        <canvas id="chartCategoria"></canvas>
-      </div>
-      <div class="card">
-        <h2>Evolución mensual (todos los meses)</h2>
-        <canvas id="chartMensual"></canvas>
-      </div>
+      <div class="card"><h2>Gasto por categoría</h2><canvas id="chartCategoria"></canvas></div>
+      <div class="card"><h2>Evolución mensual (todos los meses)</h2><canvas id="chartMensual"></canvas></div>
     </div>
-
     <div class="col-side">
-      <div class="card">
-        <h2>Por persona</h2>
-        <div id="porPersona"></div>
-      </div>
-      <div class="card">
-        <h2>Destacados</h2>
-        <div id="destacados"></div>
-      </div>
-      <div class="card">
-        <h2>Últimos movimientos</h2>
-        <ul class="ledger-list" id="movimientos"></ul>
-      </div>
+      <div class="card"><h2>Por persona</h2><div id="porPersona"></div></div>
+      <div class="card"><h2>Destacados</h2><div id="destacados"></div></div>
+      <div class="card"><h2>Últimos movimientos</h2><ul class="ledger-list" id="movimientos"></ul></div>
     </div>
   </section>
 
 </div>
 
+<!-- Botón flotante para cargar un gasto -->
+<button class="fab" id="btnAbrirForm" aria-label="Cargar gasto">+</button>
+
+<div class="modal-overlay" id="overlay">
+  <div class="modal">
+    <h3>Cargar gasto</h3>
+
+    <iframe name="targetFrame" id="targetFrame" style="display:none"></iframe>
+    <form id="formCarga" target="targetFrame" method="POST" action="">
+      <input type="hidden" name="quienPago" id="hidQuienPago" value="Flor">
+      <input type="hidden" name="categoria" id="hidCategoria" value="">
+      <input type="hidden" name="medioPago" id="hidMedioPago" value="">
+
+      <div class="campo">
+        <label>¿Quién pagó?</label>
+        <div class="toggle-row">
+          <button type="button" class="toggle-btn flor activo" id="btnFlor">🟢 Flor</button>
+          <button type="button" class="toggle-btn pablo" id="btnPablo">🟠 Pablo</button>
+        </div>
+      </div>
+
+      <div class="campo">
+        <label for="inFecha">Fecha</label>
+        <input type="date" id="inFecha" name="fecha" required>
+      </div>
+
+      <div class="campo">
+        <label for="inHora">Hora</label>
+        <input type="time" id="inHora" name="hora">
+      </div>
+
+      <div class="campo">
+        <label for="inMonto">Monto</label>
+        <input type="number" id="inMonto" name="monto" min="1" step="0.01" placeholder="0" required>
+      </div>
+
+      <div class="campo">
+        <label for="selCategoria">Categoría</label>
+        <select id="selCategoria"></select>
+      </div>
+      <div class="campo" id="campoCategoriaOtra" style="display:none">
+        <label for="inCategoriaOtra">Nombre de la categoría nueva</label>
+        <input type="text" id="inCategoriaOtra" placeholder="Ej: Mascotas">
+      </div>
+
+      <div class="campo">
+        <label for="selMedio">Medio de pago</label>
+        <select id="selMedio"></select>
+      </div>
+      <div class="campo" id="campoMedioOtro" style="display:none">
+        <label for="inMedioOtro">Nombre del medio nuevo</label>
+        <input type="text" id="inMedioOtro" placeholder="Ej: Cuenta DNI">
+      </div>
+
+      <div class="campo" id="campoBanco" style="display:none">
+        <label for="inBanco">Banco</label>
+        <input type="text" id="inBanco" name="banco" placeholder="Ej: Galicia">
+      </div>
+
+      <div class="campo">
+        <label for="inDescripcion">Descripción</label>
+        <input type="text" id="inDescripcion" name="descripcion" placeholder="Ej: Supermercado Coto" required>
+      </div>
+
+      <div class="campo">
+        <label for="inPct">% que le corresponde a Flor</label>
+        <input type="number" id="inPct" name="pctFlor" min="0" max="100" value="50">
+      </div>
+
+      <div class="modal-actions">
+        <button type="button" class="btn btn-secondary" id="btnCancelar">Cancelar</button>
+        <button type="submit" class="btn btn-primary">Cargar gasto</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+
 <script>
 // ============ CONFIGURACIÓN ============
-// Pegá acá la URL /exec de tu Web App de Apps Script (Fase 1).
 const WEB_APP_URL = 'https://script.google.com/macros/s/AKfycbzbdWZeM4nVnchTajGXxGMI2jg9SV0s4XY3VYNI8thFnuIf4TZW_AmGofG8M0BFml5g4A/exec';
 
+const CATEGORY_COLORS = { 'Comida':'#D97706','Servicios':'#2563EB','Alquiler':'#7C3AED','Salidas':'#DB2777','Transporte':'#0891B2','Otros':'#6B7280' };
+const CATEGORY_ICONS  = { 'Comida':'🍽️','Servicios':'💡','Alquiler':'🏠','Salidas':'🎉','Transporte':'🚗','Otros':'📦' };
+const FALLBACK_COLORS = ['#0F766E','#9333EA','#B45309','#0369A1','#BE123C','#4D7C0F'];
+
+function colorDeCategoria(cat, indiceFallback){ return CATEGORY_COLORS[cat] || FALLBACK_COLORS[indiceFallback % FALLBACK_COLORS.length]; }
+function iconoDeCategoria(cat){ return CATEGORY_ICONS[cat] || '🏷️'; }
+
 // ============ ESTADO ============
-let DATA = null; // { resumen: {...}, config: {...} }
+let DATA = null;
 let chartCategoria = null;
 let chartMensual = null;
+let formEnviado = false;
 
-const fmtMoneda = (n) => new Intl.NumberFormat('es-AR', { style: 'currency', currency: 'ARS', maximumFractionDigits: 0 }).format(n || 0);
+const fmtMoneda = (n) => new Intl.NumberFormat('es-AR', { style:'currency', currency:'ARS', maximumFractionDigits:0 }).format(n || 0);
 
-// ============ CARGA DE DATOS (vía JSONP, porque Apps Script no puede mandar headers CORS) ============
+// ============ CARGA DE DATOS (JSONP, porque Apps Script no manda headers CORS) ============
 function cargarDatos() {
   const script = document.createElement('script');
-  script.src = WEB_APP_URL + '?accion=datos&callback=recibirDatos';
-  script.onerror = () => mostrarErrorCarga('No se pudo conectar con el Web App. Revisá que WEB_APP_URL sea correcta y que el despliegue esté actualizado (Implementar → Administrar implementaciones → Nueva versión).');
+  script.src = WEB_APP_URL + '?accion=datos&callback=recibirDatos&_=' + Date.now();
+  script.onerror = () => mostrarErrorCarga('No se pudo conectar con el Web App. Revisá la URL y el despliegue.');
   document.body.appendChild(script);
+  script.remove();
 }
 
 window.recibirDatos = function (json) {
   if (json.error) { mostrarErrorCarga(json.error); return; }
   DATA = json;
   poblarFiltros();
+  poblarSelectsForm();
   render();
 };
 
@@ -218,63 +342,60 @@ function mostrarErrorCarga(msg) {
 }
 
 function poblarFiltros() {
-  const meses = [...new Set(DATA.resumen.gastos.map(g => g.mes))].sort().reverse();
   const selMes = document.getElementById('fMes');
-  meses.forEach(m => selMes.insertAdjacentHTML('beforeend', `<option value="${m}">${m}</option>`));
+  selMes.innerHTML = '<option value="">Todos</option>';
+  [...new Set(DATA.resumen.gastos.map(g => g.mes))].sort().reverse()
+    .forEach(m => selMes.insertAdjacentHTML('beforeend', `<option value="${m}">${m}</option>`));
 
   const selCat = document.getElementById('fCategoria');
-  DATA.config.categorias.forEach(c => selCat.insertAdjacentHTML('beforeend', `<option value="${c}">${c}</option>`));
+  selCat.innerHTML = '<option value="">Todas</option>';
+  DATA.config.categorias.forEach(c => selCat.insertAdjacentHTML('beforeend', `<option value="${c}">${iconoDeCategoria(c)} ${c}</option>`));
 
   const selMedio = document.getElementById('fMedio');
+  selMedio.innerHTML = '<option value="">Todos</option>';
   DATA.config.medios.forEach(m => selMedio.insertAdjacentHTML('beforeend', `<option value="${m}">${m}</option>`));
 
-  ['fMes', 'fCategoria', 'fQuien', 'fMedio'].forEach(id =>
-    document.getElementById(id).addEventListener('change', render)
-  );
+  ['fMes','fCategoria','fQuien','fMedio'].forEach(id => document.getElementById(id).addEventListener('change', render));
 }
 
-// ============ FILTRADO Y RENDER ============
+// ============ FILTRADO Y RENDER DEL DASHBOARD ============
 function gastosFiltrados() {
   const mes = document.getElementById('fMes').value;
   const cat = document.getElementById('fCategoria').value;
   const quien = document.getElementById('fQuien').value;
   const medio = document.getElementById('fMedio').value;
-
   return DATA.resumen.gastos.filter(g =>
-    (!mes || g.mes === mes) &&
-    (!cat || g.categoria === cat) &&
-    (!quien || g.quienPago === quien) &&
-    (!medio || g.medioPago === medio)
+    (!mes || g.mes === mes) && (!cat || g.categoria === cat) &&
+    (!quien || g.quienPago === quien) && (!medio || g.medioPago === medio)
   );
 }
 
 function render() {
   const gastos = gastosFiltrados();
-
-  const total = gastos.reduce((s, g) => s + g.monto, 0);
-  const pagadoFlor = gastos.filter(g => g.quienPago === 'Flor').reduce((s, g) => s + g.monto, 0);
-  const pagadoPablo = gastos.filter(g => g.quienPago === 'Pablo').reduce((s, g) => s + g.monto, 0);
-  const debiaFlor = gastos.reduce((s, g) => s + (Number(g.montoFlor) || 0), 0);
+  const total = gastos.reduce((s,g) => s + g.monto, 0);
+  const pagadoFlor = gastos.filter(g => g.quienPago === 'Flor').reduce((s,g) => s + g.monto, 0);
+  const pagadoPablo = gastos.filter(g => g.quienPago === 'Pablo').reduce((s,g) => s + g.monto, 0);
+  const debiaFlor = gastos.reduce((s,g) => s + (Number(g.montoFlor) || 0), 0);
   const debiaPablo = total - debiaFlor;
-  const saldoFlor = pagadoFlor - debiaFlor; // >0: Pablo le debe a Flor. <0: Flor le debe a Pablo.
+  const saldoFlor = pagadoFlor - debiaFlor;
 
-  renderHero(saldoFlor, total, gastos.length);
+  renderHero(saldoFlor, total, gastos.length, pagadoFlor, pagadoPablo);
   renderPorPersona(pagadoFlor, pagadoPablo, debiaFlor, debiaPablo);
   renderDestacados(gastos, total);
   renderMovimientos(gastos);
   renderChartCategoria(gastos);
-  renderChartMensual(); // siempre con el histórico completo, sin filtrar por mes
+  renderChartMensual();
 
   const filtroActivo = document.getElementById('fMes').value || document.getElementById('fCategoria').value
     || document.getElementById('fQuien').value || document.getElementById('fMedio').value;
   document.getElementById('rangoTexto').textContent = filtroActivo ? 'Vista filtrada' : 'Histórico completo';
 }
 
-function renderHero(saldoFlor, total, cantidad) {
+function renderHero(saldoFlor, total, cantidad, pagadoFlor, pagadoPablo) {
   const el = document.getElementById('saldoTexto');
   const redondeado = Math.round(Math.abs(saldoFlor));
   if (redondeado === 0) {
-    el.textContent = 'Están a la par';
+    el.textContent = '🤝 Están a la par';
     el.className = 'hero-figure';
   } else if (saldoFlor > 0) {
     el.innerHTML = `<span class="quien">Pablo</span> le debe a <span class="quien">Flor</span> ${fmtMoneda(redondeado)}`;
@@ -283,16 +404,19 @@ function renderHero(saldoFlor, total, cantidad) {
     el.innerHTML = `<span class="quien">Flor</span> le debe a <span class="quien">Pablo</span> ${fmtMoneda(redondeado)}`;
     el.className = 'hero-figure debe';
   }
-  document.getElementById('totalTexto').textContent =
-    `${fmtMoneda(total)} gastados en ${cantidad} movimiento${cantidad === 1 ? '' : 's'}`;
+  document.getElementById('totalTexto').textContent = `${fmtMoneda(total)} gastados en ${cantidad} movimiento${cantidad === 1 ? '' : 's'}`;
+  document.getElementById('heroChips').innerHTML = `
+    <span class="chip flor"><span class="avatar flor">F</span>Flor puso ${fmtMoneda(pagadoFlor)}</span>
+    <span class="chip pablo"><span class="avatar pablo">P</span>Pablo puso ${fmtMoneda(pagadoPablo)}</span>
+  `;
 }
 
 function renderPorPersona(pagadoFlor, pagadoPablo, debiaFlor, debiaPablo) {
   document.getElementById('porPersona').innerHTML = `
-    <div class="stat-row"><span class="label">Puso Flor</span><span class="value">${fmtMoneda(pagadoFlor)}</span></div>
-    <div class="stat-row"><span class="label">Le correspondía a Flor</span><span class="value">${fmtMoneda(debiaFlor)}</span></div>
-    <div class="stat-row"><span class="label">Puso Pablo</span><span class="value">${fmtMoneda(pagadoPablo)}</span></div>
-    <div class="stat-row"><span class="label">Le correspondía a Pablo</span><span class="value">${fmtMoneda(debiaPablo)}</span></div>
+    <div class="stat-row"><span class="who"><span class="avatar flor">F</span>Puso Flor</span><span class="value">${fmtMoneda(pagadoFlor)}</span></div>
+    <div class="stat-row"><span class="who"><span class="avatar flor">F</span>Le correspondía</span><span class="value">${fmtMoneda(debiaFlor)}</span></div>
+    <div class="stat-row"><span class="who"><span class="avatar pablo">P</span>Puso Pablo</span><span class="value">${fmtMoneda(pagadoPablo)}</span></div>
+    <div class="stat-row"><span class="who"><span class="avatar pablo">P</span>Le correspondía</span><span class="value">${fmtMoneda(debiaPablo)}</span></div>
   `;
 }
 
@@ -300,36 +424,29 @@ function renderDestacados(gastos, total) {
   let catTop = '—', catTopMonto = 0;
   const porCat = {};
   gastos.forEach(g => { porCat[g.categoria] = (porCat[g.categoria] || 0) + g.monto; });
-  Object.entries(porCat).forEach(([cat, monto]) => {
-    if (monto > catTopMonto) { catTop = cat; catTopMonto = monto; }
-  });
+  Object.entries(porCat).forEach(([cat, monto]) => { if (monto > catTopMonto) { catTop = cat; catTopMonto = monto; } });
 
   const mesesConDatos = new Set(gastos.map(g => g.mes)).size || 1;
   const promedioMensual = total / mesesConDatos;
   const promedioSemanal = promedioMensual / 4.33;
 
   document.getElementById('destacados').innerHTML = `
-    <div class="destacado"><div class="label">Categoría con mayor gasto</div><div class="value">${catTop}${catTopMonto ? ' · ' + fmtMoneda(catTopMonto) : ''}</div></div>
+    <div class="destacado"><div class="label">Categoría con mayor gasto</div><div class="value">${catTop !== '—' ? iconoDeCategoria(catTop) + ' ' : ''}${catTop}${catTopMonto ? ' · ' + fmtMoneda(catTopMonto) : ''}</div></div>
     <div class="destacado"><div class="label">Promedio mensual (aprox.)</div><div class="value">${fmtMoneda(promedioMensual)}</div></div>
     <div class="destacado"><div class="label">Promedio semanal (aprox.)</div><div class="value">${fmtMoneda(promedioSemanal)}</div></div>
   `;
 }
 
 function renderMovimientos(gastos) {
-  const ultimos = [...gastos]
-    .sort((a, b) => (b.fecha + (b.hora || '')).localeCompare(a.fecha + (a.hora || '')))
-    .slice(0, 8);
-
+  const ultimos = [...gastos].sort((a,b) => (b.fecha + (b.hora||'')).localeCompare(a.fecha + (a.hora||''))).slice(0, 8);
   const el = document.getElementById('movimientos');
-  if (ultimos.length === 0) {
-    el.innerHTML = '<li class="estado">No hay movimientos con este filtro.</li>';
-    return;
-  }
+  if (ultimos.length === 0) { el.innerHTML = '<li class="estado">No hay movimientos con este filtro.</li>'; return; }
   el.innerHTML = ultimos.map(g => `
     <li>
+      <span class="mov-icon">${iconoDeCategoria(g.categoria)}</span>
       <div class="mov-desc">
         <span>${g.descripcion || '(sin descripción)'}</span>
-        <span class="cat">${g.categoria} · ${g.quienPago} · ${g.fecha}</span>
+        <span class="cat"><span class="avatar ${g.quienPago === 'Flor' ? 'flor' : 'pablo'}" style="width:16px;height:16px;font-size:9px;">${g.quienPago === 'Flor' ? 'F' : 'P'}</span> ${g.categoria} · ${g.fecha}</span>
       </div>
       <span class="mov-amount">${fmtMoneda(g.monto)}</span>
     </li>
@@ -341,55 +458,117 @@ function renderChartCategoria(gastos) {
   gastos.forEach(g => { porCat[g.categoria] = (porCat[g.categoria] || 0) + g.monto; });
   const labels = Object.keys(porCat);
   const valores = Object.values(porCat);
-
-  const paleta = ['#2F6F5E', '#A6462B', '#6B6560', '#B8A88A', '#4C7A8C', '#8C6A4C'];
+  const colores = labels.map((c,i) => colorDeCategoria(c,i));
 
   if (chartCategoria) chartCategoria.destroy();
   chartCategoria = new Chart(document.getElementById('chartCategoria'), {
     type: 'bar',
-    data: {
-      labels,
-      datasets: [{ data: valores, backgroundColor: labels.map((_, i) => paleta[i % paleta.length]) }]
-    },
-    options: {
-      responsive: true,
-      plugins: { legend: { display: false } },
-      scales: {
-        y: { ticks: { callback: v => fmtMoneda(v) }, grid: { color: '#D9D4CB' } },
-        x: { grid: { display: false } }
-      }
-    }
+    data: { labels: labels.map(l => iconoDeCategoria(l) + ' ' + l), datasets: [{ data: valores, backgroundColor: colores, borderRadius: 6 }] },
+    options: { responsive:true, plugins:{legend:{display:false}}, scales:{
+      y:{ ticks:{callback:v=>fmtMoneda(v)}, grid:{color:'#E7E1D3'} }, x:{ grid:{display:false} }
+    }}
   });
 }
 
 function renderChartMensual() {
-  const porMes = DATA.resumen.porMes; // ya viene ordenado del backend
+  const porMes = DATA.resumen.porMes;
   const labels = porMes.map(m => m.mes);
   const valores = porMes.map(m => m.total);
 
   if (chartMensual) chartMensual.destroy();
   chartMensual = new Chart(document.getElementById('chartMensual'), {
     type: 'line',
-    data: {
-      labels,
-      datasets: [{
-        data: valores,
-        borderColor: '#2F6F5E',
-        backgroundColor: '#E4EEE9',
-        fill: true,
-        tension: 0.25,
-        pointBackgroundColor: '#2F6F5E'
-      }]
-    },
-    options: {
-      responsive: true,
-      plugins: { legend: { display: false } },
-      scales: {
-        y: { ticks: { callback: v => fmtMoneda(v) }, grid: { color: '#D9D4CB' } },
-        x: { grid: { display: false } }
-      }
-    }
+    data: { labels, datasets: [{ data: valores, borderColor:'#2F6F5E', backgroundColor:'#E1EFE9', fill:true, tension:0.3, pointBackgroundColor:'#2F6F5E', borderWidth:3 }] },
+    options: { responsive:true, plugins:{legend:{display:false}}, scales:{
+      y:{ ticks:{callback:v=>fmtMoneda(v)}, grid:{color:'#E7E1D3'} }, x:{ grid:{display:false} }
+    }}
   });
+}
+
+// ============ FORMULARIO DE CARGA ============
+function poblarSelectsForm() {
+  const selCat = document.getElementById('selCategoria');
+  selCat.innerHTML = DATA.config.categorias.map(c => `<option value="${c}">${iconoDeCategoria(c)} ${c}</option>`).join('') + '<option value="__otro__">➕ Otra…</option>';
+  document.getElementById('hidCategoria').value = DATA.config.categorias[0] || '';
+
+  const selMedio = document.getElementById('selMedio');
+  selMedio.innerHTML = DATA.config.medios.map(m => `<option value="${m}">${m}</option>`).join('') + '<option value="__otro__">➕ Otro…</option>';
+  document.getElementById('hidMedioPago').value = DATA.config.medios[0] || '';
+  actualizarCampoBanco();
+}
+
+document.getElementById('btnFlor').addEventListener('click', () => seleccionarQuien('Flor'));
+document.getElementById('btnPablo').addEventListener('click', () => seleccionarQuien('Pablo'));
+function seleccionarQuien(quien) {
+  document.getElementById('hidQuienPago').value = quien;
+  document.getElementById('btnFlor').classList.toggle('activo', quien === 'Flor');
+  document.getElementById('btnPablo').classList.toggle('activo', quien === 'Pablo');
+}
+
+document.getElementById('selCategoria').addEventListener('change', function () {
+  const otra = this.value === '__otro__';
+  document.getElementById('campoCategoriaOtra').style.display = otra ? 'flex' : 'none';
+  document.getElementById('hidCategoria').value = otra ? '' : this.value;
+});
+document.getElementById('inCategoriaOtra').addEventListener('input', function () {
+  document.getElementById('hidCategoria').value = this.value.trim();
+});
+
+document.getElementById('selMedio').addEventListener('change', function () {
+  const otro = this.value === '__otro__';
+  document.getElementById('campoMedioOtro').style.display = otro ? 'flex' : 'none';
+  document.getElementById('hidMedioPago').value = otro ? '' : this.value;
+  actualizarCampoBanco();
+});
+document.getElementById('inMedioOtro').addEventListener('input', function () {
+  document.getElementById('hidMedioPago').value = this.value.trim();
+  actualizarCampoBanco();
+});
+function actualizarCampoBanco() {
+  const esTransferencia = document.getElementById('hidMedioPago').value.toLowerCase().includes('transfer');
+  document.getElementById('campoBanco').style.display = esTransferencia ? 'flex' : 'none';
+}
+
+function abrirFormulario() {
+  document.getElementById('inFecha').value = new Date().toISOString().slice(0, 10);
+  document.getElementById('inHora').value = new Date().toTimeString().slice(0, 5);
+  document.getElementById('overlay').classList.add('abierto');
+}
+function cerrarFormulario() {
+  document.getElementById('overlay').classList.remove('abierto');
+  document.getElementById('formCarga').reset();
+  seleccionarQuien('Flor');
+  poblarSelectsForm();
+}
+
+document.getElementById('btnAbrirForm').addEventListener('click', abrirFormulario);
+document.getElementById('btnCancelar').addEventListener('click', cerrarFormulario);
+document.getElementById('overlay').addEventListener('click', (e) => { if (e.target.id === 'overlay') cerrarFormulario(); });
+
+document.getElementById('formCarga').setAttribute('action', WEB_APP_URL);
+
+document.getElementById('formCarga').addEventListener('submit', function (e) {
+  if (!document.getElementById('hidCategoria').value) { e.preventDefault(); alert('Elegí o escribí una categoría.'); return; }
+  if (!document.getElementById('hidMedioPago').value) { e.preventDefault(); alert('Elegí o escribí un medio de pago.'); return; }
+  formEnviado = true;
+  mostrarToast('Cargando…');
+  // el formulario se envía solo hacia el iframe oculto, no hace falta más acá.
+});
+
+document.getElementById('targetFrame').addEventListener('load', function () {
+  if (!formEnviado) return; // evita disparar en la primera carga (about:blank)
+  formEnviado = false;
+  mostrarToast('Gasto cargado ✅');
+  cerrarFormulario();
+  setTimeout(cargarDatos, 900);
+});
+
+function mostrarToast(msg) {
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.classList.add('visible');
+  clearTimeout(mostrarToast._t);
+  mostrarToast._t = setTimeout(() => t.classList.remove('visible'), 2200);
 }
 
 cargarDatos();
