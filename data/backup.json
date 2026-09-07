@@ -1,16 +1,16 @@
 {
   "resumen": {
-    "totalGeneral": 128001.4,
+    "totalGeneral": 191999.09999999998,
     "totalPagadoFlor": 0,
-    "totalPagadoPablo": 128001.4,
-    "saldoNetoFlor": -64000.7,
+    "totalPagadoPablo": 191999.09999999998,
+    "saldoNetoFlor": -95999.54999999999,
     "porCategoria": {
-      "Comida": 128001.4
+      "Comida": 191999.09999999998
     },
     "porMes": [
       {
         "mes": "2026-09",
-        "total": 128001.4
+        "total": 191999.09999999998
       }
     ],
     "gastos": [
@@ -133,6 +133,21 @@
         "pctFlor": 50,
         "montoFlor": 31998.85,
         "montoPablo": 31998.85
+      },
+      {
+        "mes": "2026-09",
+        "fecha": "2026-09-06",
+        "hora": "1899-12-30T15:58:48.000Z",
+        "quienPago": "Pablo",
+        "monto": 63997.7,
+        "categoria": "Comida",
+        "medioPago": "Mercado Pago",
+        "banco": "",
+        "descripcion": "ALMA SRL",
+        "comprobante": "",
+        "pctFlor": 50,
+        "montoFlor": 31998.85,
+        "montoPablo": 31998.85
       }
     ]
   },
@@ -152,5 +167,5 @@
       "Transferencia bancaria"
     ]
   },
-  "generadoEl": "2026-09-07T03:20:10.729Z"
+  "generadoEl": "2026-09-07T03:22:20.571Z"
 }
