@@ -1,12 +1,35 @@
 {
   "resumen": {
-    "totalGeneral": 0,
+    "totalGeneral": 1,
     "totalPagadoFlor": 0,
-    "totalPagadoPablo": 0,
-    "saldoNetoFlor": 0,
-    "porCategoria": {},
-    "porMes": [],
-    "gastos": []
+    "totalPagadoPablo": 1,
+    "saldoNetoFlor": -0.5,
+    "porCategoria": {
+      "Comida": 1
+    },
+    "porMes": [
+      {
+        "mes": "2026-09",
+        "total": 1
+      }
+    ],
+    "gastos": [
+      {
+        "mes": "2026-09",
+        "fecha": "2026-09-06",
+        "hora": "1899-12-30T16:21:48.000Z",
+        "quienPago": "Pablo",
+        "monto": 1,
+        "categoria": "Comida",
+        "medioPago": "Efectivo",
+        "banco": "",
+        "descripcion": "PRUEBA_DIAGNOSTICO_BORRAR",
+        "comprobante": "",
+        "pctFlor": 50,
+        "montoFlor": 0.5,
+        "montoPablo": 0.5
+      }
+    ]
   },
   "config": {
     "categorias": [
@@ -24,5 +47,5 @@
       "Transferencia bancaria"
     ]
   },
-  "generadoEl": "2026-09-07T02:28:59.249Z"
+  "generadoEl": "2026-09-07T03:18:24.738Z"
 }
