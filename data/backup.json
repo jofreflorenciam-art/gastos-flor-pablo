@@ -1,16 +1,16 @@
 {
   "resumen": {
-    "totalGeneral": 103686.7,
+    "totalGeneral": 123966.7,
     "totalPagadoFlor": 0,
-    "totalPagadoPablo": 103686.7,
-    "saldoNetoFlor": -51843.35,
+    "totalPagadoPablo": 123966.7,
+    "saldoNetoFlor": -61983.35,
     "porCategoria": {
-      "Comida": 103686.7
+      "Comida": 123966.7
     },
     "porMes": [
       {
         "mes": "2026-09",
-        "total": 103686.7
+        "total": 123966.7
       }
     ],
     "gastos": [
@@ -43,6 +43,21 @@
         "pctFlor": 50,
         "montoFlor": 31998.85,
         "montoPablo": 31998.85
+      },
+      {
+        "mes": "2026-09",
+        "fecha": "2026-09-06",
+        "hora": "1899-12-30T16:08:48.000Z",
+        "quienPago": "Pablo",
+        "monto": 20280,
+        "categoria": "Comida",
+        "medioPago": "Mercado Pago",
+        "banco": "",
+        "descripcion": "Verduleria El Nene",
+        "comprobante": "",
+        "pctFlor": 50,
+        "montoFlor": 10140,
+        "montoPablo": 10140
       }
     ]
   },
@@ -62,5 +77,5 @@
       "Transferencia bancaria"
     ]
   },
-  "generadoEl": "2026-09-07T03:28:31.355Z"
+  "generadoEl": "2026-09-07T03:29:31.363Z"
 }
