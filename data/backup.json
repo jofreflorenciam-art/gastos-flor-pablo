@@ -1,16 +1,16 @@
 {
   "resumen": {
-    "totalGeneral": 39689,
+    "totalGeneral": 103686.7,
     "totalPagadoFlor": 0,
-    "totalPagadoPablo": 39689,
-    "saldoNetoFlor": -19844.5,
+    "totalPagadoPablo": 103686.7,
+    "saldoNetoFlor": -51843.35,
     "porCategoria": {
-      "Comida": 39689
+      "Comida": 103686.7
     },
     "porMes": [
       {
         "mes": "2026-09",
-        "total": 39689
+        "total": 103686.7
       }
     ],
     "gastos": [
@@ -28,6 +28,21 @@
         "pctFlor": 50,
         "montoFlor": 19844.5,
         "montoPablo": 19844.5
+      },
+      {
+        "mes": "2026-09",
+        "fecha": "2026-09-06",
+        "hora": "1899-12-30T15:58:48.000Z",
+        "quienPago": "Pablo",
+        "monto": 63997.7,
+        "categoria": "Comida",
+        "medioPago": "Mercado Pago",
+        "banco": "",
+        "descripcion": "Benedetti",
+        "comprobante": "",
+        "pctFlor": 50,
+        "montoFlor": 31998.85,
+        "montoPablo": 31998.85
       }
     ]
   },
@@ -47,5 +62,5 @@
       "Transferencia bancaria"
     ]
   },
-  "generadoEl": "2026-09-07T03:27:02.014Z"
+  "generadoEl": "2026-09-07T03:28:31.355Z"
 }
