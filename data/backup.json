@@ -1,16 +1,16 @@
 {
   "resumen": {
-    "totalGeneral": 64000.7,
+    "totalGeneral": 64001.7,
     "totalPagadoFlor": 0,
-    "totalPagadoPablo": 64000.7,
-    "saldoNetoFlor": -32000.35,
+    "totalPagadoPablo": 64001.7,
+    "saldoNetoFlor": -32000.85,
     "porCategoria": {
-      "Comida": 64000.7
+      "Comida": 64001.7
     },
     "porMes": [
       {
         "mes": "2026-09",
-        "total": 64000.7
+        "total": 64001.7
       }
     ],
     "gastos": [
@@ -73,6 +73,21 @@
         "pctFlor": 50,
         "montoFlor": 0.5,
         "montoPablo": 0.5
+      },
+      {
+        "mes": "2026-09",
+        "fecha": "2026-09-06",
+        "hora": "1899-12-30T16:31:48.000Z",
+        "quienPago": "Pablo",
+        "monto": 1,
+        "categoria": "Comida",
+        "medioPago": "Efectivo",
+        "banco": "",
+        "descripcion": "PRUEBA",
+        "comprobante": "",
+        "pctFlor": 50,
+        "montoFlor": 0.5,
+        "montoPablo": 0.5
       }
     ]
   },
@@ -92,5 +107,5 @@
       "Transferencia bancaria"
     ]
   },
-  "generadoEl": "2026-09-07T03:18:46.746Z"
+  "generadoEl": "2026-09-07T03:19:06.174Z"
 }
