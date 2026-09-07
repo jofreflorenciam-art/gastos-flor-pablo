@@ -1,16 +1,16 @@
 {
   "resumen": {
-    "totalGeneral": 123966.7,
+    "totalGeneral": 165086.7,
     "totalPagadoFlor": 0,
-    "totalPagadoPablo": 123966.7,
-    "saldoNetoFlor": -61983.35,
+    "totalPagadoPablo": 165086.7,
+    "saldoNetoFlor": -82543.35,
     "porCategoria": {
-      "Comida": 123966.7
+      "Comida": 165086.7
     },
     "porMes": [
       {
         "mes": "2026-09",
-        "total": 123966.7
+        "total": 165086.7
       }
     ],
     "gastos": [
@@ -58,6 +58,21 @@
         "pctFlor": 50,
         "montoFlor": 10140,
         "montoPablo": 10140
+      },
+      {
+        "mes": "2026-09",
+        "fecha": "2026-09-07",
+        "hora": "1899-12-31T00:51:48.000Z",
+        "quienPago": "Pablo",
+        "monto": 41120,
+        "categoria": "Comida",
+        "medioPago": "Mercado Pago",
+        "banco": "",
+        "descripcion": "Carrefour - Hiper Mendoza",
+        "comprobante": "",
+        "pctFlor": 50,
+        "montoFlor": 20560,
+        "montoPablo": 20560
       }
     ]
   },
@@ -77,5 +92,5 @@
       "Transferencia bancaria"
     ]
   },
-  "generadoEl": "2026-09-07T03:29:31.363Z"
+  "generadoEl": "2026-09-07T23:38:18.611Z"
 }
