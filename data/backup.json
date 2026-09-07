@@ -1,0 +1,28 @@
+{
+  "resumen": {
+    "totalGeneral": 0,
+    "totalPagadoFlor": 0,
+    "totalPagadoPablo": 0,
+    "saldoNetoFlor": 0,
+    "porCategoria": {},
+    "porMes": [],
+    "gastos": []
+  },
+  "config": {
+    "categorias": [
+      "Comida",
+      "Servicios",
+      "Alquiler",
+      "Salidas",
+      "Transporte",
+      "Otros"
+    ],
+    "medios": [
+      "Efectivo",
+      "Tarjeta",
+      "Mercado Pago",
+      "Transferencia bancaria"
+    ]
+  },
+  "generadoEl": "2026-09-07T02:28:59.249Z"
+}
