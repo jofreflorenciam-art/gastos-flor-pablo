@@ -1,16 +1,16 @@
 {
   "resumen": {
-    "totalGeneral": 165086.7,
+    "totalGeneral": 156691.7,
     "totalPagadoFlor": 0,
-    "totalPagadoPablo": 165086.7,
-    "saldoNetoFlor": -82543.35,
+    "totalPagadoPablo": 156691.7,
+    "saldoNetoFlor": -78345.85,
     "porCategoria": {
-      "Comida": 165086.7
+      "Comida": 156691.7
     },
     "porMes": [
       {
         "mes": "2026-09",
-        "total": 165086.7
+        "total": 156691.7
       }
     ],
     "gastos": [
@@ -73,6 +73,21 @@
         "pctFlor": 50,
         "montoFlor": 20560,
         "montoPablo": 20560
+      },
+      {
+        "mes": "2026-09",
+        "fecha": "2026-09-07",
+        "hora": "1899-12-31T01:28:48.000Z",
+        "quienPago": "Pablo",
+        "monto": -8395,
+        "categoria": "Comida",
+        "medioPago": "Mercado Pago",
+        "banco": "",
+        "descripcion": "Ajuste Carrefour - Hiper Mendoza (productos agotados)",
+        "comprobante": "",
+        "pctFlor": 50,
+        "montoFlor": -4197.5,
+        "montoPablo": -4197.5
       }
     ]
   },
@@ -92,5 +107,5 @@
       "Transferencia bancaria"
     ]
   },
-  "generadoEl": "2026-09-07T23:38:18.611Z"
+  "generadoEl": "2026-09-08T00:14:55.687Z"
 }
