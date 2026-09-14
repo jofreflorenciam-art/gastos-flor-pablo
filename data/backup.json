@@ -1,16 +1,16 @@
 {
   "resumen": {
-    "totalGeneral": 192901.7,
+    "totalGeneral": 224901.7,
     "totalPagadoFlor": 0,
-    "totalPagadoPablo": 192901.7,
-    "saldoNetoFlor": -96450.85,
+    "totalPagadoPablo": 224901.7,
+    "saldoNetoFlor": -112450.85,
     "porCategoria": {
-      "Comida": 192901.7
+      "Comida": 224901.7
     },
     "porMes": [
       {
         "mes": "2026-09",
-        "total": 192901.7
+        "total": 224901.7
       }
     ],
     "gastos": [
@@ -103,6 +103,21 @@
         "pctFlor": 50,
         "montoFlor": 18105,
         "montoPablo": 18105
+      },
+      {
+        "mes": "2026-09",
+        "fecha": "2026-09-13",
+        "hora": "1899-12-30T17:08:48.000Z",
+        "quienPago": "Pablo",
+        "monto": 32000,
+        "categoria": "Comida",
+        "medioPago": "Mercado Pago",
+        "banco": "",
+        "descripcion": "Verduleria",
+        "comprobante": "",
+        "pctFlor": 50,
+        "montoFlor": 16000,
+        "montoPablo": 16000
       }
     ]
   },
@@ -122,5 +137,5 @@
       "Transferencia bancaria"
     ]
   },
-  "generadoEl": "2026-09-14T00:18:45.891Z"
+  "generadoEl": "2026-09-14T00:18:56.392Z"
 }
