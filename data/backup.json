@@ -1,16 +1,16 @@
 {
   "resumen": {
-    "totalGeneral": 156691.7,
+    "totalGeneral": 192901.7,
     "totalPagadoFlor": 0,
-    "totalPagadoPablo": 156691.7,
-    "saldoNetoFlor": -78345.85,
+    "totalPagadoPablo": 192901.7,
+    "saldoNetoFlor": -96450.85,
     "porCategoria": {
-      "Comida": 156691.7
+      "Comida": 192901.7
     },
     "porMes": [
       {
         "mes": "2026-09",
-        "total": 156691.7
+        "total": 192901.7
       }
     ],
     "gastos": [
@@ -88,6 +88,21 @@
         "pctFlor": 50,
         "montoFlor": -4197.5,
         "montoPablo": -4197.5
+      },
+      {
+        "mes": "2026-09",
+        "fecha": "2026-09-13",
+        "hora": "1899-12-31T00:45:48.000Z",
+        "quienPago": "Pablo",
+        "monto": 36210,
+        "categoria": "Comida",
+        "medioPago": "Mercado Pago",
+        "banco": "",
+        "descripcion": "2 hamburguesas (delivery)",
+        "comprobante": "",
+        "pctFlor": 50,
+        "montoFlor": 18105,
+        "montoPablo": 18105
       }
     ]
   },
@@ -107,5 +122,5 @@
       "Transferencia bancaria"
     ]
   },
-  "generadoEl": "2026-09-08T00:14:55.687Z"
+  "generadoEl": "2026-09-14T00:18:45.891Z"
 }
