@@ -1,17 +1,17 @@
 {
   "resumen": {
-    "totalGeneral": 284360.7,
+    "totalGeneral": 307899.7,
     "totalPagadoFlor": 0,
-    "totalPagadoPablo": 284360.7,
+    "totalPagadoPablo": 307899.7,
     "saldoNetoFlor": -147665.35,
     "porCategoria": {
-      "Comida": 235871.7,
+      "Comida": 259410.7,
       "Otros": 48489
     },
     "porMes": [
       {
         "mes": "2026-09",
-        "total": 284360.7
+        "total": 307899.7
       }
     ],
     "gastos": [
@@ -149,6 +149,21 @@
         "pctFlor": 100,
         "montoFlor": 10970,
         "montoPablo": 0
+      },
+      {
+        "mes": "2026-09",
+        "fecha": "2026-09-16",
+        "hora": "1899-12-31T00:31:48.000Z",
+        "quienPago": "Pablo",
+        "monto": 23539,
+        "categoria": "Comida",
+        "medioPago": "Mercado Pago",
+        "banco": "",
+        "descripcion": "Paparulos",
+        "comprobante": "",
+        "pctFlor": 0,
+        "montoFlor": 0,
+        "montoPablo": 23539
       }
     ]
   },
@@ -168,5 +183,5 @@
       "Transferencia bancaria"
     ]
   },
-  "generadoEl": "2026-09-16T23:18:12.834Z"
+  "generadoEl": "2026-09-16T23:19:24.270Z"
 }
