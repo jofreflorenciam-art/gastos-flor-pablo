@@ -133,21 +133,37 @@
     background:linear-gradient(135deg, var(--flor), var(--pablo));
     color:#fff; font-size:28px; cursor:pointer;
     box-shadow:0 10px 26px rgba(28,35,33,.28);
+    transition: transform 100ms ease-out;
   }
+  .fab:active{ transform:scale(0.92); }
   .fab:hover{ filter:brightness(1.05); }
 
   .modal-overlay{
-    display:none; position:fixed; inset:0; background:rgba(28,35,33,.45);
+    display:none; position:fixed; inset:0; background:rgba(28,35,33,0);
     z-index:50; align-items:flex-end; justify-content:center;
+    transition: background 280ms cubic-bezier(0.32, 0.72, 0, 1);
   }
-  .modal-overlay.abierto{ display:flex; }
+  .modal-overlay.abierto{ display:flex; background:rgba(28,35,33,.45); }
   @media (min-width:640px){ .modal-overlay{ align-items:center; } }
 
   .modal{
     background:var(--paper-raised); width:100%; max-width:460px;
-    border-radius:20px 20px 0 0; padding:24px 24px 28px; max-height:92vh; overflow-y:auto;
+    border-radius:20px 20px 0 0; padding:14px 24px 28px; max-height:92vh; overflow-y:auto;
+    transform: translateY(100%);
+    transition: transform 380ms cubic-bezier(0.32, 0.72, 0, 1);
+    touch-action: none;
   }
-  @media (min-width:640px){ .modal{ border-radius:20px; } }
+  .modal-overlay.abierto .modal{ transform:translateY(0); }
+  .modal-overlay.arrastrando .modal{ transition:none; }
+  @media (prefers-reduced-motion: reduce){
+    .modal-overlay, .modal{ transition: opacity 200ms ease !important; transform:none !important; }
+  }
+  @media (min-width:640px){ .modal{ border-radius:20px; transform:translateY(12px); } .modal-overlay.abierto .modal{ transform:translateY(0); } }
+
+  .modal-handle{
+    width:36px; height:5px; border-radius:999px; background:var(--line);
+    margin:0 auto 14px; cursor:grab;
+  }
 
   .modal h3{ font-family:'Piazzolla', serif; font-weight:600; font-size:20px; margin:0 0 18px; }
 
@@ -165,12 +181,15 @@
     flex:1; padding:12px; border-radius:12px; border:2px solid var(--line);
     background:var(--paper); font-family:inherit; font-size:14px; font-weight:500;
     color:var(--ink-soft); cursor:pointer; display:flex; align-items:center; justify-content:center; gap:8px;
+    transition: transform 100ms ease-out;
   }
+  .toggle-btn:active{ transform:scale(0.96); }
   .toggle-btn.activo.flor{ border-color:var(--flor); background:var(--flor-tint); color:var(--flor); }
   .toggle-btn.activo.pablo{ border-color:var(--pablo); background:var(--pablo-tint); color:var(--pablo); }
 
   .modal-actions{ display:flex; gap:10px; margin-top:18px; }
-  .btn{ font-family:inherit; font-size:15px; font-weight:600; padding:13px 18px; border-radius:12px; border:none; cursor:pointer; }
+  .btn{ font-family:inherit; font-size:15px; font-weight:600; padding:13px 18px; border-radius:12px; border:none; cursor:pointer; transition: transform 100ms ease-out; }
+  .btn:active{ transform:scale(0.97); }
   .btn-primary{ flex:1; background:var(--ink); color:#fff; }
   .btn-secondary{ background:transparent; color:var(--ink-soft); }
 
@@ -205,11 +224,13 @@
       <select id="fQuien"><option value="">Ambos</option><option value="Flor">Flor</option><option value="Pablo">Pablo</option></select>
     </div>
     <div class="filter"><label for="fMedio">Medio de pago</label><select id="fMedio"><option value="">Todos</option></select></div>
+    <div class="filter"><label for="fSubcategoria">Subcategoría</label><select id="fSubcategoria"><option value="">Todas</option></select></div>
   </section>
 
   <section class="grid">
     <div class="col-main">
       <div class="card"><h2>Gasto por categoría</h2><canvas id="chartCategoria"></canvas></div>
+      <div class="card" id="cardSubcategoria" style="display:none"><h2>Gasto por sub-rubro</h2><canvas id="chartSubcategoria"></canvas></div>
       <div class="card"><h2>Evolución mensual (todos los meses)</h2><canvas id="chartMensual"></canvas></div>
     </div>
     <div class="col-side">
@@ -226,6 +247,7 @@
 
 <div class="modal-overlay" id="overlay">
   <div class="modal">
+    <div class="modal-handle" id="modalHandle"></div>
     <h3>Cargar gasto</h3>
 
     <iframe name="targetFrame" id="targetFrame" style="display:none"></iframe>
@@ -264,6 +286,12 @@
       <div class="campo" id="campoCategoriaOtra" style="display:none">
         <label for="inCategoriaOtra">Nombre de la categoría nueva</label>
         <input type="text" id="inCategoriaOtra" placeholder="Ej: Mascotas">
+      </div>
+
+      <div class="campo">
+        <label for="inSubcategoria">Subcategoría (opcional)</label>
+        <input type="text" id="inSubcategoria" name="subcategoria" list="listaSubcategorias" placeholder="Ej: Hamburguesas, Verdulería...">
+        <datalist id="listaSubcategorias"></datalist>
       </div>
 
       <div class="campo">
@@ -314,6 +342,7 @@ function iconoDeCategoria(cat){ return CATEGORY_ICONS[cat] || '🏷️'; }
 // ============ ESTADO ============
 let DATA = null;
 let chartCategoria = null;
+let chartSubcategoria = null;
 let chartMensual = null;
 let formEnviado = false;
 
@@ -355,7 +384,11 @@ function poblarFiltros() {
   selMedio.innerHTML = '<option value="">Todos</option>';
   DATA.config.medios.forEach(m => selMedio.insertAdjacentHTML('beforeend', `<option value="${m}">${m}</option>`));
 
-  ['fMes','fCategoria','fQuien','fMedio'].forEach(id => document.getElementById(id).addEventListener('change', render));
+  const selSub = document.getElementById('fSubcategoria');
+  selSub.innerHTML = '<option value="">Todas</option>';
+  (DATA.config.subcategorias || []).forEach(s => selSub.insertAdjacentHTML('beforeend', `<option value="${s}">${s}</option>`));
+
+  ['fMes','fCategoria','fQuien','fMedio','fSubcategoria'].forEach(id => document.getElementById(id).addEventListener('change', render));
 }
 
 // ============ FILTRADO Y RENDER DEL DASHBOARD ============
@@ -364,9 +397,11 @@ function gastosFiltrados() {
   const cat = document.getElementById('fCategoria').value;
   const quien = document.getElementById('fQuien').value;
   const medio = document.getElementById('fMedio').value;
+  const subcat = document.getElementById('fSubcategoria').value;
   return DATA.resumen.gastos.filter(g =>
     (!mes || g.mes === mes) && (!cat || g.categoria === cat) &&
-    (!quien || g.quienPago === quien) && (!medio || g.medioPago === medio)
+    (!quien || g.quienPago === quien) && (!medio || g.medioPago === medio) &&
+    (!subcat || g.subcategoria === subcat)
   );
 }
 
@@ -384,6 +419,7 @@ function render() {
   renderDestacados(gastos, total);
   renderMovimientos(gastos);
   renderChartCategoria(gastos);
+  renderChartSubcategoria(gastos);
   renderChartMensual();
 
   const filtroActivo = document.getElementById('fMes').value || document.getElementById('fCategoria').value
@@ -446,7 +482,7 @@ function renderMovimientos(gastos) {
       <span class="mov-icon">${iconoDeCategoria(g.categoria)}</span>
       <div class="mov-desc">
         <span>${g.descripcion || '(sin descripción)'}</span>
-        <span class="cat"><span class="avatar ${g.quienPago === 'Flor' ? 'flor' : 'pablo'}" style="width:16px;height:16px;font-size:9px;">${g.quienPago === 'Flor' ? 'F' : 'P'}</span> ${g.categoria} · ${g.fecha}</span>
+        <span class="cat"><span class="avatar ${g.quienPago === 'Flor' ? 'flor' : 'pablo'}" style="width:16px;height:16px;font-size:9px;">${g.quienPago === 'Flor' ? 'F' : 'P'}</span> ${g.categoria}${g.subcategoria ? ' · ' + g.subcategoria : ''} · ${g.fecha}</span>
       </div>
       <span class="mov-amount">${fmtMoneda(g.monto)}</span>
     </li>
@@ -464,6 +500,28 @@ function renderChartCategoria(gastos) {
   chartCategoria = new Chart(document.getElementById('chartCategoria'), {
     type: 'bar',
     data: { labels: labels.map(l => iconoDeCategoria(l) + ' ' + l), datasets: [{ data: valores, backgroundColor: colores, borderRadius: 6 }] },
+    options: { responsive:true, plugins:{legend:{display:false}}, scales:{
+      y:{ ticks:{callback:v=>fmtMoneda(v)}, grid:{color:'#E7E1D3'} }, x:{ grid:{display:false} }
+    }}
+  });
+}
+
+function renderChartSubcategoria(gastos) {
+  const porSub = {};
+  gastos.forEach(g => { if (g.subcategoria) porSub[g.subcategoria] = (porSub[g.subcategoria] || 0) + g.monto; });
+  const labels = Object.keys(porSub);
+  const card = document.getElementById('cardSubcategoria');
+
+  if (labels.length === 0) { card.style.display = 'none'; return; }
+  card.style.display = 'block';
+
+  const valores = labels.map(l => porSub[l]);
+  const colores = labels.map((_,i) => FALLBACK_COLORS[i % FALLBACK_COLORS.length]);
+
+  if (chartSubcategoria) chartSubcategoria.destroy();
+  chartSubcategoria = new Chart(document.getElementById('chartSubcategoria'), {
+    type: 'bar',
+    data: { labels, datasets: [{ data: valores, backgroundColor: colores, borderRadius: 6 }] },
     options: { responsive:true, plugins:{legend:{display:false}}, scales:{
       y:{ ticks:{callback:v=>fmtMoneda(v)}, grid:{color:'#E7E1D3'} }, x:{ grid:{display:false} }
     }}
@@ -490,6 +548,9 @@ function poblarSelectsForm() {
   const selCat = document.getElementById('selCategoria');
   selCat.innerHTML = DATA.config.categorias.map(c => `<option value="${c}">${iconoDeCategoria(c)} ${c}</option>`).join('') + '<option value="__otro__">➕ Otra…</option>';
   document.getElementById('hidCategoria').value = DATA.config.categorias[0] || '';
+
+  document.getElementById('listaSubcategorias').innerHTML =
+    (DATA.config.subcategorias || []).map(s => `<option value="${s}"></option>`).join('');
 
   const selMedio = document.getElementById('selMedio');
   selMedio.innerHTML = DATA.config.medios.map(m => `<option value="${m}">${m}</option>`).join('') + '<option value="__otro__">➕ Otro…</option>';
@@ -544,6 +605,61 @@ function cerrarFormulario() {
 document.getElementById('btnAbrirForm').addEventListener('click', abrirFormulario);
 document.getElementById('btnCancelar').addEventListener('click', cerrarFormulario);
 document.getElementById('overlay').addEventListener('click', (e) => { if (e.target.id === 'overlay') cerrarFormulario(); });
+
+// Arrastre 1:1 del sheet para cerrarlo deslizando hacia abajo (principio de manipulación
+// directa de la skill Apple Design): el modal sigue el dedo exactamente, y al soltar,
+// la decisión de cerrar o volver a su lugar se toma por la velocidad del gesto, no solo
+// por la distancia — un swipe rápido y corto también cierra, como en un sheet nativo.
+const modalEl = document.querySelector('.modal');
+const overlayEl = document.getElementById('overlay');
+let arrastreInicioY = 0;
+let arrastreActual = 0;
+let arrastrando = false;
+let historialArrastre = [];
+
+function iniciarArrastre(e) {
+  arrastrando = true;
+  arrastreInicioY = e.clientY;
+  arrastreActual = 0;
+  historialArrastre = [{ y: e.clientY, t: performance.now() }];
+  overlayEl.classList.add('arrastrando');
+  document.getElementById('modalHandle').setPointerCapture(e.pointerId);
+}
+function moverArrastre(e) {
+  if (!arrastrando) return;
+  const delta = e.clientY - arrastreInicioY;
+  arrastreActual = Math.max(0, delta); // no se arrastra hacia arriba, solo hacia abajo
+  modalEl.style.transform = `translateY(${arrastreActual}px)`;
+  historialArrastre.push({ y: e.clientY, t: performance.now() });
+  if (historialArrastre.length > 6) historialArrastre.shift();
+}
+function soltarArrastre() {
+  if (!arrastrando) return;
+  arrastrando = false;
+  overlayEl.classList.remove('arrastrando');
+  modalEl.style.transform = '';
+
+  // Velocidad aproximada del gesto en los últimos movimientos (px/ms)
+  let velocidad = 0;
+  if (historialArrastre.length >= 2) {
+    const primero = historialArrastre[0];
+    const ultimo = historialArrastre[historialArrastre.length - 1];
+    const dt = ultimo.t - primero.t;
+    if (dt > 0) velocidad = (ultimo.y - primero.y) / dt;
+  }
+
+  const distanciaSuficiente = arrastreActual > 120;
+  const gestoRapidoHaciaAbajo = velocidad > 0.5;
+
+  if (distanciaSuficiente || gestoRapidoHaciaAbajo) {
+    cerrarFormulario();
+  }
+}
+
+document.getElementById('modalHandle').addEventListener('pointerdown', iniciarArrastre);
+document.getElementById('modalHandle').addEventListener('pointermove', moverArrastre);
+document.getElementById('modalHandle').addEventListener('pointerup', soltarArrastre);
+document.getElementById('modalHandle').addEventListener('pointercancel', soltarArrastre);
 
 document.getElementById('formCarga').setAttribute('action', WEB_APP_URL);
 
