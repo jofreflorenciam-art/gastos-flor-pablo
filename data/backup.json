@@ -1,18 +1,19 @@
 {
   "resumen": {
-    "totalGeneral": 733649.1499999999,
-    "totalPagadoFlor": 27777,
+    "totalGeneral": 767588.7599999999,
+    "totalPagadoFlor": 61716.61,
     "totalPagadoPablo": 705872.1499999999,
-    "saldoNetoFlor": -317626.575,
+    "saldoNetoFlor": -300656.77,
     "porCategoria": {
       "Comida": 650168.15,
-      "Otros": 83481
+      "Otros": 117420.61
     },
     "porSubcategoria": {
       "Juntadas": 27777,
       "Delivery": 36210,
       "Supermercado": 147131.45,
-      "Fiambrera": 28552
+      "Fiambrera": 28552,
+      "Salud": 33939.61
     },
     "porProducto": {
       "Blue Label L + Papas Fritas": {
@@ -218,12 +219,30 @@
         "monto": 0,
         "conCantidad": false,
         "conMonto": false
+      },
+      "Inhalan spray nasal x 60 ds.": {
+        "cantidad": 2,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Vick Vaporub lata x 12g": {
+        "cantidad": 1,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Qura Plus comp.rec.x 20": {
+        "cantidad": 1,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
       }
     },
     "porMes": [
       {
         "mes": "2026-09",
-        "total": 733649.1499999999
+        "total": 767588.7599999999
       }
     ],
     "gastos": [
@@ -761,6 +780,36 @@
         "pctFlor": 50,
         "montoFlor": 14276,
         "montoPablo": 14276
+      },
+      {
+        "mes": "2026-09",
+        "fecha": "2026-09-26",
+        "hora": "1899-12-31T01:02:48.000Z",
+        "quienPago": "Flor",
+        "monto": 33939.61,
+        "categoria": "Otros",
+        "subcategoria": "Salud",
+        "items": [
+          {
+            "producto": "Inhalan spray nasal x 60 ds.",
+            "cantidad": 2
+          },
+          {
+            "producto": "Vick Vaporub lata x 12g",
+            "cantidad": 1
+          },
+          {
+            "producto": "Qura Plus comp.rec.x 20",
+            "cantidad": 1
+          }
+        ],
+        "medioPago": "Tarjeta",
+        "banco": "",
+        "descripcion": "Farmacia Mesura Cuarta Seccin",
+        "comprobante": "",
+        "pctFlor": 50,
+        "montoFlor": 16969.805,
+        "montoPablo": 16969.805
       }
     ]
   },
@@ -786,8 +835,9 @@
       "Delivery",
       "Restaurante",
       "Juntadas",
-      "Fiambrera"
+      "Fiambrera",
+      "Salud"
     ]
   },
-  "generadoEl": "2026-09-27T15:11:06.650Z"
+  "generadoEl": "2026-09-27T15:14:23.651Z"
 }
