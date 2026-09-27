@@ -1,11 +1,11 @@
 {
   "resumen": {
-    "totalGeneral": 883528.7599999999,
+    "totalGeneral": 891528.7599999999,
     "totalPagadoFlor": 74916.61,
-    "totalPagadoPablo": 808612.1499999999,
-    "saldoNetoFlor": -325056.77,
+    "totalPagadoPablo": 816612.1499999999,
+    "saldoNetoFlor": -329056.77,
     "porCategoria": {
-      "Comida": 766108.15,
+      "Comida": 774108.15,
       "Otros": 117420.61
     },
     "porSubcategoria": {
@@ -15,7 +15,8 @@
       "Fiambrera": 28552,
       "Salud": 33939.61,
       "Asado con amigos": 34940,
-      "Verdulera": 48800
+      "Verdulera": 48800,
+      "Despensa": 8000
     },
     "porProducto": {
       "Blue Label L + Papas Fritas": {
@@ -244,7 +245,7 @@
     "porMes": [
       {
         "mes": "2026-09",
-        "total": 883528.7599999999
+        "total": 891528.7599999999
       }
     ],
     "gastos": [
@@ -914,6 +915,23 @@
         "pctFlor": 50,
         "montoFlor": 1250,
         "montoPablo": 1250
+      },
+      {
+        "mes": "2026-09",
+        "fecha": "2026-09-19",
+        "hora": "1899-12-30T17:51:48.000Z",
+        "quienPago": "Pablo",
+        "monto": 8000,
+        "categoria": "Comida",
+        "subcategoria": "Despensa",
+        "items": [],
+        "medioPago": "Mercado Pago",
+        "banco": "",
+        "descripcion": "Transferencia a Sandra Mara Wuilfe (despensa)",
+        "comprobante": "",
+        "pctFlor": 50,
+        "montoFlor": 4000,
+        "montoPablo": 4000
       }
     ]
   },
@@ -942,8 +960,9 @@
       "Fiambrera",
       "Salud",
       "Asado con amigos",
-      "Verdulera"
+      "Verdulera",
+      "Despensa"
     ]
   },
-  "generadoEl": "2026-09-27T15:25:35.428Z"
+  "generadoEl": "2026-09-27T15:26:57.289Z"
 }
