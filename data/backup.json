@@ -1,11 +1,11 @@
 {
   "resumen": {
-    "totalGeneral": 834728.7599999999,
+    "totalGeneral": 866728.7599999999,
     "totalPagadoFlor": 74916.61,
-    "totalPagadoPablo": 759812.1499999999,
-    "saldoNetoFlor": -300656.77,
+    "totalPagadoPablo": 791812.1499999999,
+    "saldoNetoFlor": -316656.77,
     "porCategoria": {
-      "Comida": 717308.15,
+      "Comida": 749308.15,
       "Otros": 117420.61
     },
     "porSubcategoria": {
@@ -14,7 +14,8 @@
       "Supermercado": 147131.45,
       "Fiambrera": 28552,
       "Salud": 33939.61,
-      "Asado con amigos": 34940
+      "Asado con amigos": 34940,
+      "Verdulera": 32000
     },
     "porProducto": {
       "Blue Label L + Papas Fritas": {
@@ -243,7 +244,7 @@
     "porMes": [
       {
         "mes": "2026-09",
-        "total": 834728.7599999999
+        "total": 866728.7599999999
       }
     ],
     "gastos": [
@@ -862,6 +863,23 @@
         "pctFlor": 0,
         "montoFlor": 0,
         "montoPablo": 19000
+      },
+      {
+        "mes": "2026-09",
+        "fecha": "2026-09-13",
+        "hora": "1899-12-30T17:08:48.000Z",
+        "quienPago": "Pablo",
+        "monto": 32000,
+        "categoria": "Comida",
+        "subcategoria": "Verdulera",
+        "items": [],
+        "medioPago": "Mercado Pago",
+        "banco": "",
+        "descripcion": "Transferencia a Marta Domnguez (verdulera)",
+        "comprobante": "",
+        "pctFlor": 50,
+        "montoFlor": 16000,
+        "montoPablo": 16000
       }
     ]
   },
@@ -889,8 +907,9 @@
       "Juntadas",
       "Fiambrera",
       "Salud",
-      "Asado con amigos"
+      "Asado con amigos",
+      "Verdulera"
     ]
   },
-  "generadoEl": "2026-09-27T15:22:45.224Z"
+  "generadoEl": "2026-09-27T15:24:09.617Z"
 }
