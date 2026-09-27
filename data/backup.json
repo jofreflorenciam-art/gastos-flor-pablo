@@ -1,11 +1,11 @@
 {
   "resumen": {
-    "totalGeneral": 436555.7,
+    "totalGeneral": 492195.7,
     "totalPagadoFlor": 27777,
-    "totalPagadoPablo": 408778.7,
-    "saldoNetoFlor": -183859.85,
+    "totalPagadoPablo": 464418.7,
+    "saldoNetoFlor": -211679.85,
     "porCategoria": {
-      "Comida": 353074.7,
+      "Comida": 408714.7,
       "Otros": 83481
     },
     "porSubcategoria": {
@@ -14,7 +14,7 @@
     "porMes": [
       {
         "mes": "2026-09",
-        "total": 436555.7
+        "total": 492195.7
       }
     ],
     "gastos": [
@@ -289,6 +289,22 @@
         "pctFlor": 100,
         "montoFlor": 1970,
         "montoPablo": 0
+      },
+      {
+        "mes": "2026-09",
+        "fecha": "2026-09-22",
+        "hora": "1899-12-31T02:10:48.000Z",
+        "quienPago": "Pablo",
+        "monto": 55640,
+        "categoria": "Comida",
+        "subcategoria": "",
+        "medioPago": "Mercado Pago",
+        "banco": "",
+        "descripcion": "Yoko Sushi - Ciudad",
+        "comprobante": "",
+        "pctFlor": 50,
+        "montoFlor": 27820,
+        "montoPablo": 27820
       }
     ]
   },
@@ -316,5 +332,5 @@
       "Juntadas"
     ]
   },
-  "generadoEl": "2026-09-27T14:02:21.041Z"
+  "generadoEl": "2026-09-27T14:04:03.651Z"
 }
