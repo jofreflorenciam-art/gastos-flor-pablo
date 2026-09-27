@@ -1,18 +1,18 @@
 {
   "resumen": {
-    "totalGeneral": 331639.7,
+    "totalGeneral": 366631.7,
     "totalPagadoFlor": 0,
-    "totalPagadoPablo": 331639.7,
-    "saldoNetoFlor": -158935.35,
+    "totalPagadoPablo": 366631.7,
+    "saldoNetoFlor": -176431.35,
     "porCategoria": {
       "Comida": 283150.7,
-      "Otros": 48489
+      "Otros": 83481
     },
     "porSubcategoria": {},
     "porMes": [
       {
         "mes": "2026-09",
-        "total": 331639.7
+        "total": 366631.7
       }
     ],
     "gastos": [
@@ -207,6 +207,22 @@
         "pctFlor": 0,
         "montoFlor": 0,
         "montoPablo": 12470
+      },
+      {
+        "mes": "2026-09",
+        "fecha": "2026-09-19",
+        "hora": "1899-12-31T01:03:48.000Z",
+        "quienPago": "Pablo",
+        "monto": 34992,
+        "categoria": "Otros",
+        "subcategoria": "",
+        "medioPago": "Mercado Pago",
+        "banco": "",
+        "descripcion": "PedidosYa Market - Mendoza Las Heras",
+        "comprobante": "",
+        "pctFlor": 50,
+        "montoFlor": 17496,
+        "montoPablo": 17496
       }
     ]
   },
@@ -233,5 +249,5 @@
       "Restaurante"
     ]
   },
-  "generadoEl": "2026-09-27T13:51:39.795Z"
+  "generadoEl": "2026-09-27T13:53:07.210Z"
 }
