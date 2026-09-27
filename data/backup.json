@@ -1,20 +1,35 @@
 {
   "resumen": {
-    "totalGeneral": 521755.7,
+    "totalGeneral": 557965.7,
     "totalPagadoFlor": 27777,
-    "totalPagadoPablo": 493978.7,
-    "saldoNetoFlor": -211679.85,
+    "totalPagadoPablo": 530188.7,
+    "saldoNetoFlor": -229784.85,
     "porCategoria": {
-      "Comida": 438274.7,
+      "Comida": 474484.7,
       "Otros": 83481
     },
     "porSubcategoria": {
-      "Juntadas": 27777
+      "Juntadas": 27777,
+      "Delivery": 36210
+    },
+    "porProducto": {
+      "Blue Label L + Papas Fritas": {
+        "cantidad": 1,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Blue Label L + Papas Fritas Sin TACC": {
+        "cantidad": 1,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      }
     },
     "porMes": [
       {
         "mes": "2026-09",
-        "total": 521755.7
+        "total": 557965.7
       }
     ],
     "gastos": [
@@ -26,6 +41,7 @@
         "monto": 39689,
         "categoria": "Comida",
         "subcategoria": "",
+        "items": [],
         "medioPago": "Mercado Pago",
         "banco": "",
         "descripcion": "Pedidosya",
@@ -42,6 +58,7 @@
         "monto": 63997.7,
         "categoria": "Comida",
         "subcategoria": "",
+        "items": [],
         "medioPago": "Mercado Pago",
         "banco": "",
         "descripcion": "Benedetti",
@@ -58,6 +75,7 @@
         "monto": 20280,
         "categoria": "Comida",
         "subcategoria": "",
+        "items": [],
         "medioPago": "Mercado Pago",
         "banco": "",
         "descripcion": "Verduleria El Nene",
@@ -74,6 +92,7 @@
         "monto": 41120,
         "categoria": "Comida",
         "subcategoria": "",
+        "items": [],
         "medioPago": "Mercado Pago",
         "banco": "",
         "descripcion": "Carrefour - Hiper Mendoza",
@@ -90,6 +109,7 @@
         "monto": -8395,
         "categoria": "Comida",
         "subcategoria": "",
+        "items": [],
         "medioPago": "Mercado Pago",
         "banco": "",
         "descripcion": "Ajuste Carrefour - Hiper Mendoza (productos agotados)",
@@ -106,6 +126,7 @@
         "monto": 36210,
         "categoria": "Comida",
         "subcategoria": "",
+        "items": [],
         "medioPago": "Mercado Pago",
         "banco": "",
         "descripcion": "2 hamburguesas (delivery)",
@@ -122,6 +143,7 @@
         "monto": 32000,
         "categoria": "Comida",
         "subcategoria": "",
+        "items": [],
         "medioPago": "Mercado Pago",
         "banco": "",
         "descripcion": "Verduleria",
@@ -138,6 +160,7 @@
         "monto": 48489,
         "categoria": "Otros",
         "subcategoria": "",
+        "items": [],
         "medioPago": "Mercado Pago",
         "banco": "",
         "descripcion": "PedidosYa Market - Mendoza Las Heras",
@@ -154,6 +177,7 @@
         "monto": 10970,
         "categoria": "Comida",
         "subcategoria": "",
+        "items": [],
         "medioPago": "Mercado Pago",
         "banco": "",
         "descripcion": "Pura Tapioca",
@@ -170,6 +194,7 @@
         "monto": 23539,
         "categoria": "Comida",
         "subcategoria": "",
+        "items": [],
         "medioPago": "Mercado Pago",
         "banco": "",
         "descripcion": "Paparulos",
@@ -186,6 +211,7 @@
         "monto": 11270,
         "categoria": "Comida",
         "subcategoria": "",
+        "items": [],
         "medioPago": "Mercado Pago",
         "banco": "",
         "descripcion": "La Vene - Parque Central",
@@ -202,6 +228,7 @@
         "monto": 12470,
         "categoria": "Comida",
         "subcategoria": "",
+        "items": [],
         "medioPago": "Mercado Pago",
         "banco": "",
         "descripcion": "Enebro Gluten Free",
@@ -218,6 +245,7 @@
         "monto": 34992,
         "categoria": "Otros",
         "subcategoria": "",
+        "items": [],
         "medioPago": "Mercado Pago",
         "banco": "",
         "descripcion": "PedidosYa Market - Mendoza Las Heras",
@@ -234,6 +262,7 @@
         "monto": 19347,
         "categoria": "Comida",
         "subcategoria": "",
+        "items": [],
         "medioPago": "Mercado Pago",
         "banco": "",
         "descripcion": "McDonald's Lhz",
@@ -250,6 +279,7 @@
         "monto": 27777,
         "categoria": "Comida",
         "subcategoria": "Juntadas",
+        "items": [],
         "medioPago": "Mercado Pago",
         "banco": "",
         "descripcion": "Picada con Pablo y Sole",
@@ -266,6 +296,7 @@
         "monto": 20830,
         "categoria": "Comida",
         "subcategoria": "",
+        "items": [],
         "medioPago": "Mercado Pago",
         "banco": "",
         "descripcion": "Olive Gluten Free Ciudad",
@@ -282,6 +313,7 @@
         "monto": 1970,
         "categoria": "Comida",
         "subcategoria": "",
+        "items": [],
         "medioPago": "Mercado Pago",
         "banco": "",
         "descripcion": "La Vene - Paso de los Andes",
@@ -298,6 +330,7 @@
         "monto": 55640,
         "categoria": "Comida",
         "subcategoria": "",
+        "items": [],
         "medioPago": "Mercado Pago",
         "banco": "",
         "descripcion": "Yoko Sushi - Ciudad",
@@ -314,6 +347,7 @@
         "monto": 29560,
         "categoria": "Comida",
         "subcategoria": "",
+        "items": [],
         "medioPago": "Mercado Pago",
         "banco": "",
         "descripcion": "Pan Platos Argentinos Nobles",
@@ -321,6 +355,32 @@
         "pctFlor": 0,
         "montoFlor": 0,
         "montoPablo": 29560
+      },
+      {
+        "mes": "2026-09",
+        "fecha": "2026-09-25",
+        "hora": "1899-12-31T01:37:48.000Z",
+        "quienPago": "Pablo",
+        "monto": 36210,
+        "categoria": "Comida",
+        "subcategoria": "Delivery",
+        "items": [
+          {
+            "producto": "Blue Label L + Papas Fritas",
+            "cantidad": 1
+          },
+          {
+            "producto": "Blue Label L + Papas Fritas Sin TACC",
+            "cantidad": 1
+          }
+        ],
+        "medioPago": "Mercado Pago",
+        "banco": "",
+        "descripcion": "Tbt (PedidosYa)",
+        "comprobante": "",
+        "pctFlor": 50,
+        "montoFlor": 18105,
+        "montoPablo": 18105
       }
     ]
   },
@@ -348,5 +408,5 @@
       "Juntadas"
     ]
   },
-  "generadoEl": "2026-09-27T14:04:33.315Z"
+  "generadoEl": "2026-09-27T14:49:35.681Z"
 }
