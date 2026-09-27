@@ -1,17 +1,18 @@
 {
   "resumen": {
-    "totalGeneral": 705097.1499999999,
+    "totalGeneral": 733649.1499999999,
     "totalPagadoFlor": 27777,
-    "totalPagadoPablo": 677320.1499999999,
-    "saldoNetoFlor": -303350.575,
+    "totalPagadoPablo": 705872.1499999999,
+    "saldoNetoFlor": -317626.575,
     "porCategoria": {
-      "Comida": 621616.15,
+      "Comida": 650168.15,
       "Otros": 83481
     },
     "porSubcategoria": {
       "Juntadas": 27777,
       "Delivery": 36210,
-      "Supermercado": 147131.45
+      "Supermercado": 147131.45,
+      "Fiambrera": 28552
     },
     "porProducto": {
       "Blue Label L + Papas Fritas": {
@@ -199,12 +200,30 @@
         "monto": 0,
         "conCantidad": true,
         "conMonto": false
+      },
+      "Barra Ilolay": {
+        "cantidad": 0,
+        "monto": 0,
+        "conCantidad": false,
+        "conMonto": false
+      },
+      "Jamón N. Bocatti": {
+        "cantidad": 0,
+        "monto": 0,
+        "conCantidad": false,
+        "conMonto": false
+      },
+      "Cremoso Arroyo": {
+        "cantidad": 0,
+        "monto": 0,
+        "conCantidad": false,
+        "conMonto": false
       }
     },
     "porMes": [
       {
         "mes": "2026-09",
-        "total": 705097.1499999999
+        "total": 733649.1499999999
       }
     ],
     "gastos": [
@@ -715,6 +734,33 @@
         "pctFlor": 50,
         "montoFlor": 18990.75,
         "montoPablo": 18990.75
+      },
+      {
+        "mes": "2026-09",
+        "fecha": "2026-09-26",
+        "hora": "1899-12-31T00:51:48.000Z",
+        "quienPago": "Pablo",
+        "monto": 28552,
+        "categoria": "Comida",
+        "subcategoria": "Fiambrera",
+        "items": [
+          {
+            "producto": "Barra Ilolay"
+          },
+          {
+            "producto": "Jamón N. Bocatti"
+          },
+          {
+            "producto": "Cremoso Arroyo"
+          }
+        ],
+        "medioPago": "Mercado Pago",
+        "banco": "",
+        "descripcion": "Manchego",
+        "comprobante": "",
+        "pctFlor": 50,
+        "montoFlor": 14276,
+        "montoPablo": 14276
       }
     ]
   },
@@ -739,8 +785,9 @@
       "Carnicería",
       "Delivery",
       "Restaurante",
-      "Juntadas"
+      "Juntadas",
+      "Fiambrera"
     ]
   },
-  "generadoEl": "2026-09-27T15:09:07.905Z"
+  "generadoEl": "2026-09-27T15:11:06.650Z"
 }
