@@ -1,11 +1,11 @@
 {
   "resumen": {
-    "totalGeneral": 434585.7,
+    "totalGeneral": 436555.7,
     "totalPagadoFlor": 27777,
-    "totalPagadoPablo": 406808.7,
-    "saldoNetoFlor": -181889.85,
+    "totalPagadoPablo": 408778.7,
+    "saldoNetoFlor": -183859.85,
     "porCategoria": {
-      "Comida": 351104.7,
+      "Comida": 353074.7,
       "Otros": 83481
     },
     "porSubcategoria": {
@@ -14,7 +14,7 @@
     "porMes": [
       {
         "mes": "2026-09",
-        "total": 434585.7
+        "total": 436555.7
       }
     ],
     "gastos": [
@@ -273,6 +273,22 @@
         "pctFlor": 0,
         "montoFlor": 0,
         "montoPablo": 20830
+      },
+      {
+        "mes": "2026-09",
+        "fecha": "2026-09-22",
+        "hora": "1899-12-30T23:13:48.000Z",
+        "quienPago": "Pablo",
+        "monto": 1970,
+        "categoria": "Comida",
+        "subcategoria": "",
+        "medioPago": "Mercado Pago",
+        "banco": "",
+        "descripcion": "La Vene - Paso de los Andes",
+        "comprobante": "",
+        "pctFlor": 100,
+        "montoFlor": 1970,
+        "montoPablo": 0
       }
     ]
   },
@@ -300,5 +316,5 @@
       "Juntadas"
     ]
   },
-  "generadoEl": "2026-09-27T13:59:36.866Z"
+  "generadoEl": "2026-09-27T14:02:21.041Z"
 }
