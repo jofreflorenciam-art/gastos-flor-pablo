@@ -1,16 +1,17 @@
 {
   "resumen": {
-    "totalGeneral": 557965.7,
+    "totalGeneral": 667115.6499999999,
     "totalPagadoFlor": 27777,
-    "totalPagadoPablo": 530188.7,
-    "saldoNetoFlor": -229784.85,
+    "totalPagadoPablo": 639338.6499999999,
+    "saldoNetoFlor": -284359.825,
     "porCategoria": {
-      "Comida": 474484.7,
+      "Comida": 583634.65,
       "Otros": 83481
     },
     "porSubcategoria": {
       "Juntadas": 27777,
-      "Delivery": 36210
+      "Delivery": 36210,
+      "Supermercado": 109149.95
     },
     "porProducto": {
       "Blue Label L + Papas Fritas": {
@@ -24,12 +25,156 @@
         "monto": 0,
         "conCantidad": true,
         "conMonto": false
+      },
+      "Tapa De Asado El Mercado (0.6 kg)": {
+        "cantidad": 0,
+        "monto": 0,
+        "conCantidad": false,
+        "conMonto": false
+      },
+      "Arroz Integral Molinos Ala 1kg": {
+        "cantidad": 2,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Papas Congeladas Carrefour Classic Bastón Tradicionales 700g": {
+        "cantidad": 1,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Tomate Cherry Carrefour Extra En Lata 400g": {
+        "cantidad": 1,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Papas Fritas Lays Clásicas 85g": {
+        "cantidad": 2,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Leche La Serenísima Zero Lactosa Sin Lactosa Botella 1L": {
+        "cantidad": 2,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Gaseosa Pepsi Black 2L": {
+        "cantidad": 2,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Mozzarella Bocconcino Arrivata 150g": {
+        "cantidad": 1,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Desinfectante Elimina Olores Lysoform Original Aerosol 360ml": {
+        "cantidad": 1,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Cerveza Quilmes Bajo Cero 473ml": {
+        "cantidad": 2,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Nuggets Felices Las Vacas Sabor Pollo 300g": {
+        "cantidad": 1,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Mortadela Bocatti Con Pistacchio Feteado 70g": {
+        "cantidad": 1,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Arroz Risotto Gallo Pronto A La Española 240g": {
+        "cantidad": 1,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Dulce De Leche La Serenísima Libre De Gluten Colonial 400g": {
+        "cantidad": 1,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Queso Carrefour Classic Rallado 120g": {
+        "cantidad": 1,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Crema De Leche Carrefour 200ml": {
+        "cantidad": 2,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Premezcla Pizza Y Pan Pureza Gourmet Sin Gluten 500g": {
+        "cantidad": 1,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Alfajor Felices Las Vacas Chocolate Con Dulce De Almendra 60g": {
+        "cantidad": 1,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Molinos Ala Crackers de arroz 100g": {
+        "cantidad": 2,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Gaseosa Paso De Los Toros Pomelo 1.5L": {
+        "cantidad": 2,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Tomate La Campagnola Perita Entero 400g": {
+        "cantidad": 2,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Puré De Papas Estilo Tradicional Nestle Chef 100g": {
+        "cantidad": 2,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Queso Brie Emperador 100g": {
+        "cantidad": 1,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Soda Talca Sifón 2L": {
+        "cantidad": 3,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
       }
     },
     "porMes": [
       {
         "mes": "2026-09",
-        "total": 557965.7
+        "total": 667115.6499999999
       }
     ],
     "gastos": [
@@ -381,6 +526,119 @@
         "pctFlor": 50,
         "montoFlor": 18105,
         "montoPablo": 18105
+      },
+      {
+        "mes": "2026-09",
+        "fecha": "2026-09-26",
+        "hora": "1899-12-30T19:33:48.000Z",
+        "quienPago": "Pablo",
+        "monto": 109149.95,
+        "categoria": "Comida",
+        "subcategoria": "Supermercado",
+        "items": [
+          {
+            "producto": "Tapa De Asado El Mercado (0.6 kg)"
+          },
+          {
+            "producto": "Arroz Integral Molinos Ala 1kg",
+            "cantidad": 2
+          },
+          {
+            "producto": "Papas Congeladas Carrefour Classic Bastón Tradicionales 700g",
+            "cantidad": 1
+          },
+          {
+            "producto": "Tomate Cherry Carrefour Extra En Lata 400g",
+            "cantidad": 1
+          },
+          {
+            "producto": "Papas Fritas Lays Clásicas 85g",
+            "cantidad": 2
+          },
+          {
+            "producto": "Leche La Serenísima Zero Lactosa Sin Lactosa Botella 1L",
+            "cantidad": 2
+          },
+          {
+            "producto": "Gaseosa Pepsi Black 2L",
+            "cantidad": 2
+          },
+          {
+            "producto": "Mozzarella Bocconcino Arrivata 150g",
+            "cantidad": 1
+          },
+          {
+            "producto": "Desinfectante Elimina Olores Lysoform Original Aerosol 360ml",
+            "cantidad": 1
+          },
+          {
+            "producto": "Cerveza Quilmes Bajo Cero 473ml",
+            "cantidad": 2
+          },
+          {
+            "producto": "Nuggets Felices Las Vacas Sabor Pollo 300g",
+            "cantidad": 1
+          },
+          {
+            "producto": "Mortadela Bocatti Con Pistacchio Feteado 70g",
+            "cantidad": 1
+          },
+          {
+            "producto": "Arroz Risotto Gallo Pronto A La Española 240g",
+            "cantidad": 1
+          },
+          {
+            "producto": "Dulce De Leche La Serenísima Libre De Gluten Colonial 400g",
+            "cantidad": 1
+          },
+          {
+            "producto": "Queso Carrefour Classic Rallado 120g",
+            "cantidad": 1
+          },
+          {
+            "producto": "Crema De Leche Carrefour 200ml",
+            "cantidad": 2
+          },
+          {
+            "producto": "Premezcla Pizza Y Pan Pureza Gourmet Sin Gluten 500g",
+            "cantidad": 1
+          },
+          {
+            "producto": "Alfajor Felices Las Vacas Chocolate Con Dulce De Almendra 60g",
+            "cantidad": 1
+          },
+          {
+            "producto": "Molinos Ala Crackers de arroz 100g",
+            "cantidad": 2
+          },
+          {
+            "producto": "Gaseosa Paso De Los Toros Pomelo 1.5L",
+            "cantidad": 2
+          },
+          {
+            "producto": "Tomate La Campagnola Perita Entero 400g",
+            "cantidad": 2
+          },
+          {
+            "producto": "Puré De Papas Estilo Tradicional Nestle Chef 100g",
+            "cantidad": 2
+          },
+          {
+            "producto": "Queso Brie Emperador 100g",
+            "cantidad": 1
+          },
+          {
+            "producto": "Soda Talca Sifón 2L",
+            "cantidad": 3
+          }
+        ],
+        "medioPago": "Mercado Pago",
+        "banco": "",
+        "descripcion": "Carrefour - Hiper Mendoza (29)",
+        "comprobante": "",
+        "pctFlor": 50,
+        "montoFlor": 54574.975,
+        "montoPablo": 54574.975
       }
     ]
   },
@@ -408,5 +666,5 @@
       "Juntadas"
     ]
   },
-  "generadoEl": "2026-09-27T14:49:35.681Z"
+  "generadoEl": "2026-09-27T15:01:04.079Z"
 }
