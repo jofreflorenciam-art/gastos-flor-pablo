@@ -1,11 +1,11 @@
 {
   "resumen": {
-    "totalGeneral": 413755.7,
+    "totalGeneral": 434585.7,
     "totalPagadoFlor": 27777,
-    "totalPagadoPablo": 385978.7,
+    "totalPagadoPablo": 406808.7,
     "saldoNetoFlor": -181889.85,
     "porCategoria": {
-      "Comida": 330274.7,
+      "Comida": 351104.7,
       "Otros": 83481
     },
     "porSubcategoria": {
@@ -14,7 +14,7 @@
     "porMes": [
       {
         "mes": "2026-09",
-        "total": 413755.7
+        "total": 434585.7
       }
     ],
     "gastos": [
@@ -257,6 +257,22 @@
         "pctFlor": 50,
         "montoFlor": 13888.5,
         "montoPablo": 13888.5
+      },
+      {
+        "mes": "2026-09",
+        "fecha": "2026-09-22",
+        "hora": "1899-12-30T23:07:48.000Z",
+        "quienPago": "Pablo",
+        "monto": 20830,
+        "categoria": "Comida",
+        "subcategoria": "",
+        "medioPago": "Mercado Pago",
+        "banco": "",
+        "descripcion": "Olive Gluten Free Ciudad",
+        "comprobante": "",
+        "pctFlor": 0,
+        "montoFlor": 0,
+        "montoPablo": 20830
       }
     ]
   },
@@ -284,5 +300,5 @@
       "Juntadas"
     ]
   },
-  "generadoEl": "2026-09-27T13:58:14.220Z"
+  "generadoEl": "2026-09-27T13:59:36.866Z"
 }
