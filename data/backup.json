@@ -1,11 +1,11 @@
 {
   "resumen": {
-    "totalGeneral": 881028.7599999999,
+    "totalGeneral": 883528.7599999999,
     "totalPagadoFlor": 74916.61,
-    "totalPagadoPablo": 806112.1499999999,
-    "saldoNetoFlor": -323806.77,
+    "totalPagadoPablo": 808612.1499999999,
+    "saldoNetoFlor": -325056.77,
     "porCategoria": {
-      "Comida": 763608.15,
+      "Comida": 766108.15,
       "Otros": 117420.61
     },
     "porSubcategoria": {
@@ -15,7 +15,7 @@
       "Fiambrera": 28552,
       "Salud": 33939.61,
       "Asado con amigos": 34940,
-      "Verdulera": 46300
+      "Verdulera": 48800
     },
     "porProducto": {
       "Blue Label L + Papas Fritas": {
@@ -244,7 +244,7 @@
     "porMes": [
       {
         "mes": "2026-09",
-        "total": 881028.7599999999
+        "total": 883528.7599999999
       }
     ],
     "gastos": [
@@ -897,6 +897,23 @@
         "pctFlor": 50,
         "montoFlor": 7150,
         "montoPablo": 7150
+      },
+      {
+        "mes": "2026-09",
+        "fecha": "2026-09-17",
+        "hora": "1899-12-31T00:37:48.000Z",
+        "quienPago": "Pablo",
+        "monto": 2500,
+        "categoria": "Comida",
+        "subcategoria": "Verdulera",
+        "items": [],
+        "medioPago": "Mercado Pago",
+        "banco": "",
+        "descripcion": "Transferencia a Verdulera",
+        "comprobante": "",
+        "pctFlor": 50,
+        "montoFlor": 1250,
+        "montoPablo": 1250
       }
     ]
   },
@@ -928,5 +945,5 @@
       "Verdulera"
     ]
   },
-  "generadoEl": "2026-09-27T15:25:21.901Z"
+  "generadoEl": "2026-09-27T15:25:35.428Z"
 }
