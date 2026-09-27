@@ -1,11 +1,11 @@
 {
   "resumen": {
-    "totalGeneral": 767588.7599999999,
+    "totalGeneral": 802528.7599999999,
     "totalPagadoFlor": 61716.61,
-    "totalPagadoPablo": 705872.1499999999,
+    "totalPagadoPablo": 740812.1499999999,
     "saldoNetoFlor": -300656.77,
     "porCategoria": {
-      "Comida": 650168.15,
+      "Comida": 685108.15,
       "Otros": 117420.61
     },
     "porSubcategoria": {
@@ -13,7 +13,8 @@
       "Delivery": 36210,
       "Supermercado": 147131.45,
       "Fiambrera": 28552,
-      "Salud": 33939.61
+      "Salud": 33939.61,
+      "Asado con amigos": 34940
     },
     "porProducto": {
       "Blue Label L + Papas Fritas": {
@@ -242,7 +243,7 @@
     "porMes": [
       {
         "mes": "2026-09",
-        "total": 767588.7599999999
+        "total": 802528.7599999999
       }
     ],
     "gastos": [
@@ -810,6 +811,23 @@
         "pctFlor": 50,
         "montoFlor": 16969.805,
         "montoPablo": 16969.805
+      },
+      {
+        "mes": "2026-09",
+        "fecha": "2026-09-23",
+        "hora": "1899-12-30T23:16:48.000Z",
+        "quienPago": "Pablo",
+        "monto": 34940,
+        "categoria": "Comida",
+        "subcategoria": "Asado con amigos",
+        "items": [],
+        "medioPago": "Mercado Pago",
+        "banco": "",
+        "descripcion": "Transferencia a Adolfo Federico Senosiain (asado)",
+        "comprobante": "",
+        "pctFlor": 0,
+        "montoFlor": 0,
+        "montoPablo": 34940
       }
     ]
   },
@@ -836,8 +854,9 @@
       "Restaurante",
       "Juntadas",
       "Fiambrera",
-      "Salud"
+      "Salud",
+      "Asado con amigos"
     ]
   },
-  "generadoEl": "2026-09-27T15:14:23.651Z"
+  "generadoEl": "2026-09-27T15:17:28.749Z"
 }
