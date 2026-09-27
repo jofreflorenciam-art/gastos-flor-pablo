@@ -1,17 +1,17 @@
 {
   "resumen": {
-    "totalGeneral": 667115.6499999999,
+    "totalGeneral": 705097.1499999999,
     "totalPagadoFlor": 27777,
-    "totalPagadoPablo": 639338.6499999999,
-    "saldoNetoFlor": -284359.825,
+    "totalPagadoPablo": 677320.1499999999,
+    "saldoNetoFlor": -303350.575,
     "porCategoria": {
-      "Comida": 583634.65,
+      "Comida": 621616.15,
       "Otros": 83481
     },
     "porSubcategoria": {
       "Juntadas": 27777,
       "Delivery": 36210,
-      "Supermercado": 109149.95
+      "Supermercado": 147131.45
     },
     "porProducto": {
       "Blue Label L + Papas Fritas": {
@@ -81,7 +81,7 @@
         "conMonto": false
       },
       "Cerveza Quilmes Bajo Cero 473ml": {
-        "cantidad": 2,
+        "cantidad": 4,
         "monto": 0,
         "conCantidad": true,
         "conMonto": false
@@ -111,7 +111,7 @@
         "conMonto": false
       },
       "Queso Carrefour Classic Rallado 120g": {
-        "cantidad": 1,
+        "cantidad": 2,
         "monto": 0,
         "conCantidad": true,
         "conMonto": false
@@ -169,12 +169,42 @@
         "monto": 0,
         "conCantidad": true,
         "conMonto": false
+      },
+      "Salsa Golf Natura 250g": {
+        "cantidad": 1,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Kétchup Natura 250g": {
+        "cantidad": 1,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Mayonesa Natura 475g": {
+        "cantidad": 1,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Tomate Don Francisco Triturado 950g": {
+        "cantidad": 2,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Suprema De Pollo Congelada 2kg": {
+        "cantidad": 1,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
       }
     },
     "porMes": [
       {
         "mes": "2026-09",
-        "total": 667115.6499999999
+        "total": 705097.1499999999
       }
     ],
     "gastos": [
@@ -639,6 +669,52 @@
         "pctFlor": 50,
         "montoFlor": 54574.975,
         "montoPablo": 54574.975
+      },
+      {
+        "mes": "2026-09",
+        "fecha": "2026-09-27",
+        "hora": "1899-12-30T15:48:48.000Z",
+        "quienPago": "Pablo",
+        "monto": 37981.5,
+        "categoria": "Comida",
+        "subcategoria": "Supermercado",
+        "items": [
+          {
+            "producto": "Salsa Golf Natura 250g",
+            "cantidad": 1
+          },
+          {
+            "producto": "Kétchup Natura 250g",
+            "cantidad": 1
+          },
+          {
+            "producto": "Mayonesa Natura 475g",
+            "cantidad": 1
+          },
+          {
+            "producto": "Tomate Don Francisco Triturado 950g",
+            "cantidad": 2
+          },
+          {
+            "producto": "Cerveza Quilmes Bajo Cero 473ml",
+            "cantidad": 2
+          },
+          {
+            "producto": "Queso Carrefour Classic Rallado 120g",
+            "cantidad": 1
+          },
+          {
+            "producto": "Suprema De Pollo Congelada 2kg",
+            "cantidad": 1
+          }
+        ],
+        "medioPago": "Mercado Pago",
+        "banco": "",
+        "descripcion": "Carrefour - Express Tiburcio Benegas (269)",
+        "comprobante": "",
+        "pctFlor": 50,
+        "montoFlor": 18990.75,
+        "montoPablo": 18990.75
       }
     ]
   },
@@ -666,5 +742,5 @@
       "Juntadas"
     ]
   },
-  "generadoEl": "2026-09-27T15:01:04.079Z"
+  "generadoEl": "2026-09-27T15:09:07.905Z"
 }
