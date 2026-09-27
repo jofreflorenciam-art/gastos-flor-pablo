@@ -1,18 +1,18 @@
 {
   "resumen": {
-    "totalGeneral": 366631.7,
+    "totalGeneral": 385978.7,
     "totalPagadoFlor": 0,
-    "totalPagadoPablo": 366631.7,
-    "saldoNetoFlor": -176431.35,
+    "totalPagadoPablo": 385978.7,
+    "saldoNetoFlor": -195778.35,
     "porCategoria": {
-      "Comida": 283150.7,
+      "Comida": 302497.7,
       "Otros": 83481
     },
     "porSubcategoria": {},
     "porMes": [
       {
         "mes": "2026-09",
-        "total": 366631.7
+        "total": 385978.7
       }
     ],
     "gastos": [
@@ -223,6 +223,22 @@
         "pctFlor": 50,
         "montoFlor": 17496,
         "montoPablo": 17496
+      },
+      {
+        "mes": "2026-09",
+        "fecha": "2026-09-20",
+        "hora": "1899-12-31T01:53:48.000Z",
+        "quienPago": "Pablo",
+        "monto": 19347,
+        "categoria": "Comida",
+        "subcategoria": "",
+        "medioPago": "Mercado Pago",
+        "banco": "",
+        "descripcion": "McDonald's Lhz",
+        "comprobante": "",
+        "pctFlor": 100,
+        "montoFlor": 19347,
+        "montoPablo": 0
       }
     ]
   },
@@ -249,5 +265,5 @@
       "Restaurante"
     ]
   },
-  "generadoEl": "2026-09-27T13:53:07.210Z"
+  "generadoEl": "2026-09-27T13:54:22.707Z"
 }
