@@ -1,18 +1,20 @@
 {
   "resumen": {
-    "totalGeneral": 385978.7,
-    "totalPagadoFlor": 0,
+    "totalGeneral": 413755.7,
+    "totalPagadoFlor": 27777,
     "totalPagadoPablo": 385978.7,
-    "saldoNetoFlor": -195778.35,
+    "saldoNetoFlor": -181889.85,
     "porCategoria": {
-      "Comida": 302497.7,
+      "Comida": 330274.7,
       "Otros": 83481
     },
-    "porSubcategoria": {},
+    "porSubcategoria": {
+      "Juntadas": 27777
+    },
     "porMes": [
       {
         "mes": "2026-09",
-        "total": 385978.7
+        "total": 413755.7
       }
     ],
     "gastos": [
@@ -239,6 +241,22 @@
         "pctFlor": 100,
         "montoFlor": 19347,
         "montoPablo": 0
+      },
+      {
+        "mes": "2026-09",
+        "fecha": "2026-09-19",
+        "hora": "1899-12-31T01:29:48.000Z",
+        "quienPago": "Flor",
+        "monto": 27777,
+        "categoria": "Comida",
+        "subcategoria": "Juntadas",
+        "medioPago": "Mercado Pago",
+        "banco": "",
+        "descripcion": "Picada con Pablo y Sole",
+        "comprobante": "",
+        "pctFlor": 50,
+        "montoFlor": 13888.5,
+        "montoPablo": 13888.5
       }
     ]
   },
@@ -262,8 +280,9 @@
       "Verdulería",
       "Carnicería",
       "Delivery",
-      "Restaurante"
+      "Restaurante",
+      "Juntadas"
     ]
   },
-  "generadoEl": "2026-09-27T13:54:22.707Z"
+  "generadoEl": "2026-09-27T13:58:14.220Z"
 }
