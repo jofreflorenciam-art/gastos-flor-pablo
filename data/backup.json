@@ -1,11 +1,11 @@
 {
   "resumen": {
-    "totalGeneral": 492195.7,
+    "totalGeneral": 521755.7,
     "totalPagadoFlor": 27777,
-    "totalPagadoPablo": 464418.7,
+    "totalPagadoPablo": 493978.7,
     "saldoNetoFlor": -211679.85,
     "porCategoria": {
-      "Comida": 408714.7,
+      "Comida": 438274.7,
       "Otros": 83481
     },
     "porSubcategoria": {
@@ -14,7 +14,7 @@
     "porMes": [
       {
         "mes": "2026-09",
-        "total": 492195.7
+        "total": 521755.7
       }
     ],
     "gastos": [
@@ -305,6 +305,22 @@
         "pctFlor": 50,
         "montoFlor": 27820,
         "montoPablo": 27820
+      },
+      {
+        "mes": "2026-09",
+        "fecha": "2026-09-23",
+        "hora": "1899-12-31T01:56:48.000Z",
+        "quienPago": "Pablo",
+        "monto": 29560,
+        "categoria": "Comida",
+        "subcategoria": "",
+        "medioPago": "Mercado Pago",
+        "banco": "",
+        "descripcion": "Pan Platos Argentinos Nobles",
+        "comprobante": "",
+        "pctFlor": 0,
+        "montoFlor": 0,
+        "montoPablo": 29560
       }
     ]
   },
@@ -332,5 +348,5 @@
       "Juntadas"
     ]
   },
-  "generadoEl": "2026-09-27T14:04:03.651Z"
+  "generadoEl": "2026-09-27T14:04:33.315Z"
 }
