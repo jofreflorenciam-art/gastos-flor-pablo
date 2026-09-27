@@ -1,18 +1,18 @@
 {
   "resumen": {
-    "totalGeneral": 319169.7,
+    "totalGeneral": 331639.7,
     "totalPagadoFlor": 0,
-    "totalPagadoPablo": 319169.7,
+    "totalPagadoPablo": 331639.7,
     "saldoNetoFlor": -158935.35,
     "porCategoria": {
-      "Comida": 270680.7,
+      "Comida": 283150.7,
       "Otros": 48489
     },
     "porSubcategoria": {},
     "porMes": [
       {
         "mes": "2026-09",
-        "total": 319169.7
+        "total": 331639.7
       }
     ],
     "gastos": [
@@ -191,6 +191,22 @@
         "pctFlor": 100,
         "montoFlor": 11270,
         "montoPablo": 0
+      },
+      {
+        "mes": "2026-09",
+        "fecha": "2026-09-19",
+        "hora": "1899-12-30T13:34:48.000Z",
+        "quienPago": "Pablo",
+        "monto": 12470,
+        "categoria": "Comida",
+        "subcategoria": "",
+        "medioPago": "Mercado Pago",
+        "banco": "",
+        "descripcion": "Enebro Gluten Free",
+        "comprobante": "",
+        "pctFlor": 0,
+        "montoFlor": 0,
+        "montoPablo": 12470
       }
     ]
   },
@@ -217,5 +233,5 @@
       "Restaurante"
     ]
   },
-  "generadoEl": "2026-09-27T13:50:52.664Z"
+  "generadoEl": "2026-09-27T13:51:39.795Z"
 }
