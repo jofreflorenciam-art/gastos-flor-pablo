@@ -1,16 +1,16 @@
 {
   "resumen": {
-    "totalGeneral": 815728.7599999999,
+    "totalGeneral": 834728.7599999999,
     "totalPagadoFlor": 74916.61,
-    "totalPagadoPablo": 740812.1499999999,
+    "totalPagadoPablo": 759812.1499999999,
     "saldoNetoFlor": -300656.77,
     "porCategoria": {
-      "Comida": 698308.15,
+      "Comida": 717308.15,
       "Otros": 117420.61
     },
     "porSubcategoria": {
       "Juntadas": 40977,
-      "Delivery": 36210,
+      "Delivery": 55210,
       "Supermercado": 147131.45,
       "Fiambrera": 28552,
       "Salud": 33939.61,
@@ -243,7 +243,7 @@
     "porMes": [
       {
         "mes": "2026-09",
-        "total": 815728.7599999999
+        "total": 834728.7599999999
       }
     ],
     "gastos": [
@@ -845,6 +845,23 @@
         "pctFlor": 100,
         "montoFlor": 13200,
         "montoPablo": 0
+      },
+      {
+        "mes": "2026-09",
+        "fecha": "2026-09-20",
+        "hora": "1899-12-31T02:21:48.000Z",
+        "quienPago": "Pablo",
+        "monto": 19000,
+        "categoria": "Comida",
+        "subcategoria": "Delivery",
+        "items": [],
+        "medioPago": "Mercado Pago",
+        "banco": "",
+        "descripcion": "Transferencia a Mauro Ariel Malla (delivery)",
+        "comprobante": "",
+        "pctFlor": 0,
+        "montoFlor": 0,
+        "montoPablo": 19000
       }
     ]
   },
@@ -875,5 +892,5 @@
       "Asado con amigos"
     ]
   },
-  "generadoEl": "2026-09-27T15:18:31.448Z"
+  "generadoEl": "2026-09-27T15:22:45.224Z"
 }
