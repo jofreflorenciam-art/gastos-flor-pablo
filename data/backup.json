@@ -1,15 +1,15 @@
 {
   "resumen": {
-    "totalGeneral": 802528.7599999999,
-    "totalPagadoFlor": 61716.61,
+    "totalGeneral": 815728.7599999999,
+    "totalPagadoFlor": 74916.61,
     "totalPagadoPablo": 740812.1499999999,
     "saldoNetoFlor": -300656.77,
     "porCategoria": {
-      "Comida": 685108.15,
+      "Comida": 698308.15,
       "Otros": 117420.61
     },
     "porSubcategoria": {
-      "Juntadas": 27777,
+      "Juntadas": 40977,
       "Delivery": 36210,
       "Supermercado": 147131.45,
       "Fiambrera": 28552,
@@ -243,7 +243,7 @@
     "porMes": [
       {
         "mes": "2026-09",
-        "total": 802528.7599999999
+        "total": 815728.7599999999
       }
     ],
     "gastos": [
@@ -828,6 +828,23 @@
         "pctFlor": 0,
         "montoFlor": 0,
         "montoPablo": 34940
+      },
+      {
+        "mes": "2026-09",
+        "fecha": "2026-09-24",
+        "hora": "1899-12-30T16:33:48.000Z",
+        "quienPago": "Flor",
+        "monto": 13200,
+        "categoria": "Comida",
+        "subcategoria": "Juntadas",
+        "items": [],
+        "medioPago": "Mercado Pago",
+        "banco": "",
+        "descripcion": "Almuerzo IA summit",
+        "comprobante": "",
+        "pctFlor": 100,
+        "montoFlor": 13200,
+        "montoPablo": 0
       }
     ]
   },
@@ -858,5 +875,5 @@
       "Asado con amigos"
     ]
   },
-  "generadoEl": "2026-09-27T15:17:28.749Z"
+  "generadoEl": "2026-09-27T15:18:31.448Z"
 }
