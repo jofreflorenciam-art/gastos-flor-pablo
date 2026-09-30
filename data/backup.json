@@ -1,11 +1,11 @@
 {
   "resumen": {
-    "totalGeneral": 891528.7599999999,
+    "totalGeneral": 904578.7599999999,
     "totalPagadoFlor": 74916.61,
-    "totalPagadoPablo": 816612.1499999999,
-    "saldoNetoFlor": -329056.77,
+    "totalPagadoPablo": 829662.1499999999,
+    "saldoNetoFlor": -335581.77,
     "porCategoria": {
-      "Comida": 774108.15,
+      "Comida": 787158.15,
       "Otros": 117420.61
     },
     "porSubcategoria": {
@@ -16,7 +16,8 @@
       "Salud": 33939.61,
       "Asado con amigos": 34940,
       "Verdulera": 48800,
-      "Despensa": 8000
+      "Despensa": 8000,
+      "Pollera": 13050
     },
     "porProducto": {
       "Blue Label L + Papas Fritas": {
@@ -240,12 +241,24 @@
         "monto": 0,
         "conCantidad": true,
         "conMonto": false
+      },
+      "Suprema": {
+        "cantidad": 3,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Suprema de Pechuga": {
+        "cantidad": 1,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
       }
     },
     "porMes": [
       {
         "mes": "2026-09",
-        "total": 891528.7599999999
+        "total": 904578.7599999999
       }
     ],
     "gastos": [
@@ -932,6 +945,32 @@
         "pctFlor": 50,
         "montoFlor": 4000,
         "montoPablo": 4000
+      },
+      {
+        "mes": "2026-09",
+        "fecha": "2026-09-30",
+        "hora": "1899-12-31T00:41:48.000Z",
+        "quienPago": "Pablo",
+        "monto": 13050,
+        "categoria": "Comida",
+        "subcategoria": "Pollera",
+        "items": [
+          {
+            "producto": "Suprema",
+            "cantidad": 3
+          },
+          {
+            "producto": "Suprema de Pechuga",
+            "cantidad": 1
+          }
+        ],
+        "medioPago": "Mercado Pago",
+        "banco": "",
+        "descripcion": "Pollera (Carlos Jos Damico)",
+        "comprobante": "",
+        "pctFlor": 50,
+        "montoFlor": 6525,
+        "montoPablo": 6525
       }
     ]
   },
@@ -961,8 +1000,9 @@
       "Salud",
       "Asado con amigos",
       "Verdulera",
-      "Despensa"
+      "Despensa",
+      "Pollera"
     ]
   },
-  "generadoEl": "2026-09-27T15:26:57.289Z"
+  "generadoEl": "2026-09-30T23:27:01.213Z"
 }
