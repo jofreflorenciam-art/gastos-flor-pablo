@@ -1,16 +1,16 @@
 {
   "resumen": {
-    "totalGeneral": 904578.7599999999,
+    "totalGeneral": 940078.7599999999,
     "totalPagadoFlor": 74916.61,
-    "totalPagadoPablo": 829662.1499999999,
-    "saldoNetoFlor": -335581.77,
+    "totalPagadoPablo": 865162.1499999999,
+    "saldoNetoFlor": -353331.76999999996,
     "porCategoria": {
-      "Comida": 787158.15,
+      "Comida": 822658.15,
       "Otros": 117420.61
     },
     "porSubcategoria": {
+      "Delivery": 90710,
       "Juntadas": 40977,
-      "Delivery": 55210,
       "Supermercado": 147131.45,
       "Fiambrera": 28552,
       "Salud": 33939.61,
@@ -20,6 +20,12 @@
       "Pollera": 13050
     },
     "porProducto": {
+      "Lomito con papas fritas": {
+        "cantidad": 2,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
       "Blue Label L + Papas Fritas": {
         "cantidad": 1,
         "monto": 0,
@@ -259,9 +265,35 @@
       {
         "mes": "2026-09",
         "total": 904578.7599999999
+      },
+      {
+        "mes": "2026-10",
+        "total": 35500
       }
     ],
     "gastos": [
+      {
+        "mes": "2026-10",
+        "fecha": "2026-10-01",
+        "hora": "1899-12-31T02:20:48.000Z",
+        "quienPago": "Pablo",
+        "monto": 35500,
+        "categoria": "Comida",
+        "subcategoria": "Delivery",
+        "items": [
+          {
+            "producto": "Lomito con papas fritas",
+            "cantidad": 2
+          }
+        ],
+        "medioPago": "Mercado Pago",
+        "banco": "",
+        "descripcion": "Paparulos",
+        "comprobante": "",
+        "pctFlor": 50,
+        "montoFlor": 17750,
+        "montoPablo": 17750
+      },
       {
         "mes": "2026-09",
         "fecha": "2026-09-03",
@@ -1004,5 +1036,5 @@
       "Pollera"
     ]
   },
-  "generadoEl": "2026-09-30T23:27:01.213Z"
+  "generadoEl": "2026-10-02T10:29:04.383Z"
 }
