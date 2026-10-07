@@ -1,17 +1,17 @@
 {
   "resumen": {
-    "totalGeneral": 952078.7599999999,
+    "totalGeneral": 998153.7599999999,
     "totalPagadoFlor": 74916.61,
-    "totalPagadoPablo": 877162.1499999999,
-    "saldoNetoFlor": -365331.76999999996,
+    "totalPagadoPablo": 923237.1499999999,
+    "saldoNetoFlor": -388369.26999999996,
     "porCategoria": {
-      "Comida": 834658.15,
+      "Comida": 880733.1499999999,
       "Otros": 117420.61
     },
     "porSubcategoria": {
       "Delivery": 102710,
+      "Supermercado": 193206.45,
       "Juntadas": 40977,
-      "Supermercado": 147131.45,
       "Fiambrera": 28552,
       "Salud": 33939.61,
       "Asado con amigos": 34940,
@@ -34,6 +34,42 @@
       },
       "Pancho Completo (cuatro quesos, criolla; papas pay; mayonesa, salsa golf, ketchup)": {
         "cantidad": 1,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Picada Jamón Crudo GB Libre de Gluten": {
+        "cantidad": 2,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Vacío De Cerdo Bandeja": {
+        "cantidad": 0.656,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Filet - TB": {
+        "cantidad": 0.24,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Bollo De Entraña - Pieza - TF": {
+        "cantidad": 0.305,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Cuarto Trasero Avícola": {
+        "cantidad": 0.87,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Suprema Avícola": {
+        "cantidad": 0.605,
         "monto": 0,
         "conCantidad": true,
         "conMonto": false
@@ -280,7 +316,7 @@
       },
       {
         "mes": "2026-10",
-        "total": 47500
+        "total": 93575
       }
     ],
     "gastos": [
@@ -331,6 +367,48 @@
         "pctFlor": 100,
         "montoFlor": 12000,
         "montoPablo": 0
+      },
+      {
+        "mes": "2026-10",
+        "fecha": "2026-10-04",
+        "hora": "1899-12-30T16:53:48.000Z",
+        "quienPago": "Pablo",
+        "monto": 46075,
+        "categoria": "Comida",
+        "subcategoria": "Supermercado",
+        "items": [
+          {
+            "producto": "Picada Jamón Crudo GB Libre de Gluten",
+            "cantidad": 2
+          },
+          {
+            "producto": "Vacío De Cerdo Bandeja",
+            "cantidad": 0.656
+          },
+          {
+            "producto": "Filet - TB",
+            "cantidad": 0.24
+          },
+          {
+            "producto": "Bollo De Entraña - Pieza - TF",
+            "cantidad": 0.305
+          },
+          {
+            "producto": "Cuarto Trasero Avícola",
+            "cantidad": 0.87
+          },
+          {
+            "producto": "Suprema Avícola",
+            "cantidad": 0.605
+          }
+        ],
+        "medioPago": "Mercado Pago",
+        "banco": "",
+        "descripcion": "Granja Benedetti",
+        "comprobante": "",
+        "pctFlor": 50,
+        "montoFlor": 23037.5,
+        "montoPablo": 23037.5
       },
       {
         "mes": "2026-09",
@@ -1074,5 +1152,5 @@
       "Pollera"
     ]
   },
-  "generadoEl": "2026-10-07T10:19:56.629Z"
+  "generadoEl": "2026-10-07T10:21:20.035Z"
 }
