@@ -1,15 +1,15 @@
 {
   "resumen": {
-    "totalGeneral": 940078.7599999999,
+    "totalGeneral": 952078.7599999999,
     "totalPagadoFlor": 74916.61,
-    "totalPagadoPablo": 865162.1499999999,
-    "saldoNetoFlor": -353331.76999999996,
+    "totalPagadoPablo": 877162.1499999999,
+    "saldoNetoFlor": -365331.76999999996,
     "porCategoria": {
-      "Comida": 822658.15,
+      "Comida": 834658.15,
       "Otros": 117420.61
     },
     "porSubcategoria": {
-      "Delivery": 90710,
+      "Delivery": 102710,
       "Juntadas": 40977,
       "Supermercado": 147131.45,
       "Fiambrera": 28552,
@@ -22,6 +22,18 @@
     "porProducto": {
       "Lomito con papas fritas": {
         "cantidad": 2,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Pancho Completo (queso roquefort, aceitunas; papas pay; mayonesa, ketchup, salsa golf)": {
+        "cantidad": 1,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Pancho Completo (cuatro quesos, criolla; papas pay; mayonesa, salsa golf, ketchup)": {
+        "cantidad": 1,
         "monto": 0,
         "conCantidad": true,
         "conMonto": false
@@ -268,7 +280,7 @@
       },
       {
         "mes": "2026-10",
-        "total": 35500
+        "total": 47500
       }
     ],
     "gastos": [
@@ -293,6 +305,32 @@
         "pctFlor": 50,
         "montoFlor": 17750,
         "montoPablo": 17750
+      },
+      {
+        "mes": "2026-10",
+        "fecha": "2026-10-06",
+        "hora": "1899-12-30T22:47:48.000Z",
+        "quienPago": "Pablo",
+        "monto": 12000,
+        "categoria": "Comida",
+        "subcategoria": "Delivery",
+        "items": [
+          {
+            "producto": "Pancho Completo (queso roquefort, aceitunas; papas pay; mayonesa, ketchup, salsa golf)",
+            "cantidad": 1
+          },
+          {
+            "producto": "Pancho Completo (cuatro quesos, criolla; papas pay; mayonesa, salsa golf, ketchup)",
+            "cantidad": 1
+          }
+        ],
+        "medioPago": "Tarjeta",
+        "banco": "",
+        "descripcion": "Los Panchos De Villa - Aristides",
+        "comprobante": "",
+        "pctFlor": 100,
+        "montoFlor": 12000,
+        "montoPablo": 0
       },
       {
         "mes": "2026-09",
@@ -1036,5 +1074,5 @@
       "Pollera"
     ]
   },
-  "generadoEl": "2026-10-02T10:29:04.383Z"
+  "generadoEl": "2026-10-07T10:19:56.629Z"
 }
