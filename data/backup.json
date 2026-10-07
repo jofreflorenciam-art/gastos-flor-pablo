@@ -1,21 +1,21 @@
 {
   "resumen": {
-    "totalGeneral": 998153.7599999999,
+    "totalGeneral": 1030153.7599999999,
     "totalPagadoFlor": 74916.61,
-    "totalPagadoPablo": 923237.1499999999,
-    "saldoNetoFlor": -388369.26999999996,
+    "totalPagadoPablo": 955237.1499999999,
+    "saldoNetoFlor": -404369.26999999996,
     "porCategoria": {
-      "Comida": 880733.1499999999,
+      "Comida": 912733.1499999999,
       "Otros": 117420.61
     },
     "porSubcategoria": {
       "Delivery": 102710,
       "Supermercado": 193206.45,
+      "Verdulera": 80800,
       "Juntadas": 40977,
       "Fiambrera": 28552,
       "Salud": 33939.61,
       "Asado con amigos": 34940,
-      "Verdulera": 48800,
       "Despensa": 8000,
       "Pollera": 13050
     },
@@ -316,7 +316,7 @@
       },
       {
         "mes": "2026-10",
-        "total": 93575
+        "total": 125575
       }
     ],
     "gastos": [
@@ -409,6 +409,23 @@
         "pctFlor": 50,
         "montoFlor": 23037.5,
         "montoPablo": 23037.5
+      },
+      {
+        "mes": "2026-10",
+        "fecha": "2026-10-07",
+        "hora": "1899-12-31T00:46:48.000Z",
+        "quienPago": "Pablo",
+        "monto": 32000,
+        "categoria": "Comida",
+        "subcategoria": "Verdulera",
+        "items": [],
+        "medioPago": "Mercado Pago",
+        "banco": "",
+        "descripcion": "Verdulera",
+        "comprobante": "",
+        "pctFlor": 50,
+        "montoFlor": 16000,
+        "montoPablo": 16000
       },
       {
         "mes": "2026-09",
@@ -1152,5 +1169,5 @@
       "Pollera"
     ]
   },
-  "generadoEl": "2026-10-07T10:21:20.035Z"
+  "generadoEl": "2026-10-07T23:46:49.728Z"
 }
