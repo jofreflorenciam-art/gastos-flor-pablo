@@ -1,17 +1,17 @@
 {
   "resumen": {
-    "totalGeneral": 1030153.7599999999,
+    "totalGeneral": 1055623.7599999998,
     "totalPagadoFlor": 74916.61,
-    "totalPagadoPablo": 955237.1499999999,
-    "saldoNetoFlor": -404369.26999999996,
+    "totalPagadoPablo": 980707.1499999999,
+    "saldoNetoFlor": -417104.26999999996,
     "porCategoria": {
-      "Comida": 912733.1499999999,
+      "Comida": 938203.1499999999,
       "Otros": 117420.61
     },
     "porSubcategoria": {
       "Delivery": 102710,
       "Supermercado": 193206.45,
-      "Verdulera": 80800,
+      "Verdulera": 106270,
       "Juntadas": 40977,
       "Fiambrera": 28552,
       "Salud": 33939.61,
@@ -316,7 +316,7 @@
       },
       {
         "mes": "2026-10",
-        "total": 125575
+        "total": 151045
       }
     ],
     "gastos": [
@@ -426,6 +426,23 @@
         "pctFlor": 50,
         "montoFlor": 16000,
         "montoPablo": 16000
+      },
+      {
+        "mes": "2026-10",
+        "fecha": "2026-10-04",
+        "hora": "1899-12-30T17:30:48.000Z",
+        "quienPago": "Pablo",
+        "monto": 25470,
+        "categoria": "Comida",
+        "subcategoria": "Verdulera",
+        "items": [],
+        "medioPago": "Mercado Pago",
+        "banco": "",
+        "descripcion": "Verdulera al lado de la casa de los padres de Flor (Felipe Canedo)",
+        "comprobante": "",
+        "pctFlor": 50,
+        "montoFlor": 12735,
+        "montoPablo": 12735
       },
       {
         "mes": "2026-09",
@@ -1169,5 +1186,5 @@
       "Pollera"
     ]
   },
-  "generadoEl": "2026-10-07T23:46:49.728Z"
+  "generadoEl": "2026-10-07T23:46:57.070Z"
 }
