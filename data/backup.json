@@ -1,16 +1,16 @@
 {
   "resumen": {
-    "totalGeneral": 1125086.23,
+    "totalGeneral": 1297202.6300000001,
     "totalPagadoFlor": 131179.08000000002,
-    "totalPagadoPablo": 993907.1499999999,
-    "saldoNetoFlor": -395573.035,
+    "totalPagadoPablo": 1166023.55,
+    "saldoNetoFlor": -481631.23500000004,
     "porCategoria": {
-      "Comida": 1007665.6199999999,
+      "Comida": 1179782.02,
       "Otros": 117420.61
     },
     "porSubcategoria": {
       "Delivery": 102710,
-      "Supermercado": 262668.92,
+      "Supermercado": 434785.32,
       "Verdulera": 106270,
       "Juntadas": 40977,
       "Fiambrera": 28552,
@@ -124,6 +124,228 @@
       },
       "Rúcula 100g": {
         "cantidad": 1,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Gaseosa Coca-Cola Zero 1.5 L": {
+        "cantidad": 2,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Detergente Magistral Ultra Limón 450 ml": {
+        "cantidad": 2,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Gel Lubricante Maxx Clásico 50 g": {
+        "cantidad": 1,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Tostaditas Quento Jamón Ibérico 95 g": {
+        "cantidad": 1,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Yogur La Serenísima Clásico Natural Sin Endulzar 120 g": {
+        "cantidad": 4,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Queso Brie La Serenísima Natural 100 g": {
+        "cantidad": 1,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Papas Fritas Quento Clásicas 160 g": {
+        "cantidad": 2,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Gaseosa Secco Pomelo Intenso 2.25 L": {
+        "cantidad": 1,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Aceite De Girasol Cocinero En Aerosol Fritolim Clásico 120 g": {
+        "cantidad": 1,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Crema De Leche Tonadita 200 g": {
+        "cantidad": 2,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Yogurt Tregar Natural Sin Azúcar 140 g": {
+        "cantidad": 4,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Salchichas Vienissima (460 g) 12 Unidades": {
+        "cantidad": 1,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Alfajor Laddu Sin Tacc Chocolate 60 g": {
+        "cantidad": 1,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Jabón En Barra Palmolive Nutrimilk 85 g": {
+        "cantidad": 2,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Manteca La Paulina 200 g": {
+        "cantidad": 1,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Pasta Dental Colgate Ultra Blanco 90 g": {
+        "cantidad": 1,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Aceite De Oliva Oliovita Extra Virgen 500 cm3": {
+        "cantidad": 1,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Rollo De Cocina Elegante Gigante Doble Hoja 200 Paños": {
+        "cantidad": 1,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Bombones Franuí De Frambuesa Con Chocolate De Leche Y Blanco 150 g": {
+        "cantidad": 1,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Pasta De Maní Maní King 485 g": {
+        "cantidad": 1,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Soda Secco 2 L": {
+        "cantidad": 2,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Leche Las Tres Niñas Parcialmente Descremada 0% Lactosa 1 L": {
+        "cantidad": 3,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Procenex Frescura De Gardenia 1800 ml": {
+        "cantidad": 1,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Batatas Quento Fritas De Batatas Fritas 75 g": {
+        "cantidad": 1,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Palta Hass Selección 115 g": {
+        "cantidad": 2,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Salsa Golf Natura 250 g": {
+        "cantidad": 1,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Cerveza 1890 Quilmes 473 ml": {
+        "cantidad": 2,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Tostaditas De Arroz Quento 4 Quesos 90 g": {
+        "cantidad": 1,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Suavizante Para Ropa Vivere Eterna Primavera Doypack 900 ml": {
+        "cantidad": 1,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Azúcar Blanco Ledesma Refinado Superior 1 kg": {
+        "cantidad": 1,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Queso Blanco Tregar Light 290 g": {
+        "cantidad": 1,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Alfajor Terrabusi Sin Gluten 55 g": {
+        "cantidad": 1,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Jabón Líquido Para Diluir Ariel Platinum Bot 500 ml": {
+        "cantidad": 1,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Papel Higiénico Higienol Plus Doble Hoja (30 Metros) 4 Unidades": {
+        "cantidad": 1,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Vino Finca Flichman Reserva Cabernet Franc 750 ml": {
+        "cantidad": 1,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Puré De Tomate Vigente Brick 520 g": {
+        "cantidad": 2,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Pure De Papas Original Maggi 125 g": {
+        "cantidad": 2,
         "monto": 0,
         "conCantidad": true,
         "conMonto": false
@@ -394,7 +616,7 @@
       },
       {
         "mes": "2026-10",
-        "total": 201890.22
+        "total": 374006.62
       }
     ],
     "gastos": [
@@ -573,6 +795,172 @@
         "pctFlor": 50,
         "montoFlor": 25422.61,
         "montoPablo": 25422.61
+      },
+      {
+        "mes": "2026-10",
+        "fecha": "2026-10-03",
+        "hora": "1899-12-30T17:11:48.000Z",
+        "quienPago": "Pablo",
+        "monto": 172116.4,
+        "categoria": "Comida",
+        "subcategoria": "Supermercado",
+        "items": [
+          {
+            "producto": "Gaseosa Coca-Cola Zero 1.5 L",
+            "cantidad": 2
+          },
+          {
+            "producto": "Detergente Magistral Ultra Limón 450 ml",
+            "cantidad": 2
+          },
+          {
+            "producto": "Gel Lubricante Maxx Clásico 50 g",
+            "cantidad": 1
+          },
+          {
+            "producto": "Tostaditas Quento Jamón Ibérico 95 g",
+            "cantidad": 1
+          },
+          {
+            "producto": "Yogur La Serenísima Clásico Natural Sin Endulzar 120 g",
+            "cantidad": 4
+          },
+          {
+            "producto": "Queso Brie La Serenísima Natural 100 g",
+            "cantidad": 1
+          },
+          {
+            "producto": "Papas Fritas Quento Clásicas 160 g",
+            "cantidad": 2
+          },
+          {
+            "producto": "Gaseosa Secco Pomelo Intenso 2.25 L",
+            "cantidad": 1
+          },
+          {
+            "producto": "Aceite De Girasol Cocinero En Aerosol Fritolim Clásico 120 g",
+            "cantidad": 1
+          },
+          {
+            "producto": "Crema De Leche Tonadita 200 g",
+            "cantidad": 2
+          },
+          {
+            "producto": "Yogurt Tregar Natural Sin Azúcar 140 g",
+            "cantidad": 4
+          },
+          {
+            "producto": "Salchichas Vienissima (460 g) 12 Unidades",
+            "cantidad": 1
+          },
+          {
+            "producto": "Alfajor Laddu Sin Tacc Chocolate 60 g",
+            "cantidad": 1
+          },
+          {
+            "producto": "Jabón En Barra Palmolive Nutrimilk 85 g",
+            "cantidad": 2
+          },
+          {
+            "producto": "Manteca La Paulina 200 g",
+            "cantidad": 1
+          },
+          {
+            "producto": "Pasta Dental Colgate Ultra Blanco 90 g",
+            "cantidad": 1
+          },
+          {
+            "producto": "Aceite De Oliva Oliovita Extra Virgen 500 cm3",
+            "cantidad": 1
+          },
+          {
+            "producto": "Rollo De Cocina Elegante Gigante Doble Hoja 200 Paños",
+            "cantidad": 1
+          },
+          {
+            "producto": "Bombones Franuí De Frambuesa Con Chocolate De Leche Y Blanco 150 g",
+            "cantidad": 1
+          },
+          {
+            "producto": "Pasta De Maní Maní King 485 g",
+            "cantidad": 1
+          },
+          {
+            "producto": "Soda Secco 2 L",
+            "cantidad": 2
+          },
+          {
+            "producto": "Leche Las Tres Niñas Parcialmente Descremada 0% Lactosa 1 L",
+            "cantidad": 3
+          },
+          {
+            "producto": "Procenex Frescura De Gardenia 1800 ml",
+            "cantidad": 1
+          },
+          {
+            "producto": "Batatas Quento Fritas De Batatas Fritas 75 g",
+            "cantidad": 1
+          },
+          {
+            "producto": "Palta Hass Selección 115 g",
+            "cantidad": 2
+          },
+          {
+            "producto": "Salsa Golf Natura 250 g",
+            "cantidad": 1
+          },
+          {
+            "producto": "Cerveza 1890 Quilmes 473 ml",
+            "cantidad": 2
+          },
+          {
+            "producto": "Tostaditas De Arroz Quento 4 Quesos 90 g",
+            "cantidad": 1
+          },
+          {
+            "producto": "Suavizante Para Ropa Vivere Eterna Primavera Doypack 900 ml",
+            "cantidad": 1
+          },
+          {
+            "producto": "Azúcar Blanco Ledesma Refinado Superior 1 kg",
+            "cantidad": 1
+          },
+          {
+            "producto": "Queso Blanco Tregar Light 290 g",
+            "cantidad": 1
+          },
+          {
+            "producto": "Alfajor Terrabusi Sin Gluten 55 g",
+            "cantidad": 1
+          },
+          {
+            "producto": "Jabón Líquido Para Diluir Ariel Platinum Bot 500 ml",
+            "cantidad": 1
+          },
+          {
+            "producto": "Papel Higiénico Higienol Plus Doble Hoja (30 Metros) 4 Unidades",
+            "cantidad": 1
+          },
+          {
+            "producto": "Vino Finca Flichman Reserva Cabernet Franc 750 ml",
+            "cantidad": 1
+          },
+          {
+            "producto": "Puré De Tomate Vigente Brick 520 g",
+            "cantidad": 2
+          },
+          {
+            "producto": "Pure De Papas Original Maggi 125 g",
+            "cantidad": 2
+          }
+        ],
+        "medioPago": "Tarjeta",
+        "banco": "",
+        "descripcion": "PedidosYa Market - Mendoza Las Heras",
+        "comprobante": "",
+        "pctFlor": 50,
+        "montoFlor": 86058.2,
+        "montoPablo": 86058.2
       },
       {
         "mes": "2026-09",
@@ -1357,5 +1745,5 @@
       "Pollera"
     ]
   },
-  "generadoEl": "2026-10-08T01:01:36.164Z"
+  "generadoEl": "2026-10-08T01:15:52.802Z"
 }
