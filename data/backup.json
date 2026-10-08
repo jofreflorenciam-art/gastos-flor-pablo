@@ -1,16 +1,16 @@
 {
   "resumen": {
-    "totalGeneral": 1055623.7599999998,
-    "totalPagadoFlor": 74916.61,
-    "totalPagadoPablo": 980707.1499999999,
-    "saldoNetoFlor": -417104.26999999996,
+    "totalGeneral": 1106468.98,
+    "totalPagadoFlor": 112561.83,
+    "totalPagadoPablo": 993907.1499999999,
+    "saldoNetoFlor": -404881.6599999999,
     "porCategoria": {
-      "Comida": 938203.1499999999,
+      "Comida": 989048.3699999999,
       "Otros": 117420.61
     },
     "porSubcategoria": {
       "Delivery": 102710,
-      "Supermercado": 193206.45,
+      "Supermercado": 244051.66999999998,
       "Verdulera": 106270,
       "Juntadas": 40977,
       "Fiambrera": 28552,
@@ -74,6 +74,60 @@
         "conCantidad": true,
         "conMonto": false
       },
+      "Queso Cremoso Horma Carrefour Classic (1,17 kg)": {
+        "cantidad": 0,
+        "monto": 0,
+        "conCantidad": false,
+        "conMonto": false
+      },
+      "Zapallo Anco Fraccionado (0,53 kg)": {
+        "cantidad": 0,
+        "monto": 0,
+        "conCantidad": false,
+        "conMonto": false
+      },
+      "Shampoo Dove Men + Care Fortificante Caspa Control 400ml": {
+        "cantidad": 2,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Papas Congeladas Carrefour Classic Bastón Tradicionales 700g": {
+        "cantidad": 3,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Jamón Crudo El Artesano Feteado 100g": {
+        "cantidad": 1,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Queso Mozzarella Bocconcino Carrefour Selection 150g": {
+        "cantidad": 1,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Huevos Grandes De Color Cartón 12 Unidades": {
+        "cantidad": 1,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Cerveza Quilmes Bajo Cero 473ml": {
+        "cantidad": 6,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Rúcula 100g": {
+        "cantidad": 1,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
       "Blue Label L + Papas Fritas": {
         "cantidad": 1,
         "monto": 0,
@@ -94,12 +148,6 @@
       },
       "Arroz Integral Molinos Ala 1kg": {
         "cantidad": 2,
-        "monto": 0,
-        "conCantidad": true,
-        "conMonto": false
-      },
-      "Papas Congeladas Carrefour Classic Bastón Tradicionales 700g": {
-        "cantidad": 1,
         "monto": 0,
         "conCantidad": true,
         "conMonto": false
@@ -136,12 +184,6 @@
       },
       "Desinfectante Elimina Olores Lysoform Original Aerosol 360ml": {
         "cantidad": 1,
-        "monto": 0,
-        "conCantidad": true,
-        "conMonto": false
-      },
-      "Cerveza Quilmes Bajo Cero 473ml": {
-        "cantidad": 4,
         "monto": 0,
         "conCantidad": true,
         "conMonto": false
@@ -316,7 +358,7 @@
       },
       {
         "mes": "2026-10",
-        "total": 151045
+        "total": 201890.22
       }
     ],
     "gastos": [
@@ -443,6 +485,58 @@
         "pctFlor": 50,
         "montoFlor": 12735,
         "montoPablo": 12735
+      },
+      {
+        "mes": "2026-10",
+        "fecha": "2026-10-03",
+        "hora": "1899-12-31T01:03:48.000Z",
+        "quienPago": "Flor",
+        "monto": 50845.22,
+        "categoria": "Comida",
+        "subcategoria": "Supermercado",
+        "items": [
+          {
+            "producto": "Queso Cremoso Horma Carrefour Classic (1,17 kg)"
+          },
+          {
+            "producto": "Zapallo Anco Fraccionado (0,53 kg)"
+          },
+          {
+            "producto": "Shampoo Dove Men + Care Fortificante Caspa Control 400ml",
+            "cantidad": 2
+          },
+          {
+            "producto": "Papas Congeladas Carrefour Classic Bastón Tradicionales 700g",
+            "cantidad": 2
+          },
+          {
+            "producto": "Jamón Crudo El Artesano Feteado 100g",
+            "cantidad": 1
+          },
+          {
+            "producto": "Queso Mozzarella Bocconcino Carrefour Selection 150g",
+            "cantidad": 1
+          },
+          {
+            "producto": "Huevos Grandes De Color Cartón 12 Unidades",
+            "cantidad": 1
+          },
+          {
+            "producto": "Cerveza Quilmes Bajo Cero 473ml",
+            "cantidad": 2
+          },
+          {
+            "producto": "Rúcula 100g",
+            "cantidad": 1
+          }
+        ],
+        "medioPago": "Tarjeta",
+        "banco": "",
+        "descripcion": "Carrefour - Hiper Mendoza (29)",
+        "comprobante": "",
+        "pctFlor": 50,
+        "montoFlor": 25422.61,
+        "montoPablo": 25422.61
       },
       {
         "mes": "2026-09",
@@ -1030,7 +1124,7 @@
         "mes": "2026-09",
         "fecha": "2026-09-24",
         "hora": "1899-12-30T16:33:48.000Z",
-        "quienPago": "Flor",
+        "quienPago": "Pablo",
         "monto": 13200,
         "categoria": "Comida",
         "subcategoria": "Juntadas",
@@ -1186,5 +1280,5 @@
       "Pollera"
     ]
   },
-  "generadoEl": "2026-10-07T23:46:57.070Z"
+  "generadoEl": "2026-10-08T01:01:28.203Z"
 }
