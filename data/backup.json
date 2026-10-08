@@ -1,16 +1,16 @@
 {
   "resumen": {
-    "totalGeneral": 1106468.98,
-    "totalPagadoFlor": 112561.83,
+    "totalGeneral": 1125086.23,
+    "totalPagadoFlor": 131179.08000000002,
     "totalPagadoPablo": 993907.1499999999,
-    "saldoNetoFlor": -404881.6599999999,
+    "saldoNetoFlor": -395573.035,
     "porCategoria": {
-      "Comida": 989048.3699999999,
+      "Comida": 1007665.6199999999,
       "Otros": 117420.61
     },
     "porSubcategoria": {
       "Delivery": 102710,
-      "Supermercado": 244051.66999999998,
+      "Supermercado": 262668.92,
       "Verdulera": 106270,
       "Juntadas": 40977,
       "Fiambrera": 28552,
@@ -349,12 +349,48 @@
         "monto": 0,
         "conCantidad": true,
         "conMonto": false
+      },
+      "Mandarina Selección (1,05 kg)": {
+        "cantidad": 0,
+        "monto": 0,
+        "conCantidad": false,
+        "conMonto": false
+      },
+      "Papel Higiénico Higienol Plus Doble Hoja (30 m) 4 Unidades": {
+        "cantidad": 1,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Palta Hass Selección 115g": {
+        "cantidad": 2,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Espinaca x Atado": {
+        "cantidad": 2,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Almidón de Maíz Maizena Clásico Sin TACC 220g": {
+        "cantidad": 2,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Chicles Topline Seven Sandia Mania Sin Azúcares 14g": {
+        "cantidad": 2,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
       }
     },
     "porMes": [
       {
         "mes": "2026-09",
-        "total": 904578.7599999999
+        "total": 923196.0099999999
       },
       {
         "mes": "2026-10",
@@ -1247,6 +1283,47 @@
         "pctFlor": 50,
         "montoFlor": 6525,
         "montoPablo": 6525
+      },
+      {
+        "mes": "2026-09",
+        "fecha": "2026-09-27",
+        "hora": "1899-12-30T16:20:48.000Z",
+        "quienPago": "Flor",
+        "monto": 18617.25,
+        "categoria": "Comida",
+        "subcategoria": "Supermercado",
+        "items": [
+          {
+            "producto": "Mandarina Selección (1,05 kg)"
+          },
+          {
+            "producto": "Papel Higiénico Higienol Plus Doble Hoja (30 m) 4 Unidades",
+            "cantidad": 1
+          },
+          {
+            "producto": "Palta Hass Selección 115g",
+            "cantidad": 2
+          },
+          {
+            "producto": "Espinaca x Atado",
+            "cantidad": 2
+          },
+          {
+            "producto": "Almidón de Maíz Maizena Clásico Sin TACC 220g",
+            "cantidad": 2
+          },
+          {
+            "producto": "Chicles Topline Seven Sandia Mania Sin Azúcares 14g",
+            "cantidad": 2
+          }
+        ],
+        "medioPago": "Tarjeta",
+        "banco": "",
+        "descripcion": "PedidosYa Market - Mendoza Las Heras",
+        "comprobante": "",
+        "pctFlor": 50,
+        "montoFlor": 9308.625,
+        "montoPablo": 9308.625
       }
     ]
   },
@@ -1280,5 +1357,5 @@
       "Pollera"
     ]
   },
-  "generadoEl": "2026-10-08T01:01:28.203Z"
+  "generadoEl": "2026-10-08T01:01:36.164Z"
 }
