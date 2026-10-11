@@ -1,17 +1,18 @@
 {
   "resumen": {
-    "totalGeneral": 1297672.6300000001,
+    "totalGeneral": 1317772.6300000001,
     "totalPagadoFlor": 131179.08000000002,
-    "totalPagadoPablo": 1166493.55,
-    "saldoNetoFlor": -482101.23500000004,
+    "totalPagadoPablo": 1186593.55,
+    "saldoNetoFlor": -492151.23500000004,
     "porCategoria": {
-      "Comida": 1180252.02,
+      "Comida": 1200352.02,
       "Otros": 117420.61
     },
     "porSubcategoria": {
       "Delivery": 103180,
       "Supermercado": 434785.32,
       "Verdulera": 106270,
+      "Panadera": 20100,
       "Juntadas": 40977,
       "Fiambrera": 28552,
       "Salud": 33939.61,
@@ -350,6 +351,12 @@
         "conCantidad": true,
         "conMonto": false
       },
+      "Pan Lactal Olive": {
+        "cantidad": 3,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
       "Blue Label L + Papas Fritas": {
         "cantidad": 1,
         "monto": 0,
@@ -616,7 +623,7 @@
       },
       {
         "mes": "2026-10",
-        "total": 374476.62
+        "total": 394576.62
       }
     ],
     "gastos": [
@@ -978,6 +985,28 @@
         "pctFlor": 100,
         "montoFlor": 470,
         "montoPablo": 0
+      },
+      {
+        "mes": "2026-10",
+        "fecha": "2026-10-10",
+        "hora": "",
+        "quienPago": "Pablo",
+        "monto": 20100,
+        "categoria": "Comida",
+        "subcategoria": "Panadera",
+        "items": [
+          {
+            "producto": "Pan Lactal Olive",
+            "cantidad": 3
+          }
+        ],
+        "medioPago": "Efectivo",
+        "banco": "",
+        "descripcion": "Olive Gluten Free",
+        "comprobante": "",
+        "pctFlor": 50,
+        "montoFlor": 10050,
+        "montoPablo": 10050
       },
       {
         "mes": "2026-09",
@@ -1759,8 +1788,9 @@
       "Asado con amigos",
       "Verdulera",
       "Despensa",
-      "Pollera"
+      "Pollera",
+      "Panadera"
     ]
   },
-  "generadoEl": "2026-10-08T10:03:32.352Z"
+  "generadoEl": "2026-10-11T00:28:06.299Z"
 }
