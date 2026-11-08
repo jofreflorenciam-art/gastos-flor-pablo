@@ -1,16 +1,16 @@
 {
   "resumen": {
-    "totalGeneral": 1534942.24,
-    "totalPagadoFlor": 348348.69,
+    "totalGeneral": 1557559.8399999999,
+    "totalPagadoFlor": 370966.29,
     "totalPagadoPablo": 1186593.55,
-    "saldoNetoFlor": -383566.43,
+    "saldoNetoFlor": -372257.62999999995,
     "porCategoria": {
-      "Comida": 1417521.63,
+      "Comida": 1440139.2299999997,
       "Otros": 117420.61
     },
     "porSubcategoria": {
       "Delivery": 124420,
-      "Supermercado": 630714.9299999999,
+      "Supermercado": 653332.5299999999,
       "Verdulera": 106270,
       "Panadera": 20100,
       "Juntadas": 40977,
@@ -274,7 +274,7 @@
         "conMonto": false
       },
       "Palta Hass Selección 115 g": {
-        "cantidad": 4,
+        "cantidad": 6,
         "monto": 0,
         "conCantidad": true,
         "conMonto": false
@@ -286,7 +286,7 @@
         "conMonto": false
       },
       "Cerveza 1890 Quilmes 473 ml": {
-        "cantidad": 6,
+        "cantidad": 8,
         "monto": 0,
         "conCantidad": true,
         "conMonto": false
@@ -502,7 +502,7 @@
         "conMonto": false
       },
       "Tomate Cherry 250 g": {
-        "cantidad": 1,
+        "cantidad": 2,
         "monto": 0,
         "conCantidad": true,
         "conMonto": false
@@ -575,6 +575,30 @@
       },
       "Empanada capresse": {
         "cantidad": 3,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Pate Bocatti Con Pimienta Verde 90 g": {
+        "cantidad": 1,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Pochoclos Maxi Fiesta Dulces Clasicos 280 g": {
+        "cantidad": 1,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Premezcla Pizza Y Pan Pureza Gourmet Sin Gluten 500 g": {
+        "cantidad": 1,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Mortadela Bocatti Con Pistacchio Feteado 70 g": {
+        "cantidad": 2,
         "monto": 0,
         "conCantidad": true,
         "conMonto": false
@@ -845,7 +869,7 @@
       },
       {
         "mes": "2026-10",
-        "total": 611746.23
+        "total": 634363.83
       }
     ],
     "gastos": [
@@ -1486,6 +1510,52 @@
         "pctFlor": 50,
         "montoFlor": 10620,
         "montoPablo": 10620
+      },
+      {
+        "mes": "2026-10",
+        "fecha": "2026-10-23",
+        "hora": "1899-12-31T00:02:48.000Z",
+        "quienPago": "Flor",
+        "monto": 22617.6,
+        "categoria": "Comida",
+        "subcategoria": "Supermercado",
+        "items": [
+          {
+            "producto": "Pate Bocatti Con Pimienta Verde 90 g",
+            "cantidad": 1
+          },
+          {
+            "producto": "Cerveza 1890 Quilmes 473 ml",
+            "cantidad": 2
+          },
+          {
+            "producto": "Palta Hass Selección 115 g",
+            "cantidad": 2
+          },
+          {
+            "producto": "Pochoclos Maxi Fiesta Dulces Clasicos 280 g",
+            "cantidad": 1
+          },
+          {
+            "producto": "Premezcla Pizza Y Pan Pureza Gourmet Sin Gluten 500 g",
+            "cantidad": 1
+          },
+          {
+            "producto": "Tomate Cherry 250 g",
+            "cantidad": 1
+          },
+          {
+            "producto": "Mortadela Bocatti Con Pistacchio Feteado 70 g",
+            "cantidad": 2
+          }
+        ],
+        "medioPago": "Tarjeta",
+        "banco": "",
+        "descripcion": "PedidosYa Market - Mendoza Las Heras",
+        "comprobante": "",
+        "pctFlor": 50,
+        "montoFlor": 11308.8,
+        "montoPablo": 11308.8
       },
       {
         "mes": "2026-09",
@@ -2271,5 +2341,5 @@
       "Panadera"
     ]
   },
-  "generadoEl": "2026-11-08T14:51:12.507Z"
+  "generadoEl": "2026-11-08T14:53:26.708Z"
 }
