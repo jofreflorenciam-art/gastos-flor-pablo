@@ -1,16 +1,16 @@
 {
   "resumen": {
-    "totalGeneral": 1654577.69,
-    "totalPagadoFlor": 467984.13999999996,
+    "totalGeneral": 1671477.69,
+    "totalPagadoFlor": 484884.13999999996,
     "totalPagadoPablo": 1186593.55,
-    "saldoNetoFlor": -323748.705,
+    "saldoNetoFlor": -306848.705,
     "porCategoria": {
-      "Comida": 1537157.0799999998,
+      "Comida": 1554057.0799999998,
       "Otros": 117420.61
     },
     "porSubcategoria": {
       "Delivery": 124420,
-      "Supermercado": 715440.3799999999,
+      "Supermercado": 732340.3799999999,
       "Verdulera": 106270,
       "Panadera": 20100,
       "Panificados (Olive)": 34910,
@@ -688,6 +688,12 @@
         "conCantidad": true,
         "conMonto": false
       },
+      "Suprema De Pollo Congelada 2 kg": {
+        "cantidad": 1,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
       "Blue Label L + Papas Fritas": {
         "cantidad": 1,
         "monto": 0,
@@ -954,7 +960,7 @@
       },
       {
         "mes": "2026-10",
-        "total": 731381.6799999999
+        "total": 748281.6799999999
       }
     ],
     "gastos": [
@@ -1751,6 +1757,28 @@
         "montoPablo": 31053.925
       },
       {
+        "mes": "2026-10",
+        "fecha": "2026-10-23",
+        "hora": "1899-12-31T00:03:48.000Z",
+        "quienPago": "Flor",
+        "monto": 16900,
+        "categoria": "Comida",
+        "subcategoria": "Supermercado",
+        "items": [
+          {
+            "producto": "Suprema De Pollo Congelada 2 kg",
+            "cantidad": 1
+          }
+        ],
+        "medioPago": "Tarjeta",
+        "banco": "",
+        "descripcion": "Suprema de pollo - Carrefour Hiper Mendoza (29)",
+        "comprobante": "",
+        "pctFlor": 0,
+        "montoFlor": 0,
+        "montoPablo": 16900
+      },
+      {
         "mes": "2026-09",
         "fecha": "2026-09-03",
         "hora": "1899-12-31T01:23:48.000Z",
@@ -2535,5 +2563,5 @@
       "Panificados (Olive)"
     ]
   },
-  "generadoEl": "2026-11-08T14:56:59.496Z"
+  "generadoEl": "2026-11-08T14:57:06.235Z"
 }
