@@ -1,16 +1,16 @@
 {
   "resumen": {
-    "totalGeneral": 1368617.85,
-    "totalPagadoFlor": 182024.3,
+    "totalGeneral": 1431868.2,
+    "totalPagadoFlor": 245274.65000000002,
     "totalPagadoPablo": 1186593.55,
-    "saldoNetoFlor": -466728.62500000006,
+    "saldoNetoFlor": -435103.44999999995,
     "porCategoria": {
-      "Comida": 1251197.2399999998,
+      "Comida": 1314447.5899999999,
       "Otros": 117420.61
     },
     "porSubcategoria": {
       "Delivery": 103180,
-      "Supermercado": 485630.54,
+      "Supermercado": 548880.8899999999,
       "Verdulera": 106270,
       "Panadera": 20100,
       "Juntadas": 40977,
@@ -286,7 +286,7 @@
         "conMonto": false
       },
       "Cerveza 1890 Quilmes 473 ml": {
-        "cantidad": 2,
+        "cantidad": 6,
         "monto": 0,
         "conCantidad": true,
         "conMonto": false
@@ -310,7 +310,7 @@
         "conMonto": false
       },
       "Queso Blanco Tregar Light 290 g": {
-        "cantidad": 1,
+        "cantidad": 2,
         "monto": 0,
         "conCantidad": true,
         "conMonto": false
@@ -388,12 +388,96 @@
         "conMonto": false
       },
       "Papas Congeladas Carrefour Classic Bastón Tradicionales 700 g": {
-        "cantidad": 2,
+        "cantidad": 3,
         "monto": 0,
         "conCantidad": true,
         "conMonto": false
       },
       "Rúcula 100 g": {
+        "cantidad": 1,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Whisky Hiram Walker 750 cm3": {
+        "cantidad": 1,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Leche Condensada Nestle 395 g": {
+        "cantidad": 2,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Caramelos Arcor Mogul Rellenos Masti Extreme Splash Frutilla Limón 30 g": {
+        "cantidad": 1,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Crema De Leche Carrefour 200 ml": {
+        "cantidad": 2,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Galletitas Crackers Traviata Kesitas Sabor Queso 96 g": {
+        "cantidad": 2,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Alfajor Sin Tacc Maní Laddu 60 g": {
+        "cantidad": 1,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Aperitivo Amargo Obrero 19° 950 ml": {
+        "cantidad": 1,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Queso Untable Tonadita Sabor Queso Azul 180 g": {
+        "cantidad": 2,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Cerveza Quilmes Clásica 710ml": {
+        "cantidad": 2,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Pastillas Tic Tac Citrus Mix Pastillas 16 g": {
+        "cantidad": 1,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Té Akbar Strawberry Y Kiwi En Caja 25 Unidades": {
+        "cantidad": 1,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Nachos Macritas Originales 110 g": {
+        "cantidad": 1,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Chocolate Cofler Dubai 43 g": {
+        "cantidad": 1,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Gomitas Mogul Moras 80 g": {
         "cantidad": 1,
         "monto": 0,
         "conCantidad": true,
@@ -665,7 +749,7 @@
       },
       {
         "mes": "2026-10",
-        "total": 445421.83999999997
+        "total": 508672.18999999994
       }
     ],
     "gastos": [
@@ -1101,6 +1185,92 @@
         "pctFlor": 50,
         "montoFlor": 25422.61,
         "montoPablo": 25422.61
+      },
+      {
+        "mes": "2026-10",
+        "fecha": "2026-10-09",
+        "hora": "1899-12-30T23:57:48.000Z",
+        "quienPago": "Flor",
+        "monto": 63250.35,
+        "categoria": "Comida",
+        "subcategoria": "Supermercado",
+        "items": [
+          {
+            "producto": "Whisky Hiram Walker 750 cm3",
+            "cantidad": 1
+          },
+          {
+            "producto": "Leche Condensada Nestle 395 g",
+            "cantidad": 2
+          },
+          {
+            "producto": "Caramelos Arcor Mogul Rellenos Masti Extreme Splash Frutilla Limón 30 g",
+            "cantidad": 1
+          },
+          {
+            "producto": "Papas Congeladas Carrefour Classic Bastón Tradicionales 700 g",
+            "cantidad": 1
+          },
+          {
+            "producto": "Crema De Leche Carrefour 200 ml",
+            "cantidad": 2
+          },
+          {
+            "producto": "Galletitas Crackers Traviata Kesitas Sabor Queso 96 g",
+            "cantidad": 2
+          },
+          {
+            "producto": "Alfajor Sin Tacc Maní Laddu 60 g",
+            "cantidad": 1
+          },
+          {
+            "producto": "Aperitivo Amargo Obrero 19° 950 ml",
+            "cantidad": 1
+          },
+          {
+            "producto": "Queso Untable Tonadita Sabor Queso Azul 180 g",
+            "cantidad": 2
+          },
+          {
+            "producto": "Queso Blanco Tregar Light 290 g",
+            "cantidad": 1
+          },
+          {
+            "producto": "Cerveza Quilmes Clásica 710ml",
+            "cantidad": 2
+          },
+          {
+            "producto": "Pastillas Tic Tac Citrus Mix Pastillas 16 g",
+            "cantidad": 1
+          },
+          {
+            "producto": "Cerveza 1890 Quilmes 473 ml",
+            "cantidad": 4
+          },
+          {
+            "producto": "Té Akbar Strawberry Y Kiwi En Caja 25 Unidades",
+            "cantidad": 1
+          },
+          {
+            "producto": "Nachos Macritas Originales 110 g",
+            "cantidad": 1
+          },
+          {
+            "producto": "Chocolate Cofler Dubai 43 g",
+            "cantidad": 1
+          },
+          {
+            "producto": "Gomitas Mogul Moras 80 g",
+            "cantidad": 1
+          }
+        ],
+        "medioPago": "Tarjeta",
+        "banco": "",
+        "descripcion": "Carrefour - Hiper Mendoza (29)",
+        "comprobante": "",
+        "pctFlor": 50,
+        "montoFlor": 31625.175,
+        "montoPablo": 31625.175
       },
       {
         "mes": "2026-09",
@@ -1886,5 +2056,5 @@
       "Panadera"
     ]
   },
-  "generadoEl": "2026-11-08T14:46:35.503Z"
+  "generadoEl": "2026-11-08T14:48:08.215Z"
 }
