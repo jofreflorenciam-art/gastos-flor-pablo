@@ -1,16 +1,16 @@
 {
   "resumen": {
-    "totalGeneral": 1317772.6300000001,
-    "totalPagadoFlor": 131179.08000000002,
+    "totalGeneral": 1368617.85,
+    "totalPagadoFlor": 182024.3,
     "totalPagadoPablo": 1186593.55,
-    "saldoNetoFlor": -492151.23500000004,
+    "saldoNetoFlor": -466728.62500000006,
     "porCategoria": {
-      "Comida": 1200352.02,
+      "Comida": 1251197.2399999998,
       "Otros": 117420.61
     },
     "porSubcategoria": {
       "Delivery": 103180,
-      "Supermercado": 434785.32,
+      "Supermercado": 485630.54,
       "Verdulera": 106270,
       "Panadera": 20100,
       "Juntadas": 40977,
@@ -357,6 +357,48 @@
         "conCantidad": true,
         "conMonto": false
       },
+      "Shampoo Dove Men + Care Fortificante Caspa Control 400 ml": {
+        "cantidad": 2,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Huevos Grandes De Color Carton 12 Unidades": {
+        "cantidad": 1,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Jamón Crudo El Artesano Feteado 100 g": {
+        "cantidad": 1,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Queso mozzarella bocconcino Carrefour Selection 150 g": {
+        "cantidad": 1,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Cerveza Quilmes Bajo Cero 473 ml": {
+        "cantidad": 2,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Papas Congeladas Carrefour Classic Bastón Tradicionales 700 g": {
+        "cantidad": 2,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Rúcula 100 g": {
+        "cantidad": 1,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
       "Blue Label L + Papas Fritas": {
         "cantidad": 1,
         "monto": 0,
@@ -623,7 +665,7 @@
       },
       {
         "mes": "2026-10",
-        "total": 394576.62
+        "total": 445421.83999999997
       }
     ],
     "gastos": [
@@ -1007,6 +1049,58 @@
         "pctFlor": 50,
         "montoFlor": 10050,
         "montoPablo": 10050
+      },
+      {
+        "mes": "2026-10",
+        "fecha": "2026-10-03",
+        "hora": "1899-12-31T01:03:48.000Z",
+        "quienPago": "Flor",
+        "monto": 50845.22,
+        "categoria": "Comida",
+        "subcategoria": "Supermercado",
+        "items": [
+          {
+            "producto": "Queso Cremoso Horma Carrefour Classic (1,17 kg)"
+          },
+          {
+            "producto": "Zapallo Anco Fraccionado (0,53 kg)"
+          },
+          {
+            "producto": "Shampoo Dove Men + Care Fortificante Caspa Control 400 ml",
+            "cantidad": 2
+          },
+          {
+            "producto": "Huevos Grandes De Color Carton 12 Unidades",
+            "cantidad": 1
+          },
+          {
+            "producto": "Jamón Crudo El Artesano Feteado 100 g",
+            "cantidad": 1
+          },
+          {
+            "producto": "Queso mozzarella bocconcino Carrefour Selection 150 g",
+            "cantidad": 1
+          },
+          {
+            "producto": "Cerveza Quilmes Bajo Cero 473 ml",
+            "cantidad": 2
+          },
+          {
+            "producto": "Papas Congeladas Carrefour Classic Bastón Tradicionales 700 g",
+            "cantidad": 2
+          },
+          {
+            "producto": "Rúcula 100 g",
+            "cantidad": 1
+          }
+        ],
+        "medioPago": "Tarjeta",
+        "banco": "",
+        "descripcion": "Carrefour - Hiper Mendoza (29)",
+        "comprobante": "",
+        "pctFlor": 50,
+        "montoFlor": 25422.61,
+        "montoPablo": 25422.61
       },
       {
         "mes": "2026-09",
@@ -1792,5 +1886,5 @@
       "Panadera"
     ]
   },
-  "generadoEl": "2026-10-11T00:28:06.299Z"
+  "generadoEl": "2026-11-08T14:46:35.503Z"
 }
