@@ -1,16 +1,16 @@
 {
   "resumen": {
-    "totalGeneral": 1592469.8399999999,
-    "totalPagadoFlor": 405876.29,
+    "totalGeneral": 1654577.69,
+    "totalPagadoFlor": 467984.13999999996,
     "totalPagadoPablo": 1186593.55,
-    "saldoNetoFlor": -354802.62999999995,
+    "saldoNetoFlor": -323748.705,
     "porCategoria": {
-      "Comida": 1475049.2299999997,
+      "Comida": 1537157.0799999998,
       "Otros": 117420.61
     },
     "porSubcategoria": {
       "Delivery": 124420,
-      "Supermercado": 653332.5299999999,
+      "Supermercado": 715440.3799999999,
       "Verdulera": 106270,
       "Panadera": 20100,
       "Panificados (Olive)": 34910,
@@ -377,7 +377,7 @@
         "conMonto": false
       },
       "Queso mozzarella bocconcino Carrefour Selection 150 g": {
-        "cantidad": 1,
+        "cantidad": 2,
         "monto": 0,
         "conCantidad": true,
         "conMonto": false
@@ -389,7 +389,7 @@
         "conMonto": false
       },
       "Papas Congeladas Carrefour Classic Bastón Tradicionales 700 g": {
-        "cantidad": 3,
+        "cantidad": 5,
         "monto": 0,
         "conCantidad": true,
         "conMonto": false
@@ -497,7 +497,7 @@
         "conMonto": false
       },
       "Ajo 1 Unidad": {
-        "cantidad": 1,
+        "cantidad": 2,
         "monto": 0,
         "conCantidad": true,
         "conMonto": false
@@ -539,7 +539,7 @@
         "conMonto": false
       },
       "Tostaditas Quento Jamón Iberico 95 g": {
-        "cantidad": 1,
+        "cantidad": 2,
         "monto": 0,
         "conCantidad": true,
         "conMonto": false
@@ -618,6 +618,72 @@
       },
       "Pan lactal": {
         "cantidad": 3,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Papas Fritas Lays Clásicas 134 g": {
+        "cantidad": 2,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Pan Para Panchos Veneziana 6 Unidades": {
+        "cantidad": 1,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Dulce De Leche La Serenisima Colonial 250 g": {
+        "cantidad": 1,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Premezcla Para Panadería Y Resposteria Santa María Sin Lactosa 1 kg": {
+        "cantidad": 1,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Leche Uat Zero Lactosa La Serenisima 1 L": {
+        "cantidad": 2,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Mostaza Natura 250 g": {
+        "cantidad": 1,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Manteca Tonadita Clasica 100 g": {
+        "cantidad": 1,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Margarina Margadan 200 g": {
+        "cantidad": 1,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Avena Pureza Instantánea Sin Gluten 400 g": {
+        "cantidad": 1,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Yogur Milkaut Bebible Vainilla 0% Lactosa Sin Lactosa 900 g": {
+        "cantidad": 2,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Molinos Ala Crackers de arroz 100 g": {
+        "cantidad": 2,
         "monto": 0,
         "conCantidad": true,
         "conMonto": false
@@ -888,7 +954,7 @@
       },
       {
         "mes": "2026-10",
-        "total": 669273.83
+        "total": 731381.6799999999
       }
     ],
     "gastos": [
@@ -1605,6 +1671,84 @@
         "pctFlor": 50,
         "montoFlor": 17455,
         "montoPablo": 17455
+      },
+      {
+        "mes": "2026-10",
+        "fecha": "2026-10-23",
+        "hora": "1899-12-31T00:03:48.000Z",
+        "quienPago": "Flor",
+        "monto": 62107.85,
+        "categoria": "Comida",
+        "subcategoria": "Supermercado",
+        "items": [
+          {
+            "producto": "Ajo 1 Unidad",
+            "cantidad": 1
+          },
+          {
+            "producto": "Papas Congeladas Carrefour Classic Bastón Tradicionales 700 g",
+            "cantidad": 2
+          },
+          {
+            "producto": "Papas Fritas Lays Clásicas 134 g",
+            "cantidad": 2
+          },
+          {
+            "producto": "Pan Para Panchos Veneziana 6 Unidades",
+            "cantidad": 1
+          },
+          {
+            "producto": "Dulce De Leche La Serenisima Colonial 250 g",
+            "cantidad": 1
+          },
+          {
+            "producto": "Premezcla Para Panadería Y Resposteria Santa María Sin Lactosa 1 kg",
+            "cantidad": 1
+          },
+          {
+            "producto": "Queso mozzarella bocconcino Carrefour Selection 150 g",
+            "cantidad": 1
+          },
+          {
+            "producto": "Leche Uat Zero Lactosa La Serenisima 1 L",
+            "cantidad": 2
+          },
+          {
+            "producto": "Mostaza Natura 250 g",
+            "cantidad": 1
+          },
+          {
+            "producto": "Tostaditas Quento Jamón Iberico 95 g",
+            "cantidad": 1
+          },
+          {
+            "producto": "Manteca Tonadita Clasica 100 g",
+            "cantidad": 1
+          },
+          {
+            "producto": "Margarina Margadan 200 g",
+            "cantidad": 1
+          },
+          {
+            "producto": "Avena Pureza Instantánea Sin Gluten 400 g",
+            "cantidad": 1
+          },
+          {
+            "producto": "Yogur Milkaut Bebible Vainilla 0% Lactosa Sin Lactosa 900 g",
+            "cantidad": 2
+          },
+          {
+            "producto": "Molinos Ala Crackers de arroz 100 g",
+            "cantidad": 2
+          }
+        ],
+        "medioPago": "Tarjeta",
+        "banco": "",
+        "descripcion": "Carrefour - Hiper Mendoza (29)",
+        "comprobante": "",
+        "pctFlor": 50,
+        "montoFlor": 31053.925,
+        "montoPablo": 31053.925
       },
       {
         "mes": "2026-09",
@@ -2391,5 +2535,5 @@
       "Panificados (Olive)"
     ]
   },
-  "generadoEl": "2026-11-08T14:56:50.453Z"
+  "generadoEl": "2026-11-08T14:56:59.496Z"
 }
