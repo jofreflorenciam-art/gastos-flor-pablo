@@ -1,11 +1,11 @@
 {
   "resumen": {
-    "totalGeneral": 1557559.8399999999,
-    "totalPagadoFlor": 370966.29,
+    "totalGeneral": 1592469.8399999999,
+    "totalPagadoFlor": 405876.29,
     "totalPagadoPablo": 1186593.55,
-    "saldoNetoFlor": -372257.62999999995,
+    "saldoNetoFlor": -354802.62999999995,
     "porCategoria": {
-      "Comida": 1440139.2299999997,
+      "Comida": 1475049.2299999997,
       "Otros": 117420.61
     },
     "porSubcategoria": {
@@ -13,6 +13,7 @@
       "Supermercado": 653332.5299999999,
       "Verdulera": 106270,
       "Panadera": 20100,
+      "Panificados (Olive)": 34910,
       "Juntadas": 40977,
       "Fiambrera": 28552,
       "Salud": 33939.61,
@@ -603,6 +604,24 @@
         "conCantidad": true,
         "conMonto": false
       },
+      "Pan de campo": {
+        "cantidad": 1,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Pan viena": {
+        "cantidad": 2,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Pan lactal": {
+        "cantidad": 3,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
       "Blue Label L + Papas Fritas": {
         "cantidad": 1,
         "monto": 0,
@@ -869,7 +888,7 @@
       },
       {
         "mes": "2026-10",
-        "total": 634363.83
+        "total": 669273.83
       }
     ],
     "gastos": [
@@ -1556,6 +1575,36 @@
         "pctFlor": 50,
         "montoFlor": 11308.8,
         "montoPablo": 11308.8
+      },
+      {
+        "mes": "2026-10",
+        "fecha": "2026-10-23",
+        "hora": "1899-12-30T23:06:48.000Z",
+        "quienPago": "Flor",
+        "monto": 34910,
+        "categoria": "Comida",
+        "subcategoria": "Panificados (Olive)",
+        "items": [
+          {
+            "producto": "Pan de campo",
+            "cantidad": 1
+          },
+          {
+            "producto": "Pan viena",
+            "cantidad": 2
+          },
+          {
+            "producto": "Pan lactal",
+            "cantidad": 3
+          }
+        ],
+        "medioPago": "Tarjeta",
+        "banco": "",
+        "descripcion": "Olive Gluten Free Ciudad",
+        "comprobante": "",
+        "pctFlor": 50,
+        "montoFlor": 17455,
+        "montoPablo": 17455
       },
       {
         "mes": "2026-09",
@@ -2338,8 +2387,9 @@
       "Verdulera",
       "Despensa",
       "Pollera",
-      "Panadera"
+      "Panadera",
+      "Panificados (Olive)"
     ]
   },
-  "generadoEl": "2026-11-08T14:53:26.708Z"
+  "generadoEl": "2026-11-08T14:56:50.453Z"
 }
