@@ -1,15 +1,15 @@
 {
   "resumen": {
-    "totalGeneral": 1671477.69,
-    "totalPagadoFlor": 484884.13999999996,
+    "totalGeneral": 1707687.69,
+    "totalPagadoFlor": 521094.13999999996,
     "totalPagadoPablo": 1186593.55,
-    "saldoNetoFlor": -306848.705,
+    "saldoNetoFlor": -288743.705,
     "porCategoria": {
-      "Comida": 1554057.0799999998,
+      "Comida": 1590267.0799999998,
       "Otros": 117420.61
     },
     "porSubcategoria": {
-      "Delivery": 124420,
+      "Delivery": 160630,
       "Supermercado": 732340.3799999999,
       "Verdulera": 106270,
       "Panadera": 20100,
@@ -22,6 +22,18 @@
       "Pollera": 13050
     },
     "porProducto": {
+      "Blue Label L + Papas Fritas (PAN SIN TACC)": {
+        "cantidad": 1,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Blue Label L + Papas Fritas (pan de papa)": {
+        "cantidad": 1,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
       "Lomito con papas fritas": {
         "cantidad": 2,
         "monto": 0,
@@ -961,9 +973,39 @@
       {
         "mes": "2026-10",
         "total": 748281.6799999999
+      },
+      {
+        "mes": "2026-11",
+        "total": 36210
       }
     ],
     "gastos": [
+      {
+        "mes": "2026-11",
+        "fecha": "2026-11-01",
+        "hora": "1899-12-31T01:07:48.000Z",
+        "quienPago": "Flor",
+        "monto": 36210,
+        "categoria": "Comida",
+        "subcategoria": "Delivery",
+        "items": [
+          {
+            "producto": "Blue Label L + Papas Fritas (PAN SIN TACC)",
+            "cantidad": 1
+          },
+          {
+            "producto": "Blue Label L + Papas Fritas (pan de papa)",
+            "cantidad": 1
+          }
+        ],
+        "medioPago": "Tarjeta",
+        "banco": "",
+        "descripcion": "Tbt",
+        "comprobante": "",
+        "pctFlor": 50,
+        "montoFlor": 18105,
+        "montoPablo": 18105
+      },
       {
         "mes": "2026-10",
         "fecha": "2026-10-01",
@@ -2563,5 +2605,5 @@
       "Panificados (Olive)"
     ]
   },
-  "generadoEl": "2026-11-08T14:57:06.235Z"
+  "generadoEl": "2026-11-08T15:00:12.247Z"
 }
