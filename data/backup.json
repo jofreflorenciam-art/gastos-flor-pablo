@@ -1,15 +1,15 @@
 {
   "resumen": {
-    "totalGeneral": 1513702.24,
-    "totalPagadoFlor": 327108.69,
+    "totalGeneral": 1534942.24,
+    "totalPagadoFlor": 348348.69,
     "totalPagadoPablo": 1186593.55,
-    "saldoNetoFlor": -394186.43,
+    "saldoNetoFlor": -383566.43,
     "porCategoria": {
-      "Comida": 1396281.63,
+      "Comida": 1417521.63,
       "Otros": 117420.61
     },
     "porSubcategoria": {
-      "Delivery": 103180,
+      "Delivery": 124420,
       "Supermercado": 630714.9299999999,
       "Verdulera": 106270,
       "Panadera": 20100,
@@ -567,6 +567,18 @@
         "conCantidad": true,
         "conMonto": false
       },
+      "Empanada de jamón y queso": {
+        "cantidad": 3,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Empanada capresse": {
+        "cantidad": 3,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
       "Blue Label L + Papas Fritas": {
         "cantidad": 1,
         "monto": 0,
@@ -833,7 +845,7 @@
       },
       {
         "mes": "2026-10",
-        "total": 590506.23
+        "total": 611746.23
       }
     ],
     "gastos": [
@@ -1448,6 +1460,32 @@
         "pctFlor": 50,
         "montoFlor": 40917.02,
         "montoPablo": 40917.02
+      },
+      {
+        "mes": "2026-10",
+        "fecha": "2026-10-22",
+        "hora": "1899-12-31T02:16:48.000Z",
+        "quienPago": "Flor",
+        "monto": 21240,
+        "categoria": "Comida",
+        "subcategoria": "Delivery",
+        "items": [
+          {
+            "producto": "Empanada de jamón y queso",
+            "cantidad": 3
+          },
+          {
+            "producto": "Empanada capresse",
+            "cantidad": 3
+          }
+        ],
+        "medioPago": "Tarjeta",
+        "banco": "",
+        "descripcion": "Pura Tapioca",
+        "comprobante": "",
+        "pctFlor": 50,
+        "montoFlor": 10620,
+        "montoPablo": 10620
       },
       {
         "mes": "2026-09",
@@ -2233,5 +2271,5 @@
       "Panadera"
     ]
   },
-  "generadoEl": "2026-11-08T14:49:45.757Z"
+  "generadoEl": "2026-11-08T14:51:12.507Z"
 }
