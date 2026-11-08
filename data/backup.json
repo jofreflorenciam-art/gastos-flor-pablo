@@ -1,16 +1,16 @@
 {
   "resumen": {
-    "totalGeneral": 1431868.2,
-    "totalPagadoFlor": 245274.65000000002,
+    "totalGeneral": 1513702.24,
+    "totalPagadoFlor": 327108.69,
     "totalPagadoPablo": 1186593.55,
-    "saldoNetoFlor": -435103.44999999995,
+    "saldoNetoFlor": -394186.43,
     "porCategoria": {
-      "Comida": 1314447.5899999999,
+      "Comida": 1396281.63,
       "Otros": 117420.61
     },
     "porSubcategoria": {
       "Delivery": 103180,
-      "Supermercado": 548880.8899999999,
+      "Supermercado": 630714.9299999999,
       "Verdulera": 106270,
       "Panadera": 20100,
       "Juntadas": 40977,
@@ -166,7 +166,7 @@
         "conMonto": false
       },
       "Papas Fritas Quento Clásicas 160 g": {
-        "cantidad": 2,
+        "cantidad": 4,
         "monto": 0,
         "conCantidad": true,
         "conMonto": false
@@ -256,7 +256,7 @@
         "conMonto": false
       },
       "Leche Las Tres Niñas Parcialmente Descremada 0% Lactosa 1 L": {
-        "cantidad": 3,
+        "cantidad": 6,
         "monto": 0,
         "conCantidad": true,
         "conMonto": false
@@ -274,7 +274,7 @@
         "conMonto": false
       },
       "Palta Hass Selección 115 g": {
-        "cantidad": 2,
+        "cantidad": 4,
         "monto": 0,
         "conCantidad": true,
         "conMonto": false
@@ -334,13 +334,13 @@
         "conMonto": false
       },
       "Vino Finca Flichman Reserva Cabernet Franc 750 ml": {
-        "cantidad": 1,
+        "cantidad": 2,
         "monto": 0,
         "conCantidad": true,
         "conMonto": false
       },
       "Puré De Tomate Vigente Brick 520 g": {
-        "cantidad": 2,
+        "cantidad": 3,
         "monto": 0,
         "conCantidad": true,
         "conMonto": false
@@ -478,6 +478,90 @@
         "conMonto": false
       },
       "Gomitas Mogul Moras 80 g": {
+        "cantidad": 1,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Cebolla Selección (0,51 kg)": {
+        "cantidad": 0,
+        "monto": 0,
+        "conCantidad": false,
+        "conMonto": false
+      },
+      "Maiz Pisingallo 500 g": {
+        "cantidad": 1,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Ajo 1 Unidad": {
+        "cantidad": 1,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Tomate Cherry 250 g": {
+        "cantidad": 1,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Cerveza Ortuzar Premium Lager 473 ml": {
+        "cantidad": 4,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Queso Rallado Tregar 120 g": {
+        "cantidad": 1,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Pilas Philco AAA 4 Unidades": {
+        "cantidad": 1,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Premezcla Pizza Y Pan Pureza Gourmet": {
+        "cantidad": 2,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Batatas Fritas Quento Sancks 130 g": {
+        "cantidad": 1,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Tostaditas Quento Jamón Iberico 95 g": {
+        "cantidad": 1,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Aceitunas Verdes Castell 100 g": {
+        "cantidad": 1,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Pilas Philco AA 4 Unidades": {
+        "cantidad": 1,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Hongos Portobello 200 g": {
+        "cantidad": 1,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
+      "Huevos Avicola Norte Blanco 6 Unidades": {
         "cantidad": 1,
         "monto": 0,
         "conCantidad": true,
@@ -749,7 +833,7 @@
       },
       {
         "mes": "2026-10",
-        "total": 508672.18999999994
+        "total": 590506.23
       }
     ],
     "gastos": [
@@ -1271,6 +1355,99 @@
         "pctFlor": 50,
         "montoFlor": 31625.175,
         "montoPablo": 31625.175
+      },
+      {
+        "mes": "2026-10",
+        "fecha": "2026-10-10",
+        "hora": "1899-12-30T18:27:48.000Z",
+        "quienPago": "Flor",
+        "monto": 81834.04,
+        "categoria": "Comida",
+        "subcategoria": "Supermercado",
+        "items": [
+          {
+            "producto": "Cebolla Selección (0,51 kg)"
+          },
+          {
+            "producto": "Maiz Pisingallo 500 g",
+            "cantidad": 1
+          },
+          {
+            "producto": "Ajo 1 Unidad",
+            "cantidad": 1
+          },
+          {
+            "producto": "Leche Las Tres Niñas Parcialmente Descremada 0% Lactosa 1 L",
+            "cantidad": 3
+          },
+          {
+            "producto": "Papas Fritas Quento Clásicas 160 g",
+            "cantidad": 2
+          },
+          {
+            "producto": "Tomate Cherry 250 g",
+            "cantidad": 1
+          },
+          {
+            "producto": "Cerveza Ortuzar Premium Lager 473 ml",
+            "cantidad": 4
+          },
+          {
+            "producto": "Queso Rallado Tregar 120 g",
+            "cantidad": 1
+          },
+          {
+            "producto": "Pilas Philco AAA 4 Unidades",
+            "cantidad": 1
+          },
+          {
+            "producto": "Premezcla Pizza Y Pan Pureza Gourmet",
+            "cantidad": 2
+          },
+          {
+            "producto": "Batatas Fritas Quento Sancks 130 g",
+            "cantidad": 1
+          },
+          {
+            "producto": "Palta Hass Selección 115 g",
+            "cantidad": 2
+          },
+          {
+            "producto": "Tostaditas Quento Jamón Iberico 95 g",
+            "cantidad": 1
+          },
+          {
+            "producto": "Aceitunas Verdes Castell 100 g",
+            "cantidad": 1
+          },
+          {
+            "producto": "Puré De Tomate Vigente Brick 520 g",
+            "cantidad": 1
+          },
+          {
+            "producto": "Pilas Philco AA 4 Unidades",
+            "cantidad": 1
+          },
+          {
+            "producto": "Hongos Portobello 200 g",
+            "cantidad": 1
+          },
+          {
+            "producto": "Vino Finca Flichman Reserva Cabernet Franc 750 ml",
+            "cantidad": 1
+          },
+          {
+            "producto": "Huevos Avicola Norte Blanco 6 Unidades",
+            "cantidad": 1
+          }
+        ],
+        "medioPago": "Tarjeta",
+        "banco": "",
+        "descripcion": "PedidosYa Market - Mendoza Las Heras",
+        "comprobante": "",
+        "pctFlor": 50,
+        "montoFlor": 40917.02,
+        "montoPablo": 40917.02
       },
       {
         "mes": "2026-09",
@@ -2056,5 +2233,5 @@
       "Panadera"
     ]
   },
-  "generadoEl": "2026-11-08T14:48:08.215Z"
+  "generadoEl": "2026-11-08T14:49:45.757Z"
 }
