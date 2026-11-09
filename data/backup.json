@@ -1,15 +1,15 @@
 {
   "resumen": {
-    "totalGeneral": 1788882.8399999999,
+    "totalGeneral": 1810122.8399999999,
     "totalPagadoFlor": 521094.13999999996,
-    "totalPagadoPablo": 1267788.7,
-    "saldoNetoFlor": -332889.77999999997,
+    "totalPagadoPablo": 1289028.7,
+    "saldoNetoFlor": -343509.77999999997,
     "porCategoria": {
-      "Comida": 1671462.2299999997,
+      "Comida": 1692702.2299999997,
       "Otros": 117420.61
     },
     "porSubcategoria": {
-      "Delivery": 188967,
+      "Delivery": 210207,
       "Supermercado": 785198.5299999999,
       "Verdulera": 106270,
       "Panadera": 20100,
@@ -581,13 +581,13 @@
         "conMonto": false
       },
       "Empanada de jamón y queso": {
-        "cantidad": 6,
+        "cantidad": 9,
         "monto": 0,
         "conCantidad": true,
         "conMonto": false
       },
       "Empanada capresse": {
-        "cantidad": 6,
+        "cantidad": 9,
         "monto": 0,
         "conCantidad": true,
         "conMonto": false
@@ -1020,7 +1020,7 @@
       },
       {
         "mes": "2026-10",
-        "total": 829476.83
+        "total": 850716.83
       },
       {
         "mes": "2026-11",
@@ -2013,6 +2013,32 @@
         "montoPablo": 0
       },
       {
+        "mes": "2026-10",
+        "fecha": "2026-10-29",
+        "hora": "1899-12-31T01:59:48.000Z",
+        "quienPago": "Pablo",
+        "monto": 21240,
+        "categoria": "Comida",
+        "subcategoria": "Delivery",
+        "items": [
+          {
+            "producto": "Empanada capresse",
+            "cantidad": 3
+          },
+          {
+            "producto": "Empanada de jamón y queso",
+            "cantidad": 3
+          }
+        ],
+        "medioPago": "Mercado Pago",
+        "banco": "",
+        "descripcion": "Pura Tapioca",
+        "comprobante": "",
+        "pctFlor": 50,
+        "montoFlor": 10620,
+        "montoPablo": 10620
+      },
+      {
         "mes": "2026-09",
         "fecha": "2026-09-03",
         "hora": "1899-12-31T01:23:48.000Z",
@@ -2797,5 +2823,5 @@
       "Panificados (Olive)"
     ]
   },
-  "generadoEl": "2026-11-09T14:06:39.848Z"
+  "generadoEl": "2026-11-09T14:06:49.143Z"
 }
