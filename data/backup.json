@@ -1,15 +1,15 @@
 {
   "resumen": {
-    "totalGeneral": 1707687.69,
+    "totalGeneral": 1695687.69,
     "totalPagadoFlor": 521094.13999999996,
-    "totalPagadoPablo": 1186593.55,
-    "saldoNetoFlor": -288743.705,
+    "totalPagadoPablo": 1174593.55,
+    "saldoNetoFlor": -276743.705,
     "porCategoria": {
-      "Comida": 1590267.0799999998,
+      "Comida": 1578267.0799999998,
       "Otros": 117420.61
     },
     "porSubcategoria": {
-      "Delivery": 160630,
+      "Delivery": 148630,
       "Supermercado": 732340.3799999999,
       "Verdulera": 106270,
       "Panadera": 20100,
@@ -972,7 +972,7 @@
       },
       {
         "mes": "2026-10",
-        "total": 748281.6799999999
+        "total": 736281.6799999999
       },
       {
         "mes": "2026-11",
@@ -1821,6 +1821,23 @@
         "montoPablo": 16900
       },
       {
+        "mes": "2026-10",
+        "fecha": "2026-10-06",
+        "hora": "1899-12-30T22:47:48.000Z",
+        "quienPago": "Pablo",
+        "monto": -12000,
+        "categoria": "Comida",
+        "subcategoria": "Delivery",
+        "items": [],
+        "medioPago": "Tarjeta",
+        "banco": "",
+        "descripcion": "ANULACIN - Los Panchos De Villa - Aristides",
+        "comprobante": "",
+        "pctFlor": 100,
+        "montoFlor": -12000,
+        "montoPablo": 0
+      },
+      {
         "mes": "2026-09",
         "fecha": "2026-09-03",
         "hora": "1899-12-31T01:23:48.000Z",
@@ -2605,5 +2622,5 @@
       "Panificados (Olive)"
     ]
   },
-  "generadoEl": "2026-11-08T15:00:12.247Z"
+  "generadoEl": "2026-11-09T14:06:04.176Z"
 }
