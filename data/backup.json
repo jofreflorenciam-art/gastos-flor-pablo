@@ -1,15 +1,15 @@
 {
   "resumen": {
-    "totalGeneral": 1769315.8399999999,
+    "totalGeneral": 1788882.8399999999,
     "totalPagadoFlor": 521094.13999999996,
-    "totalPagadoPablo": 1248221.7,
-    "saldoNetoFlor": -313322.77999999997,
+    "totalPagadoPablo": 1267788.7,
+    "saldoNetoFlor": -332889.77999999997,
     "porCategoria": {
-      "Comida": 1651895.2299999997,
+      "Comida": 1671462.2299999997,
       "Otros": 117420.61
     },
     "porSubcategoria": {
-      "Delivery": 169400,
+      "Delivery": 188967,
       "Supermercado": 785198.5299999999,
       "Verdulera": 106270,
       "Panadera": 20100,
@@ -748,6 +748,12 @@
         "conCantidad": true,
         "conMonto": false
       },
+      "Doble carne Doble queso + Papas medianas": {
+        "cantidad": 2,
+        "monto": 0,
+        "conCantidad": true,
+        "conMonto": false
+      },
       "Blue Label L + Papas Fritas": {
         "cantidad": 1,
         "monto": 0,
@@ -1014,7 +1020,7 @@
       },
       {
         "mes": "2026-10",
-        "total": 809909.83
+        "total": 829476.83
       },
       {
         "mes": "2026-11",
@@ -1985,6 +1991,28 @@
         "montoPablo": 26429.075
       },
       {
+        "mes": "2026-10",
+        "fecha": "2026-10-20",
+        "hora": "1899-12-31T02:46:48.000Z",
+        "quienPago": "Pablo",
+        "monto": 19567,
+        "categoria": "Comida",
+        "subcategoria": "Delivery",
+        "items": [
+          {
+            "producto": "Doble carne Doble queso + Papas medianas",
+            "cantidad": 2
+          }
+        ],
+        "medioPago": "Tarjeta",
+        "banco": "",
+        "descripcion": "McDonald's Lhz",
+        "comprobante": "",
+        "pctFlor": 100,
+        "montoFlor": 19567,
+        "montoPablo": 0
+      },
+      {
         "mes": "2026-09",
         "fecha": "2026-09-03",
         "hora": "1899-12-31T01:23:48.000Z",
@@ -2769,5 +2797,5 @@
       "Panificados (Olive)"
     ]
   },
-  "generadoEl": "2026-11-09T14:06:30.827Z"
+  "generadoEl": "2026-11-09T14:06:39.848Z"
 }
