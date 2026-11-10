@@ -1,12 +1,12 @@
 {
   "resumen": {
-    "totalGeneral": 2240477.73,
+    "totalGeneral": 2275197.3899999997,
     "totalPagadoFlor": 521094.13999999996,
-    "totalPagadoPablo": 1719383.59,
-    "saldoNetoFlor": -558687.2250000001,
+    "totalPagadoPablo": 1754103.25,
+    "saldoNetoFlor": -576047.0549999999,
     "porCategoria": {
       "Comida": 2001247.6199999999,
-      "Servicios": 121809.5,
+      "Servicios": 156529.16,
       "Otros": 117420.61
     },
     "porSubcategoria": {
@@ -18,6 +18,7 @@
       "Despensa": 13000,
       "Pollera": 34050,
       "Luz": 121809.5,
+      "Gas": 34719.66,
       "Juntadas": 40977,
       "Fiambrera": 28552,
       "Salud": 33939.61,
@@ -1076,7 +1077,7 @@
       },
       {
         "mes": "2026-10",
-        "total": 1196940.77
+        "total": 1231660.43
       },
       {
         "mes": "2026-11",
@@ -2295,6 +2296,23 @@
         "montoPablo": 60904.75
       },
       {
+        "mes": "2026-10",
+        "fecha": "2026-10-13",
+        "hora": "",
+        "quienPago": "Pablo",
+        "monto": 34719.66,
+        "categoria": "Servicios",
+        "subcategoria": "Gas",
+        "items": [],
+        "medioPago": "Tarjeta",
+        "banco": "",
+        "descripcion": "Ecogas Cuyana (gas) - Mastercard Black BBVA",
+        "comprobante": "",
+        "pctFlor": 50,
+        "montoFlor": 17359.83,
+        "montoPablo": 17359.83
+      },
+      {
         "mes": "2026-09",
         "fecha": "2026-09-03",
         "hora": "1899-12-31T01:23:48.000Z",
@@ -3078,8 +3096,9 @@
       "Pollera",
       "Panadera",
       "Panificados (Olive)",
-      "Luz"
+      "Luz",
+      "Gas"
     ]
   },
-  "generadoEl": "2026-11-10T04:17:06.575Z"
+  "generadoEl": "2026-11-10T04:17:16.536Z"
 }
