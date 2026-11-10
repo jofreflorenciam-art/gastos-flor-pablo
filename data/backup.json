@@ -1,12 +1,12 @@
 {
   "resumen": {
-    "totalGeneral": 2297764.5199999996,
+    "totalGeneral": 2315763.5099999993,
     "totalPagadoFlor": 521094.13999999996,
-    "totalPagadoPablo": 1776670.3800000001,
-    "saldoNetoFlor": -587330.6199999999,
+    "totalPagadoPablo": 1794669.37,
+    "saldoNetoFlor": -596330.115,
     "porCategoria": {
       "Comida": 2001247.6199999999,
-      "Servicios": 179096.29,
+      "Servicios": 197095.28,
       "Otros": 117420.61
     },
     "porSubcategoria": {
@@ -20,6 +20,7 @@
       "Luz": 121809.5,
       "Gas": 34719.66,
       "Agua": 22567.13,
+      "Internet": 17998.99,
       "Juntadas": 40977,
       "Fiambrera": 28552,
       "Salud": 33939.61,
@@ -1078,7 +1079,7 @@
       },
       {
         "mes": "2026-10",
-        "total": 1254227.5599999998
+        "total": 1272226.5499999998
       },
       {
         "mes": "2026-11",
@@ -2331,6 +2332,23 @@
         "montoPablo": 11283.565
       },
       {
+        "mes": "2026-10",
+        "fecha": "2026-10-02",
+        "hora": "",
+        "quienPago": "Pablo",
+        "monto": 17998.99,
+        "categoria": "Servicios",
+        "subcategoria": "Internet",
+        "items": [],
+        "medioPago": "Tarjeta",
+        "banco": "",
+        "descripcion": "Claro Internet fibra   telefona fija - Mastercard Black BBVA (sin lnea 0912)",
+        "comprobante": "",
+        "pctFlor": 50,
+        "montoFlor": 8999.495,
+        "montoPablo": 8999.495
+      },
+      {
         "mes": "2026-09",
         "fecha": "2026-09-03",
         "hora": "1899-12-31T01:23:48.000Z",
@@ -3116,8 +3134,9 @@
       "Panificados (Olive)",
       "Luz",
       "Gas",
-      "Agua"
+      "Agua",
+      "Internet"
     ]
   },
-  "generadoEl": "2026-11-10T04:17:26.294Z"
+  "generadoEl": "2026-11-10T04:22:43.094Z"
 }
