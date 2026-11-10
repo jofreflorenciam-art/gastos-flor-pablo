@@ -1,12 +1,12 @@
 {
   "resumen": {
-    "totalGeneral": 2275197.3899999997,
+    "totalGeneral": 2297764.5199999996,
     "totalPagadoFlor": 521094.13999999996,
-    "totalPagadoPablo": 1754103.25,
-    "saldoNetoFlor": -576047.0549999999,
+    "totalPagadoPablo": 1776670.3800000001,
+    "saldoNetoFlor": -587330.6199999999,
     "porCategoria": {
       "Comida": 2001247.6199999999,
-      "Servicios": 156529.16,
+      "Servicios": 179096.29,
       "Otros": 117420.61
     },
     "porSubcategoria": {
@@ -19,6 +19,7 @@
       "Pollera": 34050,
       "Luz": 121809.5,
       "Gas": 34719.66,
+      "Agua": 22567.13,
       "Juntadas": 40977,
       "Fiambrera": 28552,
       "Salud": 33939.61,
@@ -1077,7 +1078,7 @@
       },
       {
         "mes": "2026-10",
-        "total": 1231660.43
+        "total": 1254227.5599999998
       },
       {
         "mes": "2026-11",
@@ -2313,6 +2314,23 @@
         "montoPablo": 17359.83
       },
       {
+        "mes": "2026-10",
+        "fecha": "2026-10-26",
+        "hora": "",
+        "quienPago": "Pablo",
+        "monto": 22567.13,
+        "categoria": "Servicios",
+        "subcategoria": "Agua",
+        "items": [],
+        "medioPago": "Tarjeta",
+        "banco": "",
+        "descripcion": "Aguas Mendocinas (agua) - Mastercard Black BBVA",
+        "comprobante": "",
+        "pctFlor": 50,
+        "montoFlor": 11283.565,
+        "montoPablo": 11283.565
+      },
+      {
         "mes": "2026-09",
         "fecha": "2026-09-03",
         "hora": "1899-12-31T01:23:48.000Z",
@@ -3097,8 +3115,9 @@
       "Panadera",
       "Panificados (Olive)",
       "Luz",
-      "Gas"
+      "Gas",
+      "Agua"
     ]
   },
-  "generadoEl": "2026-11-10T04:17:16.536Z"
+  "generadoEl": "2026-11-10T04:17:26.294Z"
 }
