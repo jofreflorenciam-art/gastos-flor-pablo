@@ -1,16 +1,16 @@
 {
   "resumen": {
-    "totalGeneral": 1949137.33,
+    "totalGeneral": 2013608.23,
     "totalPagadoFlor": 521094.13999999996,
-    "totalPagadoPablo": 1428043.19,
-    "saldoNetoFlor": -413017.0250000001,
+    "totalPagadoPablo": 1492514.09,
+    "saldoNetoFlor": -445252.47500000003,
     "porCategoria": {
-      "Comida": 1831716.72,
+      "Comida": 1896187.6199999999,
       "Otros": 117420.61
     },
     "porSubcategoria": {
       "Delivery": 210207,
-      "Supermercado": 924213.0199999999,
+      "Supermercado": 988683.9199999999,
       "Verdulera": 106270,
       "Panadera": 20100,
       "Panificados (Olive)": 34910,
@@ -1074,7 +1074,7 @@
       },
       {
         "mes": "2026-10",
-        "total": 905600.37
+        "total": 970071.27
       },
       {
         "mes": "2026-11",
@@ -2157,6 +2157,23 @@
         "montoPablo": 27441.77
       },
       {
+        "mes": "2026-10",
+        "fecha": "2026-10-24",
+        "hora": "",
+        "quienPago": "Pablo",
+        "monto": 64470.9,
+        "categoria": "Comida",
+        "subcategoria": "Supermercado",
+        "items": [],
+        "medioPago": "Mercado Pago",
+        "banco": "",
+        "descripcion": "Granja Benedetti",
+        "comprobante": "",
+        "pctFlor": 50,
+        "montoFlor": 32235.45,
+        "montoPablo": 32235.45
+      },
+      {
         "mes": "2026-09",
         "fecha": "2026-09-03",
         "hora": "1899-12-31T01:23:48.000Z",
@@ -2942,5 +2959,5 @@
       "Panificados (Olive)"
     ]
   },
-  "generadoEl": "2026-11-10T03:57:39.174Z"
+  "generadoEl": "2026-11-10T03:57:47.221Z"
 }
