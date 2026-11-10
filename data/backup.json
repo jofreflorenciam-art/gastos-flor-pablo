@@ -1,11 +1,12 @@
 {
   "resumen": {
-    "totalGeneral": 2118668.23,
+    "totalGeneral": 2240477.73,
     "totalPagadoFlor": 521094.13999999996,
-    "totalPagadoPablo": 1597574.09,
-    "saldoNetoFlor": -497782.47500000003,
+    "totalPagadoPablo": 1719383.59,
+    "saldoNetoFlor": -558687.2250000001,
     "porCategoria": {
       "Comida": 2001247.6199999999,
+      "Servicios": 121809.5,
       "Otros": 117420.61
     },
     "porSubcategoria": {
@@ -16,6 +17,7 @@
       "Panificados (Olive)": 34910,
       "Despensa": 13000,
       "Pollera": 34050,
+      "Luz": 121809.5,
       "Juntadas": 40977,
       "Fiambrera": 28552,
       "Salud": 33939.61,
@@ -1074,7 +1076,7 @@
       },
       {
         "mes": "2026-10",
-        "total": 1075131.27
+        "total": 1196940.77
       },
       {
         "mes": "2026-11",
@@ -2276,6 +2278,23 @@
         "montoPablo": 10500
       },
       {
+        "mes": "2026-10",
+        "fecha": "2026-10-10",
+        "hora": "",
+        "quienPago": "Pablo",
+        "monto": 121809.5,
+        "categoria": "Servicios",
+        "subcategoria": "Luz",
+        "items": [],
+        "medioPago": "Tarjeta",
+        "banco": "",
+        "descripcion": "Edemsa (luz) - Mastercard Black BBVA",
+        "comprobante": "",
+        "pctFlor": 50,
+        "montoFlor": 60904.75,
+        "montoPablo": 60904.75
+      },
+      {
         "mes": "2026-09",
         "fecha": "2026-09-03",
         "hora": "1899-12-31T01:23:48.000Z",
@@ -3058,8 +3077,9 @@
       "Despensa",
       "Pollera",
       "Panadera",
-      "Panificados (Olive)"
+      "Panificados (Olive)",
+      "Luz"
     ]
   },
-  "generadoEl": "2026-11-10T04:07:11.177Z"
+  "generadoEl": "2026-11-10T04:17:06.575Z"
 }
