@@ -1,11 +1,11 @@
 {
   "resumen": {
-    "totalGeneral": 2097668.23,
+    "totalGeneral": 2118668.23,
     "totalPagadoFlor": 521094.13999999996,
-    "totalPagadoPablo": 1576574.09,
-    "saldoNetoFlor": -487282.47500000003,
+    "totalPagadoPablo": 1597574.09,
+    "saldoNetoFlor": -497782.47500000003,
     "porCategoria": {
-      "Comida": 1980247.6199999999,
+      "Comida": 2001247.6199999999,
       "Otros": 117420.61
     },
     "porSubcategoria": {
@@ -15,11 +15,11 @@
       "Panadera": 20100,
       "Panificados (Olive)": 34910,
       "Despensa": 13000,
+      "Pollera": 34050,
       "Juntadas": 40977,
       "Fiambrera": 28552,
       "Salud": 33939.61,
-      "Asado con amigos": 34940,
-      "Pollera": 13050
+      "Asado con amigos": 34940
     },
     "porProducto": {
       "Blue Label L + Papas Fritas (PAN SIN TACC)": {
@@ -1074,7 +1074,7 @@
       },
       {
         "mes": "2026-10",
-        "total": 1054131.27
+        "total": 1075131.27
       },
       {
         "mes": "2026-11",
@@ -2259,6 +2259,23 @@
         "montoPablo": 2500
       },
       {
+        "mes": "2026-10",
+        "fecha": "2026-10-31",
+        "hora": "",
+        "quienPago": "Pablo",
+        "monto": 21000,
+        "categoria": "Comida",
+        "subcategoria": "Pollera",
+        "items": [],
+        "medioPago": "Mercado Pago",
+        "banco": "",
+        "descripcion": "La Casita de Don Aldo (Keila Karen Flom)",
+        "comprobante": "",
+        "pctFlor": 50,
+        "montoFlor": 10500,
+        "montoPablo": 10500
+      },
+      {
         "mes": "2026-09",
         "fecha": "2026-09-03",
         "hora": "1899-12-31T01:23:48.000Z",
@@ -3044,5 +3061,5 @@
       "Panificados (Olive)"
     ]
   },
-  "generadoEl": "2026-11-10T04:00:41.523Z"
+  "generadoEl": "2026-11-10T04:07:11.177Z"
 }
