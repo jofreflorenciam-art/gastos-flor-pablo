@@ -1,17 +1,17 @@
 {
   "resumen": {
-    "totalGeneral": 2036498.23,
+    "totalGeneral": 2057168.23,
     "totalPagadoFlor": 521094.13999999996,
-    "totalPagadoPablo": 1515404.09,
-    "saldoNetoFlor": -456697.47500000003,
+    "totalPagadoPablo": 1536074.09,
+    "saldoNetoFlor": -467032.47500000003,
     "porCategoria": {
-      "Comida": 1919077.6199999999,
+      "Comida": 1939747.6199999999,
       "Otros": 117420.61
     },
     "porSubcategoria": {
       "Delivery": 210207,
       "Supermercado": 988683.9199999999,
-      "Verdulera": 129160,
+      "Verdulera": 149830,
       "Panadera": 20100,
       "Panificados (Olive)": 34910,
       "Juntadas": 40977,
@@ -1074,7 +1074,7 @@
       },
       {
         "mes": "2026-10",
-        "total": 992961.27
+        "total": 1013631.27
       },
       {
         "mes": "2026-11",
@@ -2208,6 +2208,23 @@
         "montoPablo": 4445
       },
       {
+        "mes": "2026-10",
+        "fecha": "2026-10-31",
+        "hora": "",
+        "quienPago": "Pablo",
+        "monto": 20670,
+        "categoria": "Comida",
+        "subcategoria": "Verdulera",
+        "items": [],
+        "medioPago": "Mercado Pago",
+        "banco": "",
+        "descripcion": "Verdulera El Nene",
+        "comprobante": "",
+        "pctFlor": 50,
+        "montoFlor": 10335,
+        "montoPablo": 10335
+      },
+      {
         "mes": "2026-09",
         "fecha": "2026-09-03",
         "hora": "1899-12-31T01:23:48.000Z",
@@ -2993,5 +3010,5 @@
       "Panificados (Olive)"
     ]
   },
-  "generadoEl": "2026-11-10T03:58:08.456Z"
+  "generadoEl": "2026-11-10T03:58:16.763Z"
 }
